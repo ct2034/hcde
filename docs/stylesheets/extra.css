@@ -3,3 +3,10 @@
 .md-content p, .md-content li, .md-content ul {
     font-family: Domine;
 }   
+
+.my-copyright-github-link {
+    display: inline-block;
+    height: 10px!important;
+    width: 10px!important;
+    fill: currentcolor;
+}

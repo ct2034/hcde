@@ -4,6 +4,7 @@ site_url: http://www.example.com
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.indexes
   logo: imgs/exclamation-question-mark_serenity-os.png
@@ -60,10 +61,18 @@ plugins:
         as_update: date.updated
 
 extra:
-  social:
+  social:  
+    - icon: fontawesome/brands/github
+      link: https://github.com/ct2034
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/henkelchristian/
     - icon: fontawesome/brands/mastodon
-      name: squidfunk on Mastodon
-      link: https://fosstodon.org/@squidfunk
+      link: https://chaos.social/@ct2034
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/ct2034.bsky.social
+
+# copyright: 
+# Note: copyright is defined in overrides/partials/copyright.html
 
 # hooks:
 #   - hooks/socialmedia.py
