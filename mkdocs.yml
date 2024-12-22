@@ -1,4 +1,4 @@
-site_name: Blog Tutorial
+site_name: ct2034 
 site_description: an example blog set up following the blog tutorials
 site_url: http://www.example.com
 
@@ -6,6 +6,8 @@ theme:
   name: material
   features:
     - navigation.indexes
+  logo: imgs/exclamation-question-mark_serenity-os.png
+  favicon: imgs/exclamation-question-mark_serenity-os.png
   font:
     text: Funnel Sans
     code: Roboto Mono
@@ -13,7 +15,7 @@ theme:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-auto
+        icon: fontawesome/solid/bolt
         name: Switch to light mode
 
     # Palette toggle for light mode
@@ -22,7 +24,7 @@ theme:
       primary: cyan
       accent: red
       toggle:
-        icon: material/brightness-7
+        icon: fontawesome/solid/sun
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -31,7 +33,7 @@ theme:
       primary: blue-grey
       accent: red
       toggle:
-        icon: material/brightness-4
+        icon: fontawesome/solid/moon
         name: Switch to system preference
 
 plugins:
@@ -66,11 +68,11 @@ extra:
 # hooks:
 #   - hooks/socialmedia.py
 
-markdown_extensions:
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+# markdown_extensions:
+#   - attr_list
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:material.extensions.emoji.twemoji
+#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: index.md
