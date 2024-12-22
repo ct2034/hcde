@@ -77,11 +77,12 @@ extra:
 # hooks:
 #   - hooks/socialmedia.py
 
-# markdown_extensions:
-#   - attr_list
-#   - pymdownx.emoji:
-#       emoji_index: !!python/name:material.extensions.emoji.twemoji
-#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+markdown_extensions:
+  # - attr_list
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - neoteroi.timeline
 
 nav:
   - Home: index.md
@@ -89,7 +90,9 @@ nav:
   - Blog:
      - blog/index.md
      - blog/tags.md
+  - Timeline: timeline.md
 
 extra_css:
   - https://fonts.googleapis.com/css?family=Domine
   - stylesheets/extra.css
+  - stylesheets/neoteroi-v1.1.0.css

@@ -1,12 +1,30 @@
-/* Domine for all text to be displayed in the body */
 
+
+/* A serif font (= Domine) for all text to be displayed in the body */
 .md-content p, .md-content li, .md-content ul {
     font-family: Domine;
 }   
 
+/* Making the little github icon in the copyright notice look like the rest of the text */
 .my-copyright-github-link {
     display: inline-block;
     height: 10px!important;
     width: 10px!important;
     fill: currentcolor;
 }
+
+/* Customizing timeline plugin */
+
+/* Make the fill of the timeline dots white */
+.nt-timeline-dot {
+    background-color: white!important;
+}
+/* Make the border of the timeline dots black */
+.nt-timeline-dot {
+    border: 3px solid black!important;
+}
+/* Title font */
+.nt-timeline-title {
+    font-family: "Funnel Sans"!important;
+}
+/* Make the timeline 
