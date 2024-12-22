@@ -7,7 +7,7 @@ theme:
   features:
     - navigation.indexes
   font:
-    text: Domine
+    text: Funnel Sans
     code: Roboto Mono
   palette: 
     # Palette toggle for automatic mode
@@ -78,3 +78,7 @@ nav:
   - Blog:
      - blog/index.md
      - blog/tags.md
+
+extra_css:
+  - https://fonts.googleapis.com/css?family=Domine
+  - stylesheets/extra.css
