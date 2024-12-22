@@ -90,7 +90,7 @@ nav:
   - Blog:
      - blog/index.md
      - blog/tags.md
-  - Timeline: timeline.md
+  - Publications: publications.md
 
 extra_css:
   - https://fonts.googleapis.com/css?family=Domine

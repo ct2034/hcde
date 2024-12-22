@@ -6,6 +6,8 @@
 
 :root {
   --my-line-color: rgb(255, 95, 31);
+  --my-line-width: 10px;
+  --my-left-line-pos: calc(31.0px - var(--my-line-width) / 2);
 }
 
 .nt-group-0 .nt-plan-group-summary,
@@ -222,7 +224,7 @@
 }
 .nt-timeline .nt-timeline-content {
   font-size: 0.8rem;
-  border-bottom: 2px dashed #ccc;
+  border-bottom: 2px solid #ccc;
   padding-bottom: 1.2rem;
 }
 .nt-timeline.horizontal .nt-timeline-items {
@@ -237,21 +239,21 @@
   flex-direction: row-reverse;
 }
 .nt-timeline.horizontal.center .nt-timeline-before {
-  background-image: --my-line-color;
+  background-image: linear-gradient()
   background-repeat: no-repeat;
-  background-size: 100% 6px;
+  background-size: 100% var(--my-line-width);
   background-position: 0 center;
 }
 .nt-timeline.horizontal.center .nt-timeline-after {
   background-image: linear-gradient(180deg, rgb(252, 70, 107) 0%, rgba(252, 70, 107, 0) 100%);
   background-repeat: no-repeat;
-  background-size: 100% 6px;
+  background-size: 100% var(--my-line-width);
   background-position: 0 center;
 }
 .nt-timeline.horizontal.center .nt-timeline-items {
   background-image: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
   background-repeat: no-repeat;
-  background-size: 100% 6px;
+  background-size: 100% var(--my-line-width);
   background-position: 0 center;
 }
 .nt-timeline.horizontal .nt-timeline-dot {
@@ -270,13 +272,13 @@
   flex-direction: column-reverse;
 }
 .nt-timeline.vertical.center .nt-timeline-before {
-  background: linear-gradient(rgba(252, 70, 107, 0) 0%, var(--my-line-color) 100%) no-repeat center/8px 100%;
+  background: linear-gradient(rgba(252, 70, 107, 0) 0%, var(--my-line-color) 100%) no-repeat center/var(--my-line-width) 100%;
 }
 .nt-timeline.vertical.center .nt-timeline-after {
-  background: linear-gradient(rgb(252, 70, 107) 0%, rgba(252, 70, 107, 0) 100%) no-repeat center/8px 100%;
+  background: linear-gradient(rgb(252, 70, 107) 0%, rgba(252, 70, 107, 0) 100%) no-repeat center/var(--my-line-width) 100%;
 }
 .nt-timeline.vertical.center .nt-timeline-items {
-  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%) no-repeat center/8px 100%;
+  background: linear-gradient(var(--my-line-color), var(--my-line-color)) no-repeat center/var(--my-line-width) 100%;
 }
 .nt-timeline.vertical.center .nt-timeline-dot {
   left: calc(50% - 10px);
@@ -297,7 +299,7 @@
   left: -100px;
   width: 100px;
 }
-.nt-timeline.vertical.left .nt-timeline-before {
+/* .nt-timeline.vertical.left .nt-timeline-before {
   background: linear-gradient(rgba(252, 70, 107, 0) 0%, rgb(252, 70, 107) 100%) no-repeat 30px/2px 100%;
 }
 .nt-timeline.vertical.left .nt-timeline-after {
@@ -305,6 +307,15 @@
 }
 .nt-timeline.vertical.left .nt-timeline-items {
   background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%) no-repeat 30px/2px 100%;
+} */
+.nt-timeline.vertical.left .nt-timeline-before {
+  background: linear-gradient(rgba(252, 70, 107, 0) 0%, var(--my-line-color) 100%) no-repeat var(--my-left-line-pos)/var(--my-line-width) 100%;
+}
+.nt-timeline.vertical.left .nt-timeline-after {
+  background: linear-gradient(rgb(252, 70, 107) 0%, rgba(252, 70, 107, 0) 100%) no-repeat var(--my-left-line-pos)/var(--my-line-width) 100%;
+}
+.nt-timeline.vertical.left .nt-timeline-items {
+  background: linear-gradient(var(--my-line-color), var(--my-line-color)) no-repeat var(--my-left-line-pos)/var(--my-line-width) 100%;
 }
 .nt-timeline.vertical.left .nt-timeline-dot {
   left: 21px;
