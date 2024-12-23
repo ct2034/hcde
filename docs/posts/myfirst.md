@@ -15,12 +15,12 @@ tags:
   - new year
   - hogmanay
   - festive season
-authors:
-  - team
+# authors:
+#   - team
 slug: ny-eve
 ---
 
-# Happy new years eve!
+# Happy new years eve
 
 We hope you are all having fun and wish you all the best for the new year!
 <!-- more -->

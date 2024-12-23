@@ -3,17 +3,17 @@ site_description: an example blog set up following the blog tutorials
 site_url: http://www.example.com
 
 theme:
-  name: mkdocs
+  name: material
   custom_dir: overrides
   color_mode: auto
   repo_url: https://github.com/ct2034/hcde
-  # features:
-  #   - navigation.indexes
-  # logo: imgs/exclamation-question-mark_serenity-os.png
-  # favicon: imgs/exclamation-question-mark_serenity-os.png
-  # font:
-  #   text: Funnel Sans
-  #   code: Roboto Mono
+  features:
+    - navigation.indexes
+  logo: imgs/exclamation-question-mark_serenity-os.png
+  favicon: imgs/exclamation-question-mark_serenity-os.png
+  font:
+    text: Funnel Sans
+    code: Roboto Mono
   # palette: 
   #   # Palette toggle for automatic mode
   #   - media: "(prefers-color-scheme)"
@@ -41,21 +41,22 @@ theme:
 
 plugins:
   - search
-  # - blog:
-  #     blog_toc: true
-  #     archive_date_format: MMMM yyyy
-  #     categories_allowed:
-  #       - Holidays
-  #       - News
-  #     authors_profiles: true
-  #     pagination_per_page: 5
-  #     archive_pagination_per_page: 10
-  #     categories_pagination_per_page: 10
+  - blog:
+      blog_dir: .
+      blog_toc: false
+      archive_date_format: MMMM yyyy
+      categories_allowed:
+        - Holidays
+        - News
+      authors_profiles: false
+      pagination_per_page: 5
+      archive_pagination_per_page: 10
+      categories_pagination_per_page: 10
       # post_slugify: !!python/object/apply:ext.slugs.slugify
       #   kwds:
       #     short: true
   # - meta
-  # - tags
+  - tags
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
@@ -86,13 +87,14 @@ markdown_extensions:
   #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - neoteroi.timeline
 
-nav:
-  - Home: index.md
-  - Tags: tags.md
-  - Blog:
-     - blog/index.md
-     - blog/tags.md
-  - Publications: publications.md
+# nav:
+#   - Home: index.md
+#   - Tags: tags.md
+#   - Blog:
+#      - blog/index.md
+#      - blog/tags.md
+#   - Publications: publications.md
+#   - holidays.md
 
 extra_css:
   - https://fonts.googleapis.com/css?family=Domine
