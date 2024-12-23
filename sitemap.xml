@@ -5,6 +5,10 @@
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
+         <loc>http://www.example.com/holidays/</loc>
+         <lastmod>2024-12-23</lastmod>
+    </url>
+    <url>
          <loc>http://www.example.com/publications/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
@@ -13,43 +17,47 @@
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/</loc>
+         <loc>http://www.example.com/2023/12/31/ny-eve/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/tags/</loc>
+         <loc>http://www.example.com/2024/05/04/may-the-4th-be-with-you/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/author/team/</loc>
+         <loc>http://www.example.com/2024/05/01/happy-may-day/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/posts/draft/</loc>
+         <loc>http://www.example.com/2024/09/19/happy-speak-like-a-pirate-day-to-all/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/posts/myfirst/</loc>
+         <loc>http://www.example.com/2024/07/26/happy-sysadmin-appreciation-day/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/posts/drafts/may_4th/</loc>
+         <loc>http://www.example.com/2026/02/09/happy-10th-birthday-material-for-mkdocs/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/posts/drafts/may_day/</loc>
+         <loc>http://www.example.com/archive/2026/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/posts/drafts/pirate_day/</loc>
+         <loc>http://www.example.com/archive/2024/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/posts/drafts/sysadmin_day/</loc>
+         <loc>http://www.example.com/archive/2023/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/blog/posts/drafts/ten_years/</loc>
+         <loc>http://www.example.com/category/holidays/</loc>
+         <lastmod>2024-12-23</lastmod>
+    </url>
+    <url>
+         <loc>http://www.example.com/page/2/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
 </urlset>
