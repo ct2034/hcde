@@ -1,2 +1,0 @@
-
-<!-- material/categories { scope: true } -->

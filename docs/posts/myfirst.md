@@ -10,7 +10,7 @@ links:
   - External links:
     - Material documentation: https://squidfunk.github.io/mkdocs-material
 categories:
-  - Holidays
+  - Thinkoneering
 tags:
   - new year
   - hogmanay
