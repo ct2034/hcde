@@ -7,8 +7,8 @@ theme:
   custom_dir: overrides
   color_mode: auto
   repo_url: https://github.com/ct2034/hcde
-  # features:
-  #   - navigation.indexes
+  features:
+    - navigation.indexes
   # logo: imgs/exclamation-question-mark_serenity-os.png
   # favicon: imgs/exclamation-question-mark_serenity-os.png
   # font:
@@ -41,21 +41,29 @@ theme:
 
 plugins:
   - search
-  # - blog:
-  #     blog_toc: true
-  #     archive_date_format: MMMM yyyy
-  #     categories_allowed:
-  #       - Holidays
-  #       - News
-  #     authors_profiles: true
-  #     pagination_per_page: 5
-  #     archive_pagination_per_page: 10
-  #     categories_pagination_per_page: 10
-      # post_slugify: !!python/object/apply:ext.slugs.slugify
-      #   kwds:
-      #     short: true
-  # - meta
-  # - tags
+  - pub-meta:
+      overview:
+        enable: true
+        default: auto
+        key_name: slug
+      publish:
+        search_in_hidden: false
+        search_in_draft: false
+        file_default: draft
+        file_warn_on_missing: true
+        dir_default: published
+        dir_warn_on_missing: false
+        key_name: publish
+      slug:
+        enable: true
+        mode: title
+        warn_on_missing: true
+        key_name: slug
+  - pub-blog:
+      temp_dir: .pub_blog_temp
+      archive_subdir: archive
+      categories_subdir: categories
+      tags_subdir: tags
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
@@ -86,13 +94,10 @@ markdown_extensions:
   #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - neoteroi.timeline
 
-nav:
-  - Home: index.md
-  - Tags: tags.md
-  - Blog:
-     - blog/index.md
-     - blog/tags.md
-  - Publications: publications.md
+# nav:
+#   - Home: index
+#   # - Tags: tags.md
+#   - Publications: publications.md
 
 extra_css:
   - https://fonts.googleapis.com/css?family=Domine
