@@ -13,6 +13,11 @@
     fill: currentcolor;
 }
 
+/* Remove Categories from navigation
+span.md-ellipsis {
+    display: none;
+} */
+
 /* Customizing timeline plugin */
 
 /* Make the fill of the timeline dots white */
@@ -27,4 +32,3 @@
 .nt-timeline-title {
     font-family: "Funnel Sans"!important;
 }
-/* Make the timeline 

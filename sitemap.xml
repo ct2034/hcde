@@ -5,15 +5,7 @@
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/holidays/</loc>
-         <lastmod>2024-12-23</lastmod>
-    </url>
-    <url>
          <loc>http://www.example.com/publications/</loc>
-         <lastmod>2024-12-23</lastmod>
-    </url>
-    <url>
-         <loc>http://www.example.com/tags/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
@@ -41,23 +33,15 @@
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/archive/2026/</loc>
+         <loc>http://www.example.com/c/cv/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/archive/2024/</loc>
+         <loc>http://www.example.com/c/thinkoneering/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
     <url>
-         <loc>http://www.example.com/archive/2023/</loc>
-         <lastmod>2024-12-23</lastmod>
-    </url>
-    <url>
-         <loc>http://www.example.com/category/holidays/</loc>
-         <lastmod>2024-12-23</lastmod>
-    </url>
-    <url>
-         <loc>http://www.example.com/page/2/</loc>
+         <loc>http://www.example.com/tags/</loc>
          <lastmod>2024-12-23</lastmod>
     </url>
 </urlset>
