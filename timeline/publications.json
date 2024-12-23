@@ -1,0 +1,22 @@
+[
+    {
+        "content": "__Christian Henkel__, Marc Toussaint, Wolfgang Hönig<br>_IEEE IROS 2024_",
+        "sub_title": "2024 Oct",
+        "title": "GSRM: Building Roadmaps for Sparse and Near-Optimal Path Planning using a Reaction Diffusion System"
+    },
+    {
+        "content": "Agha Ali Haider Qizilbash, __Christian Henkel__, Sanaz Mostaghim<br>_IEEE UR 2020_",
+        "sub_title": "2020 Jun",
+        "title": "Ant colony optimization based multi-robot planner for combined task allocation and path finding"
+    },
+    {
+        "content": "__Christian Henkel__, Marc Toussaint<br>_ACM SAC 2020_",
+        "sub_title": "2020 Mar",
+        "title": "Optimized directed roadmap graph for multi-agent path finding using stochastic gradient descent"
+    },
+    {
+        "content": "__Christian Henkel__, Jannik Abbenseth, Marc Toussaint<br>_IEEE IROS 2019_",
+        "sub_title": "2019 Nov",
+        "title": "An optimal algorithm to solve the combined task allocation and path finding problem"
+    }
+]
