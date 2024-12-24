@@ -1,8 +1,6 @@
 ---
 date:
   created: 2024-05-04
-categories:
-  - CV
 tags:
   - test
 ---

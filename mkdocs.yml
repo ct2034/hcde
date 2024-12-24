@@ -96,7 +96,7 @@ markdown_extensions:
   - meta
 
 nav:
-  # - Home: 
+  - Home: ../
   # - Home: index.md
   # - Tags: tags.md
   # - Blog:
@@ -104,11 +104,12 @@ nav:
   #    - blog/tags.md
   # - Publications: publications.md
   # - Thinkoneering: c/thinkoneering
-  - Thinkoneering: c/thinkoneering/
+  - Thinkoneering (Blog): c/thinkoneering/
   - CV: c/cv/
   - Publications: c/publications/
   # - tags.md
-  - Publications (old): publications.md
+  - about.md
+  # - Publications (old): publications.md
   # - ...
 
 
