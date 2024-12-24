@@ -42,6 +42,7 @@ plugins:
       enabled: true
       blog_dir: .
       blog_toc: false
+      post_url_format: "{slug}"
       archive: false
       categories: true
       categories_url_format: "c/{slug}"
@@ -50,6 +51,7 @@ plugins:
         - cv
         # - Publication
       categories_toc: true
+      draft_on_serve: false
   - tags:
       tags_file: tags.md
   - rss:
