@@ -5,6 +5,10 @@
          <lastmod>2024-12-24</lastmod>
     </url>
     <url>
+         <loc>http://www.example.com/about/</loc>
+         <lastmod>2024-12-24</lastmod>
+    </url>
+    <url>
          <loc>http://www.example.com/publications/</loc>
          <lastmod>2024-12-24</lastmod>
     </url>
@@ -30,10 +34,6 @@
     </url>
     <url>
          <loc>http://www.example.com/2026/02/09/happy-10th-birthday-material-for-mkdocs/</loc>
-         <lastmod>2024-12-24</lastmod>
-    </url>
-    <url>
-         <loc>http://www.example.com/c/cv/</loc>
          <lastmod>2024-12-24</lastmod>
     </url>
     <url>
