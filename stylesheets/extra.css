@@ -13,10 +13,11 @@
     fill: currentcolor;
 }
 
-/* Remove Categories from navigation
-span.md-ellipsis {
+/* Remove Categories from navigation */
+/* Which assumes that the last item in the navigation is the Categories item */
+li.md-nav__item:last-child {
     display: none;
-} */
+}
 
 /* Customizing timeline plugin */
 
