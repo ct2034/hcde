@@ -19,6 +19,11 @@ li.md-nav__item:last-child {
     display: none;
 }
 
+/* Hide metadata of blogposts */
+header.md-post__header {
+    display: none!important;
+}
+
 /* Customizing timeline plugin */
 
 /* Make the fill of the timeline dots white */
