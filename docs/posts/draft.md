@@ -1,12 +1,13 @@
 ---
 date:
-  created: 2024-01-01
+  created: 2025-01-01
 draft: true
 ---
 
-# Happy new year!
+# Not sure
 
-Happy 2024 to everyone. Wishing you all the best!
+(This is wip)
+
 <!-- more -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
