@@ -4,7 +4,7 @@ date:
 tags:
   - test
 categories:
-  - thinkoneering
+  - Thinkoneering
 ---
 
 # How to write a blog

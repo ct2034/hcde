@@ -42,14 +42,15 @@ plugins:
       enabled: true
       blog_dir: .
       blog_toc: false
-      post_url_format: "{slug}"
+      post_url_date_format: "yyMMdd"
+      post_url_format: "{categories}/{date}_{slug}"
       archive: false
       categories: true
-      categories_url_format: "c/{slug}"
+      categories_url_format: "{slug}"
       categories_allowed:
-        - thinkoneering
-        - cv
-        # - Publication
+        - Thinkoneering
+        - CV
+        - Publications
       categories_toc: true
       draft_on_serve: false
   - tags:
@@ -77,9 +78,10 @@ markdown_extensions:
 
 nav:
   - Home: ../
-  - Thinkoneering (Blog): c/thinkoneering/
-  - CV: c/cv/
-  - Publications: c/publications/
+  - Thinkoneering (Blog): thinkoneering/
+  - CV: cv/
+  - Publications: publications/
+  - tags.md
   - about.md
 
 extra_css:

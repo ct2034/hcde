@@ -4,7 +4,7 @@ date:
 tags:
   - test
 categories:
-  - cv
+  - CV
 ---
 
 # World domination company
