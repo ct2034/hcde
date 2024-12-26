@@ -42,7 +42,7 @@ plugins:
       enabled: true
       blog_dir: .
       blog_toc: false
-      post_url_date_format: "yyMMdd"
+      post_url_date_format: "yy-MM-dd"
       post_url_format: "{categories}/{date}_{slug}"
       archive: false
       categories: true
