@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://www.example.com/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/about/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/publications_timeline/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/cv/210101_world-domination-company/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/publications/241001_gsrm-building-roadmaps-for-query-efficient-and-near-optimal-path-planning-using-a-reaction-diffusion-system/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/thinkoneering/241220_how-to-write-a-blog/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/thinkoneering/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/publications/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/cv/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
     <url>
          <loc>http://www.example.com/tags/</loc>
-         <lastmod>2024-12-26</lastmod>
+         <lastmod>2024-12-30</lastmod>
     </url>
 </urlset>
