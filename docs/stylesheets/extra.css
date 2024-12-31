@@ -5,6 +5,17 @@
     font-family: Domine;
 }   
 
+/* Generally tighter line spacing */
+p {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+/* Closer together excerpts */
+.md-post--excerpt {
+    margin-bottom: 2rem;
+}
+
 /* Making the little github icon in the copyright notice look like the rest of the text */
 .my-copyright-github-link {
     display: inline-block;
@@ -20,9 +31,13 @@ li.md-nav__item:last-child {
 }
 
 /* Hide metadata of blogposts */
-header.md-post__header {
+/* header.md-post__header {
     display: none!important;
-}
+} */
+/* But display on my-thinkoneering */
+/* article.my-thinkoneering > header.md-post__header{
+    display: flex!important;
+} */
 
 /* Customizing timeline plugin */
 

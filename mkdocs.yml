@@ -88,3 +88,6 @@ extra_css:
   - https://fonts.googleapis.com/css?family=Domine
   - stylesheets/extra.css
   # - stylesheets/neoteroi-v1.1.0.css
+
+watch:
+  - overrides/partials
