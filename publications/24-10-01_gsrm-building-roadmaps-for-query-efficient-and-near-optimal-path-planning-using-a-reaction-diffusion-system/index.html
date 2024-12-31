@@ -10,11 +10,13 @@
       
       
       
-        <link rel="canonical" href="http://www.example.com/thinkoneering/241220_how-to-write-a-blog/">
+        <link rel="canonical" href="http://www.example.com/publications/24-10-01_gsrm-building-roadmaps-for-query-efficient-and-near-optimal-path-planning-using-a-reaction-diffusion-system/">
       
       
-        <link rel="prev" href="../../publications/241001_gsrm-building-roadmaps-for-query-efficient-and-near-optimal-path-planning-using-a-reaction-diffusion-system/">
+        <link rel="prev" href="../../cv/21-01-01_world-domination-company/">
       
+      
+        <link rel="next" href="../../thinkoneering/24-12-20_how-to-write-a-blog/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
@@ -25,7 +27,7 @@
     
     
       
-        <title>How to write a blog - Christian Henkel</title>
+        <title>GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System - Christian Henkel</title>
       
     
     
@@ -81,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-write-a-blog" class="md-skip">
+        <a href="#gsrm-building-roadmaps-for-query-efficient-and-near-optimal-path-planning-using-a-reaction-diffusion-system" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to write a blog
+              GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System
             
           </span>
         </div>
@@ -266,7 +268,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../thinkoneering/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -306,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../publications/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -426,7 +428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../publications/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -449,7 +451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../thinkoneering/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -492,6 +494,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abstract" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abstract
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibtex" class="md-nav__link">
+    <span class="md-ellipsis">
+      BibTeX
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -527,7 +564,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2024-12-20 00:00:00" class="md-ellipsis">December 20, 2024</time>
+                        <time datetime="2024-10-01 00:00:00" class="md-ellipsis">October 1, 2024</time>
                       </div>
                     </li>
                     
@@ -538,7 +575,7 @@
                           <span class="md-ellipsis">
                             in
                             
-                              <a href="../">Thinkoneering</a></span>
+                              <a href="../">Publications</a></span>
                         </div>
                       </li>
                     
@@ -567,26 +604,32 @@
     <article class="md-content__inner md-typeset">
       
         
-  
-  
-
-<nav class="md-tags" >
-  
-    
-    
-    
-      <a href="../../tags/#test" class="md-tag">test</a>
-    
-  
-</nav>
 
 
-
-<h1 id="how-to-write-a-blog">How to write a blog</h1>
-<p>My important thoughts</p>
+<h1 id="gsrm-building-roadmaps-for-query-efficient-and-near-optimal-path-planning-using-a-reaction-diffusion-system">GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System</h1>
+<p><strong>Christian Henkel</strong>, Marc Toussaint, Wolfgang Hönig</p>
+<p><em>IROS 2024</em></p>
 <!-- more -->
 
-<p>moar</p>
+<h2 id="abstract">Abstract</h2>
+<p>Mobile robots frequently navigate on roadmaps, i.e., graphs where edges represent safe motions, in applications such as healthcare, hospitality, and warehouse automation. Often the environment is quasi-static, i.e., it is sufficient to construct a roadmap once and then use it for any future planning queries. Roadmaps are typically used with graph search algorithm to find feasible paths for the robots. Therefore, the roadmap should be well-connected, and graph searches should produce near-optimal solutions with short solution paths while simultaneously be computationally efficient to execute queries quickly.
+We propose a new method to construct roadmaps based on the Gray-Scott reaction diffusion system and Delaunay triangulation. Our approach, GSRM, produces roadmaps with evenly distributed vertices and edges that are well-connected even in environments with challenging narrow passages. Empirically, we compare to classical roadmaps generated by 8-connected grids, probabilistic roadmaps (PRM, SPARS2), and optimized roadmap graphs (ORM). Our results show that GSRM consistently produces superior roadmaps that are well-connected, have high query efficiency, and result in short solution paths.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2410.11024">Paper</a></li>
+<li><a href="https://ct2034.github.io/miriam/iros2024/">Code</a></li>
+</ul>
+<h2 id="bibtex">BibTeX</h2>
+<pre><code class="language-bibtex">@misc{henkel2024gsrmbuildingroadmapsqueryefficient,
+      title={GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System},
+      author={Christian Henkel and Marc Toussaint and Wolfgang Hönig},
+      year={2024},
+      eprint={2410.11024},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2410.11024},
+}
+</code></pre>
 
 
 
