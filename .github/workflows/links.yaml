@@ -11,7 +11,9 @@ jobs:
   linkChecker:
     runs-on: ubuntu-latest
     steps:
-    - name: Install links-awakening from npm
-      run: npm install -g links-awakening
+    - name: Install pip
+      run: sudo apt-get install python3-pip
+    - name: Install linkchecker
+      run: pip install linkchecker
     - name: Check links
-      run: links-awakening https://thinkoneering.com
+      run: linkchecker --check-extern -r 2 https://thinkoneering.com/
