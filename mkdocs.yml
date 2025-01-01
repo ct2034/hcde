@@ -86,6 +86,7 @@ extra:
 markdown_extensions:
   # - neoteroi.timeline
   - meta
+  - attr_list  # [link text](https://target.link){target="_blank"}
 
 nav:
   - Home: ../
