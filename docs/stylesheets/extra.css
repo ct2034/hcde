@@ -13,6 +13,7 @@ p {
 
 /* Closer together excerpts */
 .md-post--excerpt {
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
