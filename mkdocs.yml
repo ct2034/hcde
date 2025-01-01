@@ -9,8 +9,8 @@ theme:
   repo_url: https://github.com/ct2034/hcde
   # features:
   #   - navigation.indexes
-  logo: logo/hc.png
-  favicon: logo/hc_32p.ico
+  logo: logo/ch.png
+  favicon: logo/ch_32p.ico
   font:
     text: Funnel Sans
     code: Roboto Mono
