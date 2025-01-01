@@ -16,6 +16,17 @@ p {
     margin-bottom: 2rem;
 }
 
+/* Different color links per category */
+.my-thinkoneering a {
+    color: var(--md-code-hl-string-color); /* A dim Green */
+}
+.my-publications a {
+    color: var(--md-code-hl-keyword-color); /* A dim Blue */
+}
+.my-cv a {
+    color: var(--md-code-hl-constant-color); /* A dim purple */
+}
+
 /* Making the little github icon in the copyright notice look like the rest of the text */
 .my-copyright-github-link {
     display: inline-block;
