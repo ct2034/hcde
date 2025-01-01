@@ -12,13 +12,13 @@
         <meta name="author" content="Christian Henkel">
       
       
-        <link rel="canonical" href="https://thinkoneering.com/publications/24-10-01_gsrm-building-roadmaps-for-query-efficient-and-near-optimal-path-planning-using-a-reaction-diffusion-system/">
+        <link rel="canonical" href="https://thinkoneering.com/publications/19-11-03_an-optimal-algorithm-to-solve-the-combined-task-allocation-and-path-finding-problem/">
       
       
-        <link rel="prev" href="../../cv/21-01-01_world-domination-company/">
+        <link rel="prev" href="../19-02-05_mensch-roboter-kollaboration-f%C3%BCr-schwerbehinderte-produktionsmitarbeiter/">
       
       
-        <link rel="next" href="../24-11-08_towards-a-verifiable-toolchain-for-robotics/">
+        <link rel="next" href="../20-03-30_optimized-directed-roadmap-graph-for-multi-agent-path-finding-using-stochastic-gradient-descent/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
@@ -29,7 +29,7 @@
     
     
       
-        <title>GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System - Christian Henkel</title>
+        <title>An optimal algorithm to solve the combined task allocation and path finding problem - Christian Henkel</title>
       
     
     
@@ -95,7 +95,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#gsrm-building-roadmaps-for-query-efficient-and-near-optimal-path-planning-using-a-reaction-diffusion-system" class="md-skip">
+        <a href="#an-optimal-algorithm-to-solve-the-combined-task-allocation-and-path-finding-problem" class="md-skip">
           Skip to content
         </a>
       
@@ -130,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System
+              An optimal algorithm to solve the combined task allocation and path finding problem
             
           </span>
         </div>
@@ -585,7 +585,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2024-10-01 00:00:00" class="md-ellipsis">October 1, 2024</time>
+                        <time datetime="2019-11-03 00:00:00" class="md-ellipsis">November 3, 2019</time>
                       </div>
                     </li>
                     
@@ -607,7 +607,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              2 min read
+                              1 min read
                             
                           </span>
                         </div>
@@ -627,30 +627,29 @@
         
 
 
-<h1 id="gsrm-building-roadmaps-for-query-efficient-and-near-optimal-path-planning-using-a-reaction-diffusion-system">GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System</h1>
-<p><strong>Christian Henkel</strong>, Marc Toussaint, Wolfgang Hönig @ <em>IROS 2024</em></p>
-<p><a href="https://arxiv.org/pdf/2410.11024" target="_blank">📄 pdf</a> <a href="https://doi.org/10.1109/IROS58592.2024.10801293" target="_blank">🔗 doi: 10.1109/IROS58592.2024.10801293</a></p>
+<h1 id="an-optimal-algorithm-to-solve-the-combined-task-allocation-and-path-finding-problem">An optimal algorithm to solve the combined task allocation and path finding problem</h1>
+<p><strong>Christian Henkel</strong>, Jannik Abbenseth, Marc Toussaint @ <em>IROC 2019</em></p>
+<p><a href="https://arxiv.org/pdf/1907.10360" target="_blank">📄 pdf</a> <a href="https://doi.org/10.1109/IROS40897.2019.8968096" target="_blank">🔗 doi: 10.1109/IROS40897.2019.8968096</a></p>
 <!-- more -->
 
 <h2 id="abstract">Abstract</h2>
-<p>Mobile robots frequently navigate on roadmaps, i.e., graphs where edges represent safe motions, in applications such as healthcare, hospitality, and warehouse automation. Often the environment is quasi-static, i.e., it is sufficient to construct a roadmap once and then use it for any future planning queries. Roadmaps are typically used with graph search algorithm to find feasible paths for the robots. Therefore, the roadmap should be well-connected, and graph searches should produce near-optimal solutions with short solution paths while simultaneously be computationally efficient to execute queries quickly.
-We propose a new method to construct roadmaps based on the Gray-Scott reaction diffusion system and Delaunay triangulation. Our approach, GSRM, produces roadmaps with evenly distributed vertices and edges that are well-connected even in environments with challenging narrow passages. Empirically, we compare to classical roadmaps generated by 8-connected grids, probabilistic roadmaps (PRM, SPARS2), and optimized roadmap graphs (ORM). Our results show that GSRM consistently produces superior roadmaps that are well-connected, have high query efficiency, and result in short solution paths.</p>
+<p>We consider multi-agent transport task problems where, e.g. in a factory setting, items have to be delivered from a given start to a goal pose while the delivering robots need to avoid collisions with each other on the floor. We introduce a Task Conflict-Based Search (TCBS) Algorithm to solve the combined delivery task allocation and multi-agent path planning problem optimally. The problem is known to be NP-hard and the optimal solver cannot scale. However, we introduce it as a baseline to evaluate the sub-optimality of other approaches. We show experimental results that compare our solver with different sub-optimal ones in terms of regret.</p>
 <h2 id="links">Links</h2>
 <ul>
-<li><a href="https://arxiv.org/abs/2410.11024" target="_blank">Paper</a></li>
-<li><a href="https://ct2034.github.io/miriam/iros2024/" target="_blank">Code</a></li>
+<li><a href="https://arxiv.org/abs/1907.10360" target="_blank">Paper</a></li>
+<li><a href="https://ct2034.github.io/miriam/iros2019/" target="_blank">Code</a></li>
 </ul>
 <h2 id="presentation">Presentation</h2>
-<p><a href="https://www.youtube.com/watch?v=2BDIWTtHn5A" target="_blank"><img alt="GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System" src="https://img.youtube.com/vi/2BDIWTtHn5A/0.jpg" /></a></p>
+<p><a href="https://www.youtube.com/watch?v=TyR1LDJwlbA" target="_blank"><img alt="An Optimal Baseline Algorithm to Solve the Combined Task Allocation and Path Finding Problem
+" src="https://img.youtube.com/vi/TyR1LDJwlbA/0.jpg" /></a></p>
 <h2 id="bibtex">BibTeX</h2>
-<pre><code class="language-bibtex">@misc{henkel2024gsrmbuildingroadmapsqueryefficient,
-      title={GSRM: Building Roadmaps for Query-Efficient and Near-Optimal Path Planning Using a Reaction Diffusion System},
-      author={Christian Henkel and Marc Toussaint and Wolfgang Hönig},
-      year={2024},
-      eprint={2410.11024},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2410.11024},
+<pre><code class="language-bibtex">@misc{henkel2019optimal,
+    title={An Optimal Algorithm to Solve the Combined Task Allocation and Path Finding Problem},
+    author={Christian Henkel and Jannik Abbenseth and Marc Toussaint},
+    year={2019},
+    eprint={1907.10360},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO}
 }
 </code></pre>
 
