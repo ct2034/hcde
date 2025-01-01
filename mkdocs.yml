@@ -8,8 +8,8 @@ theme:
   repo_url: https://github.com/ct2034/hcde
   # features:
   #   - navigation.indexes
-  logo: imgs/exclamation-question-mark_serenity-os.png
-  favicon: imgs/exclamation-question-mark_serenity-os.png
+  logo: logo/hc.png
+  favicon: logo/hc_32p.ico
   font:
     text: Funnel Sans
     code: Roboto Mono
