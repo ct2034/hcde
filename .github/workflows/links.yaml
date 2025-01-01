@@ -1,0 +1,17 @@
+name: Links
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    # weekly on Sunday at 5:00
+    - cron: "0 5 * * 0"
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install links-awakening from npm
+      run: npm install -g links-awakening
+    - name: Check links
+      run: links-awakening https://thinkoneering.com
