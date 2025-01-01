@@ -54,6 +54,7 @@ plugins:
         - Publications
       categories_toc: true
       draft_on_serve: false
+      pagination_per_page: 20
   - tags:
       tags_file: tags.md
   - rss:
