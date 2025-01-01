@@ -1,6 +1,7 @@
 site_name: Christian Henkel 
-site_description: an example blog set up following the blog tutorials
-site_url: http://www.example.com
+site_description: A mix between personal portfolio and blog.
+site_author: Christian Henkel
+site_url: https://thinkoneering.com
 
 theme:
   name: material
