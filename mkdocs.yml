@@ -71,6 +71,9 @@ extra:
       link: https://chaos.social/@ct2034
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/ct2034.bsky.social
+  analytics:
+    provider: google
+    property: G-BVLSLET2CB
 
 markdown_extensions:
   # - neoteroi.timeline
