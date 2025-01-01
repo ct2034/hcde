@@ -74,6 +74,13 @@ extra:
   analytics:
     provider: google
     property: G-BVLSLET2CB
+  consent:
+    title: Cookie consent
+    description: This website uses cookies to ensure you get the best experience.
+    actions:
+      - accept
+      - manage
+      - reject
 
 markdown_extensions:
   # - neoteroi.timeline
