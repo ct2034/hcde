@@ -8,6 +8,7 @@ tags:
   - human-robot-collaboration
   - people-with-disabilities
   - manufacturing
+  - safety
 ---
 
 # Teilhabe durch Robotik: Ergonomische und sichere Arbeitsplätze für schwerbehinderte Produktionsmitarbeiter in der Mensch-Roboter-Kollaboration
