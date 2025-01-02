@@ -3,6 +3,10 @@ date:
   created: 2018-09-19
 categories:
   - Publications
+tags:
+  - industrial-robotics
+  - human-robot-collaboration
+  - people-with-disabilities
 ---
 
 # Mensch-Roboter-Kollaboration für Schwerbehinderte als Beitrag zur Inklusion in der Arbeitswelt

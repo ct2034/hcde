@@ -3,6 +3,9 @@ date:
   created: 2025-01-01
 categories:
   - Publications
+tags:
+  - software-engineering
+  - formal-methods
 ---
 
 # Towards Robust Autonomous Robots Using Statistical Model Checking

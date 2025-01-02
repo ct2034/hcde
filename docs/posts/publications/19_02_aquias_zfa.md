@@ -3,6 +3,9 @@ date:
   created: 2019-02-05
 categories:
   - Publications
+tags:
+  - human-robot-collaboration
+  - people-with-disabilities
 ---
 
 # Mensch-Roboter-Kollaboration für schwerbehinderte Produktionsmitarbeiter

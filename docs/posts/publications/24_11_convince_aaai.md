@@ -3,6 +3,9 @@ date:
   created: 2024-11-08
 categories:
   - Publications
+tags:
+  - software-engineering
+  - formal-methods
 ---
 
 # Towards a Verifiable Toolchain for Robotics

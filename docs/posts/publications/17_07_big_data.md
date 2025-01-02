@@ -3,6 +3,9 @@ date:
   created: 2017-07-25
 categories:
   - Publications
+tags:
+  # - data-science  # would be the only entry with this tag
+  - manufacturing
 ---
 
 # Big-Data-Analytik: Datenbasierte Optimierung produzierender Unternehmen

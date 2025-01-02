@@ -3,6 +3,10 @@ date:
   created: 2017-09-06
 categories:
   - Publications
+tags:
+  - cloud
+  - navigation
+  - industry-4.0
 ---
 
 # A Predictive Online Path Planning and Optimization Approach for Cooperative Mobile Service Robot Navigation in Industrial Applications

@@ -4,7 +4,9 @@ date:
 categories:
   - Publications
 tags: 
-  - first
+  - first-author
+  - energy-efficiency
+  - navigation
 ---
 
 # Energy Efficient Dynamic Window Approach for Local Path Planning in Mobile Service Robotics

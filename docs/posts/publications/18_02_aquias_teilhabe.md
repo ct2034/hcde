@@ -3,6 +3,11 @@ date:
   created: 2018-02-21
 categories:
   - Publications
+tags:
+  - industrial-robotics
+  - human-robot-collaboration
+  - people-with-disabilities
+  - manufacturing
 ---
 
 # Teilhabe durch Robotik: Ergonomische und sichere Arbeitsplätze für schwerbehinderte Produktionsmitarbeiter in der Mensch-Roboter-Kollaboration

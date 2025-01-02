@@ -3,6 +3,9 @@ date:
   created: 2018-07-18
 categories:
   - Publications
+tags:
+  - industry-4.0
+  - people-with-disabilities
 ---
 
 # Adaptive Work Instructions for People with Disabilities in the Context of Human Robot Collaboration

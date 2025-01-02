@@ -3,6 +3,9 @@ date:
   created: 2017-07-24
 categories:
   - Publications
+tags:
+  - industry-4.0
+  - manufacturing
 ---
 
 # A harmonized approach for constructing a robust and efficient technology backbone for agile manufacturing systems

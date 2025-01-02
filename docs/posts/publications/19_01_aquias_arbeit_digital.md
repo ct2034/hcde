@@ -3,6 +3,10 @@ date:
   created: 2019-01-02
 categories:
   - Publications
+tags:
+  # - digitization  # would be the only entry with this tag
+  - first-author
+  - manufacturing
 ---
 
 # Der digitale Arbeitsplatz in der Produktion: Herausforderungen und Chancen

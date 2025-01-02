@@ -3,6 +3,10 @@ date:
   created: 2017-04-03
 categories:
   - Publications
+tags:
+  - cloud
+  - navigation
+  - industry-4.0
 ---
 
 # Cloud-based cooperative navigation for mobile service robots in dynamic industrial environments

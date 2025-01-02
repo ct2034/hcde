@@ -3,6 +3,10 @@ date:
   created: 2018-09-14
 categories:
   - Publications
+tags:
+  - industrial-robotics
+  - human-robot-collaboration
+  - people-with-disabilities
 ---
 
 # Inclusion Through Robotics: Designing Human-Robot Collaboration for Handicapped Workers

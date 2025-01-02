@@ -3,6 +3,9 @@ date:
   created: 2018-01-25
 categories:
   - Publications
+tags:
+  - energy-efficiency
+  - navigation
 ---
 
 # Power-minimization and energy-reduction autonomous navigation of an omnidirectional Mecanum robot via the dynamic window approach local trajectory planning

@@ -3,6 +3,9 @@ date:
   created: 2020-06-22
 categories:
   - Publications
+tags:
+  - multi-agent-systems
+  - navigation
 ---
 
 # Ant colony optimization based multi-robot planner for combined task allocation and path finding

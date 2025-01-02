@@ -3,6 +3,9 @@ date:
   created: 2017-07-19
 categories:
   - Publications
+tags:
+  - cloud
+  - software-engineering
 ---
 
 # Challenges of Production Microservices
