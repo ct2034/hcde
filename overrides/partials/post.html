@@ -53,9 +53,13 @@ post.categories: {{ post.categories }}
               {{- "{:02d}/{:4d}".format(post.config.date.created.month, (post.config.date.created.year)) -}}
             </time>
             - 
-            <time datetime="{{ post.config.date.updated }}">
-              {{- "{:02d}/{:4d}".format(post.config.date.updated.month, (post.config.date.updated.year)) -}}
-            </time>
+            {% if post.config.date.updated %}
+              <time datetime="{{ post.config.date.updated }}">
+                {{- "{:02d}/{:4d}".format(post.config.date.updated.month, (post.config.date.updated.year)) -}}
+              </time>
+            {% else %}
+              <b>now</b>
+            {% endif %}
             {#- Collapse whitespace -#}
           </li>
           {% else %} <!-- Not a CV entry = normal date -->
