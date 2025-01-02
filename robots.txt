@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://thinkoneering.com/sitemap.xml
