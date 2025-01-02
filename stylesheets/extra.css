@@ -38,7 +38,8 @@ p {
 
 /* Remove Categories from navigation */
 /* Which assumes that the last item in the navigation is the Categories item */
-li.md-nav__item:last-child {
+/* Only for the primary (left) navigation */
+nav.md-nav--primary > ul > li.md-nav__item:last-child  {
     display: none;
 }
 
