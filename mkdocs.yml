@@ -81,7 +81,18 @@ plugins:
       bib_by_default: True
   - redirects:
       redirect_maps:
+        'autor/README.md': 'https://web.archive.org/web/20180823163315/http://thinkoneering.com/autor/'
+        'blog/README.md': 'https://web.archive.org/web/20180823163315/http://thinkoneering.com/blog/'
         '2014/05/16/und-wozu-braucht-man-das/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2014/05/16/und-wozu-braucht-man-das/'
+        '2014/06/06/kommunismus-im-internet/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2014/06/06/kommunismus-im-internet/'
+        '2014/10/11/von-menschen-und-maschinen/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2014/10/11/von-menschen-und-maschinen/'
+        '2014/10/31/turbovegetarier-ohne-facebook/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2014/10/31/turbovegetarier-ohne-facebook/'
+        '2015/01/30/natur-und-technik/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2015/01/30/natur-und-technik/'
+        '2015/03/16/die-3-stufen-der-open-source-liebe/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2015/03/16/die-3-stufen-der-open-source-liebe/'
+        '2015/06/05/haus-am-see/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2015/06/05/haus-am-see/'
+        '2015/06/21/anders-als-gedacht/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2015/06/21/anders-als-gedacht/'
+        '2015/09/25/pflanze-dir-ein-winterkorn/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2015/09/25/pflanze-dir-ein-winterkorn/'
+
 
 extra:
   social:  
