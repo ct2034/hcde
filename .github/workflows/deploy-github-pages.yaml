@@ -21,7 +21,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.9
-      - run: pip install -r requirements.txt
+      - name: Install pip dependencies
+        run: pip install -r requirements.txt
+      - name: Install pandoc-citeproc
+        run: |
+          sudo apt-get update
+          sudo apt-get install pandoc-citeproc
       - run: mkdocs gh-deploy
 
   deploy_mkdocs:

@@ -74,6 +74,11 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
+  - bibtex:
+      bib_file: bibtex/demo.bib
+      csl_file: bibtex/chicago-author-date.csl
+      # cite_inline: True   RuntimeError: Your version of pandoc (v2.9.2.1) is incompatible with the cite_inline feature.
+      bib_by_default: True
 
 extra:
   social:  
@@ -99,7 +104,8 @@ extra:
 markdown_extensions:
   # - neoteroi.timeline
   - meta
-  - attr_list  # [link text](https://target.link){target="_blank"}
+  - attr_list # [link text](https://target.link){target="_blank"}
+  - footnotes # bibtex
 
 nav:
   - Home: ../

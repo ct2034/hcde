@@ -14,3 +14,7 @@ My important thoughts
 <!-- more -->
 
 moar
+
+aaa[@knuth1984]
+
+## References
