@@ -79,6 +79,9 @@ plugins:
       csl_file: bibtex/chicago-author-date.csl
       # cite_inline: True   RuntimeError: Your version of pandoc (v2.9.2.1) is incompatible with the cite_inline feature.
       bib_by_default: True
+  - redirects:
+      redirect_maps:
+        '2014/05/16/und-wozu-braucht-man-das/README.md': 'https://web.archive.org/web/20190309125210/http://thinkoneering.com/2014/05/16/und-wozu-braucht-man-das/'
 
 extra:
   social:  
