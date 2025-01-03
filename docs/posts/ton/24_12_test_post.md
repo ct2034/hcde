@@ -1,20 +1,18 @@
 ---
 date:
-  created: 2024-12-20
-tags:
-  - test
+  created: 2010-10-10
+# tags:
+#   - test
 categories:
   - Thinkoneering
 ---
 
 # How to write a blog
 
-My important thoughts
+This is a demo article trying out citation and references.
 
 <!-- more -->
 
-moar
-
-aaa[@knuth1984]
+this[@knuth1984]
 
 ## References
