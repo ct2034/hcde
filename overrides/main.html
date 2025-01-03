@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <meta name="keywords" content="Christian Henkel, thinkoneering,robotics,research,philosophy,blog,{% for tag in tags %}{{ tag['name'] }},{% endfor %}" />
+{% endblock %}

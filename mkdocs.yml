@@ -103,4 +103,5 @@ extra_css:
   # - stylesheets/neoteroi-v1.1.0.css
 
 watch:
+  - overrides
   - overrides/partials
