@@ -68,6 +68,12 @@ plugins:
       use_git: true
       use_material_blog: true
       use_material_social_cards: true
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
 
 extra:
   social:  
