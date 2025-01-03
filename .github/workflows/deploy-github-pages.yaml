@@ -23,10 +23,10 @@ jobs:
           python-version: 3.9
       - name: Install pip dependencies
         run: pip install -r requirements.txt
-      # - name: Install pandoc-citeproc
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install pandoc-citeproc
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install pandoc
       - run: mkdocs gh-deploy
 
   deploy_mkdocs:
