@@ -8,11 +8,13 @@ categories:
 ---
 # How do Personal vs Company Identities affect Open Source Contributions?
 
-Imagine that you are a maintainer of an important open source project.
+Imagine that you are a maintainer of a widely used open source project relied upon by developers worldwide.
 Now, there are two pull requests.
 One from an individual contributor and one from a person that you know works for a certain company.
 You know that the individual contributor has worked on the code they are contributing in their free time and you really like the quality of their pull request.
 The other contribution is also of high quality.
+Would you treat these contributions differently?
+Should you?
 
 Does it make a difference whether one person is working for a company and the other is not?<!-- more -->
 Technically both of these are just persons contributing code.
@@ -65,9 +67,40 @@ Basically, because they have intentionality and responsibility[@frenchCorporatio
 When thinking about a company, then it is their capability to make decisions that leads to that intentionality.
 A organization needs an identity to make these decisions.
 And similarly to how we saw with Locke above, this is based on its own history but also by reference to a self-assigned organization type[@whettenAlbertWhettenRevisited2006].
-For now, this is enough background and I want to look at the nature of open source contributions in some more detail.
+I think, this is very interesting and can be used to explain many phenomena perceived when working in companies.
+But for now, this is enough background and next I want to look at the nature of open source contributions in some more detail.
 
 ## Individual Contributions in OSS
+
+Why do individuals contribute to open source?
+I think, the core motivations are intrinsic.
+The inherent passion for programming and development is not to be underestimated.
+But, these OSS projects are also communities, and being involved in that can be very motivational.
+And as we learned from social identity, belonging to a group is even fundamental to ones own identity[@SocialIdentityTheory2023].
+
+Further, also extrinsic motivations play a role.
+This includes ones own career advancement, because contribution to open source makes the individual visible and can create a reputation that may be useful when looking for a job.
+And external recognition can also serve as a more general motivating factor.
+
+To summarize with a quote, people contribute to OSS for reasons,
+
+> both extrinsic, enhancing reputation and developing human capital and social networks; and intrinsic, satisfying psychological needs, pleasure, and a sense of social belonging[@benklerCommonsBasedStrategiesProblems2004].
+
+Above I talked about recognition as one source of motivation.
+But recognition does also serve a different purpose: power.
+Open source projects are often described as meritocracies.
+The terms was popularized by Young's dystopian book _The rise of the meritocracy_[@youngRiseMeritocracy1958].
+In it, the envisioned future society based on meritocracy has many problems, for example a lack of social mobility.
+But a careful analysis can disprove the negative effects of meritocracy which is now a fully positive ideal[@allenMichaelYoungsRise2011].
+
+The idea is that power is awarded based on merit.
+It is that merit that individual developers accumulate by contributing to open source projects.
+With that, they will gain influence in the projects hierarchy.
+This generally allows for more technically informed decisions, especially because this merit is fluid and can be gained and lost.
+
+!!! note
+    Sure?!
+    (Maybe cite different voice [@schrapeOpenSourceCommunities2018])
 
 ## Company Contributions to OSS
 
