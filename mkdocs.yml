@@ -117,7 +117,7 @@ extra:
 
 markdown_extensions:
   # - neoteroi.timeline
-  - abbr
+  - abbr # *[TBD]: To Be Do
   - meta
   - attr_list # [link text](https://target.link){target="_blank"}
   - footnotes # bibtex
