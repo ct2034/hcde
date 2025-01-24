@@ -162,12 +162,24 @@ It is also often simply unlikely to find someone else taking over that persons p
 Because, if they are doing a good job no one will contest their position and if their workload is perceived as basically more than a fulltime job, this get's even less likely.
 The relation to company identities is weaker here: The described phenomenon usually applies to individuals where their identity is a lot more relevant to their success than the on of their company if that is even relevant at all.
 However, it bears a tragic that many other companies are depending on that persons work without being able to ensure their proper working conditions.
+But I think we can look more closely at these challenges with some more identity theory.
 
 ## Organizational Identity Theory Applied to OSS
 
-
+An interesting aspect in the Whetten article is that organizational identities are compared to personal identities more fluid.
+This makes sense, because as a person I rely on that identity a lot more and it can cause serious crisis if it is challenged to extremely.
+However, identities of companies will be challenged a lot more and are often only properly defined in events of change or crisis[@whettenAlbertWhettenRevisited2006].
+Under this assumption, it makes sense that merit in OSS is more strongly attributed to individual identities if they are more constant.
+However it is also visible that a necessary condition for allocation of merit to corporations requires a strong organizational identity.
+And that is of course also influenced by the individual identities of engineers being affiliated with that corporations in public contexts like OSS projects.
 
 ## Case Studies and Examples
+
+stackoverflow
+
+ros intrinsic
+
+ros small companies
 
 ## Conclusion
 
