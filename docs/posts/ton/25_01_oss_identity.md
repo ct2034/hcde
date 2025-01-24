@@ -14,7 +14,11 @@ One from an individual contributor and one from a person that you know works for
 You know that the individual contributor has worked on the code they are contributing in their free time and you really like the quality of their pull request.
 The other contribution is also of high quality.
 Would you treat these contributions differently?
-Should you?<!-- more -->
+Should you?
+
+![Illustration of exchange of support, contributions and merit between a contributor, their company and an open source project.](imgs/25_01_oss_identity.drawio.png)
+
+<!-- more -->
 
 Technically both of these are just persons contributing code.
 But can you truly ignore the fact that one contributor belongs to a company, or do you even attribute their contribution primarily to that company?
