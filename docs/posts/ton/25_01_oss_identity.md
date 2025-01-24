@@ -14,9 +14,8 @@ One from an individual contributor and one from a person that you know works for
 You know that the individual contributor has worked on the code they are contributing in their free time and you really like the quality of their pull request.
 The other contribution is also of high quality.
 Would you treat these contributions differently?
-Should you?
+Should you?<!-- more -->
 
-Does it make a difference whether one person is working for a company and the other is not?<!-- more -->
 Technically both of these are just persons contributing code.
 But can you truly ignore the fact that one contributor belongs to a company, or do you even attribute their contribution primarily to that company?
 A recent survey by the Linux Foundation found that organizations contribute 7.7B USD annually to open source projects and that 86% of that is contributed in the form of labor by individuals[@boysel2024OpenSource2024].
