@@ -135,15 +135,43 @@ OSS helps here by leveling the playing field.
 When what is the state of the art is available for everyone to use it is not necessary to reinvent the wheel but individual companies can focus their development invest on what they think is innovative.
 This is also what makes these projects hugely interesting for smaller companies, because the described effects are even more true for them.
 
+If companies build their innovatability and therefore sometimes there whole business model on open source software, it is natural that they have an interest the wellfare the associated OSS project.
+That is why many companies support such projects monetarily.
+But this dependence also motivates the desire for influence.
+Long-term strategic influence is often granted by the OSS project in return for the monetary support.
+But for short-term technical influence it is often also in the interest of companies to actively contribute to the software by paying developers to do this.
+This influence can also be more targeted but often requires building up contributors with the necessary influence long term[@ParticipatingOpenSource].
+
 ## Challenges and Tensions
 
+At first sight, this seems like a mutually beneficial relationship: engineers want to contribute, companies let the do it and gain influence.
+But this also bears challenges.
+For example is it not easy for companies to know which influence they want or need in the long term.
+And it can be very challenging for an engineer that sees the requirement for such influence to convince their employer to take the necessary investments.
+Here it is interesting to think about to which identity this merit will then be linked.
+That of the company or that of the individual engineer?
+From my experience, it is often the individual up to a degree where these people take their merit with them when they change jobs.
+This is obviously not in the interest of companies having invested in that specifically.
+However through careful long-term OSS strategy work, it is also very much feasible for companies to accumulate merit and not loose it on personnel changes.
+
+Another very real challenge for individual contributors and maintainers highlighted by Nadia Eghbal and others is that of burnout[@nadiaeghbalWorkingPublicMaking2020].
+This phenomenon may well be inherent to insufficient governance in OSS project management.
+Especially maintainers that fill positions that are very tailored to their person are in this risk.
+Effective governance would define processes to distribute their workload to more people or find people to step in in case they need to take a break or attend personal duties.
+It is also often simply unlikely to find someone else taking over that persons position.
+Because, if they are doing a good job no one will contest their position and if their workload is perceived as basically more than a fulltime job, this get's even less likely.
+The relation to company identities is weaker here: The described phenomenon usually applies to individuals where their identity is a lot more relevant to their success than the on of their company if that is even relevant at all.
+However, it bears a tragic that many other companies are depending on that persons work without being able to ensure their proper working conditions.
+
 ## Organizational Identity Theory Applied to OSS
+
+
 
 ## Case Studies and Examples
 
 ## Conclusion
 
-<!-- Abbreviations -->
+<!-- Abbreviations -->>
 
 *[OSS]: Open Source Software
 *[ROS]: Robot Operating System
