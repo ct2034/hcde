@@ -30,12 +30,6 @@ Using the previously introduced organizational identity theory, I will propose r
 I then want to give some practical examples and strategies to handel these.
 In the end I give a conclusion.
 
-!!! note
-    Either shorten the structure bit or lengthen the earlier parts.
-
-!!! note
-    Update with actual content
-
 ## Context: Open Source Software, Identity Theory
 
 Open source in its basic form means that the source code of a piece of software is available freely for anyone to analyze, modify or share.
@@ -89,9 +83,6 @@ Feeling seen as a valuable contributor increases ones self-worth.
 I think this quote summarizes is well
 
 > \[Motivations include\] both extrinsic, enhancing reputation and developing human capital and social networks; and intrinsic, satisfying psychological needs, pleasure, and a sense of social belonging.[@benklerCommonsBasedStrategiesProblems2004]
-
-!!! note
-    We could move all below here to "Organizational Identity Theory Applied to OSS"
 
 While I talked over about recognition as one source of motivation, recognition does also serve a different purpose in open source projects: power.
 Open source projects are often described as meritocracies.
@@ -154,7 +145,7 @@ From my experience, it is often the individual up to a degree where these people
 This is obviously not in the interest of companies having invested in that specifically.
 However through careful long-term OSS strategy work, it is also very much feasible for companies to accumulate merit and not loose it on personnel changes.
 
-Another very real challenge for individual contributors and maintainers highlighted by Nadia Eghbal and others is that of burnout[@nadiaeghbalWorkingPublicMaking2020].
+Another very real challenge for individual contributors and maintainers highlighted by Nadia Eghbal and others is that of burnout[@nadiaeghbalWorkingPublicMaking2020,@WhyContributingOpen].
 This phenomenon may well be inherent to insufficient governance in OSS project management.
 Especially maintainers that fill positions that are very tailored to their person are in this risk.
 Effective governance would define processes to distribute their workload to more people or find people to step in in case they need to take a break or attend personal duties.
@@ -190,15 +181,43 @@ And open source works as a great example that helps getting the things clear.
 
 ## Case Studies and Examples
 
-ros small companies
+To make these points even more graspable I would like to add some practical examples that I observed in ROS.
+One aspect that I don't know how unique it is in comparison to other projects is the prevelance of small companies or contributors that have their own freelance business.
+This serves on the one hand as an interesting lense on the morality of companies, which is even easier to believe the close a company is to a single individual.
+On the other hand it also highlights the importance of individual contributors in OSS.
+Because a lot of these companies are not only small but also constantly changing, which makes the people a more constant aspect of the community than their companies.
+And here I also have to disagree with Schrape writing that "companies and other organizations are able to bring in their resources more continuously and consistently than individual contributors"[@schrapeOpenSourceCommunities2018].
+In ROS and particularly in Nav2 we have witnessed quite some companies discontinuing their contributions while the involvement of the relevant individuals seem a lot more stable and consistent[@Navigation2WGChanges2021,@Nav2TimeChange2021].
 
-stackoverflow
+On the relevance and importance of identities for the work in open source I cam across a stackoverflow discussion, where a persons asks whether it would be feasible to contribute everything their company does from one github account[@ContributorContributingCompany].
+Where the consensus of the answers is that this is a bad idea for multiple reasons one of them being the integral relevance of personal communication in OSS communities.
+And there is also a nice blog post by Jono Bacon on whether anonymous OSS contributions are a good idea, coming to the conclusion that identities on OSS are important for reasons of meritocracy, accountability and openness[@AnonymousOpenSource].
+These are valid points for the relevance of individual identities in open source from very practical perspectives.
 
-ros intrinsic
+But, there is also an interesting example for organizational identities on a level that we did not consider thus far.
+That example is interestingly enough the ROS community itself.
+Because we can apply what we learned about the necessity for discussion about an organisational identity and the potential for kickstarting that discussion through big changes and the thread of loss of identity.
+The example is, of course the acquisition of big parts of Open Robotics by Intrinsic in 2022[@AlphabetsIntrinsicAcquires].
+This let to many discussions in the ROS community[@QuestionsIntrinsicAcquisition] and ultimately to the foundation of it's new governance organization Open Source Robotics Alliance [OSRA](@AnnouncingOpenSource).
+So I read this as an example for ROS as an organization loosing it's identity through the Intrinsic acquisition and the subsequent redefinition of its own identity ending in a clearer and better understood identity than it had before.
+And only this new identity could have lead to strong stand the OSRA has today.
 
 ## Conclusion
 
+The key takeaways that could be useful from this article are:
+
+- __Tension Between Individual and Organizational Merit__: Contributions in open source projects are often tied to individual identities rather than the companies they represent, to utilize this as a company, a strong open source strategy is needed.
+
+- __Meritocracy vs. Hierarchy__: Open source projects often operate as meritocracies, where influence is earned through contributions. But the projects governance also contains elements of classical hierarchies. This balance is crucial.
+
+- __Dual Motivations for Contributions__: Individuals are driven by both intrinsic factors, such as passion for development and community belonging, and extrinsic factors, like career advancement and reputation. Companies, however, are motivated by goals like quality improvement, innovation, and long-term influence over open source projects.
+
+- __Role of Organizational Identity__: Companies can establish their identity within the open source community through consistent and intentional contributions, which helps build trust and influence over time.
+
+- __Governance Challenges in Open Source__: Burnout among maintainers highlights the need for better governance structures in open source projects, such as processes to distribute workloads and ensure continuity, which may differ significantly from corporate project management practices.
+
 <!-- Abbreviations -->>
 
+*[OSRA]: Open Source Robotics Alliance
 *[OSS]: Open Source Software
 *[ROS]: Robot Operating System
