@@ -76,31 +76,35 @@ Why do individuals contribute to open source?
 I think, the core motivations are intrinsic.
 The inherent passion for programming and development is not to be underestimated.
 But, these OSS projects are also communities, and being involved in that can be very motivational.
-And as we learned from social identity, belonging to a group is even fundamental to ones own identity[@SocialIdentityTheory2023].
+And as we learned from social identity, belonging to a group is an ingredient to ones own identity[@SocialIdentityTheory2023].
 
 Further, also extrinsic motivations play a role.
 This includes ones own career advancement, because contribution to open source makes the individual visible and can create a reputation that may be useful when looking for a job.
-And external recognition can also serve as a more general motivating factor.
+But external recognition can also serve as a more general motivating factor.
+Feeling seen as a valuable contributor increases ones self-worth.
 
-To summarize with a quote, people contribute to OSS for reasons,
+I think this quote summarizes is well
 
-> both extrinsic, enhancing reputation and developing human capital and social networks; and intrinsic, satisfying psychological needs, pleasure, and a sense of social belonging[@benklerCommonsBasedStrategiesProblems2004].
+> \[Motivations include\] both extrinsic, enhancing reputation and developing human capital and social networks; and intrinsic, satisfying psychological needs, pleasure, and a sense of social belonging.[@benklerCommonsBasedStrategiesProblems2004]
 
-Above I talked about recognition as one source of motivation.
-But recognition does also serve a different purpose: power.
+While I talked over about recognition as one source of motivation, recognition does also serve a different purpose in open source projects: power.
 Open source projects are often described as meritocracies.
-The terms was popularized by Young's dystopian book _The rise of the meritocracy_[@youngRiseMeritocracy1958].
-In it, the envisioned future society based on meritocracy has many problems, for example a lack of social mobility.
-But a careful analysis can disprove the negative effects of meritocracy which is now a fully positive ideal[@allenMichaelYoungsRise2011].
+Interestingly, was the term popularized by a dystopian book called _The rise of the meritocracy_ by Michael Young[@youngRiseMeritocracy1958].
+In it, the envisioned future society based on meritocracy has many problems, maybe the biggest being a lack of social mobility.
+But a careful analysis can disprove the negative effects of meritocracy that Young envisioned in 1958[@allenMichaelYoungsRise2011].
+So today, meritocracy is generally considered a desirable political system.
 
-The idea is that power is awarded based on merit.
+Political systems look at how power is distributed.
+And in meritocracy the idea is that power is awarded based on merit.
 It is that merit that individual developers accumulate by contributing to open source projects.
 With that, they will gain influence in the projects hierarchy.
-This generally allows for more technically informed decisions, especially because this merit is fluid and can be gained and lost.
+This generally allows for more technically informed decisions, assuming that those that contributed to a project a lot also have a clear idea about it's inner workings.
+There is an obvious contrast to how power is organized in companies, where decisions are generally those that are hierarchically entitles to make them but may not necessarily have the relevant technical insights.
+This is not to say that in companies no technically informed decisions are made, but that the role and potential influence of individual engineers is different to that in open source projects.
+In my opinion and experience, this is also a reason people contribute to open source projects.
 
-!!! note
-    Sure?!
-    (Maybe cite different voice [@schrapeOpenSourceCommunities2018])
+Note that arguments can be made that hierarchical structures in the governance of many OSS projects may also bring them closer rigid structures of companies[@schrapeOpenSourceCommunities2018].
+But this does not match my personal anecdotal evidence from my work in ROS and this may be different from project to project and the topic is generally of course not a precise binary difference.
 
 ## Company Contributions to OSS
 
