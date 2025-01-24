@@ -47,6 +47,9 @@ Here the Bazaar refers to the way software is developed in open source projects:
 While the Cathedral model symbolizes classic software development: closed within commercial development projects by a few experts.
 And he argues that the Bazaar model is more effective for creating robust and innovative software[@raymondCathedralBazaarMusings2001].
 
+For transparency reasons I want to declare that my analysis of these topics is influenced primarily by my personal experience in one open source project and that is ROS, the Robot Operating System.
+It is an amazing framework for building robots, but it's technical details will not be of further relevance for this article.
+
 Before exploring OSS projects further, though, I want to introduce the tool for this exploration: _identity_.
 Generally speaking, identity is the relation an entity has to itself[@noonanIdentity2022].
 Locke made clear that is fundamentally consciousness what allows for _personal identity_.
@@ -87,6 +90,9 @@ I think this quote summarizes is well
 
 > \[Motivations include\] both extrinsic, enhancing reputation and developing human capital and social networks; and intrinsic, satisfying psychological needs, pleasure, and a sense of social belonging.[@benklerCommonsBasedStrategiesProblems2004]
 
+!!! note
+    We could move all below here to "Organizational Identity Theory Applied to OSS"
+
 While I talked over about recognition as one source of motivation, recognition does also serve a different purpose in open source projects: power.
 Open source projects are often described as meritocracies.
 Interestingly, was the term popularized by a dystopian book called _The rise of the meritocracy_ by Michael Young[@youngRiseMeritocracy1958].
@@ -105,8 +111,29 @@ In my opinion and experience, this is also a reason people contribute to open so
 
 Note that arguments can be made that hierarchical structures in the governance of many OSS projects may also bring them closer rigid structures of companies[@schrapeOpenSourceCommunities2018].
 But this does not match my personal anecdotal evidence from my work in ROS and this may be different from project to project and the topic is generally of course not a precise binary difference.
+But despite differences in the ways decisions are made, companies also have a lot of reasons engage in open source and this is what I want to look at next.
 
 ## Company Contributions to OSS
+
+Why are companies interested in open source?
+On a first analysis it may seem counterintuitive for a company that is generally interested in financial success to have in interest in improving software that must ultimately be and remain free to use and that is further shared with all of their direct competitors.
+But it has been observed by many, that while historically it was individuals that primarily contributed to open source it is now companies[@raymondCathedralBazaarMusings2001,@schrapeOpenSourceCommunities2018,@EvolutionOpenSource].
+Why is that?
+
+A first motivation is _Quality_.
+Eric S. Raymond introduced Linus's law as "given enough eyeballs, all bugs are shallow" which is named after Linus Torvalds[@raymondCathedralBazaarMusings2001].
+And this certainly makes sense, that if more people look at a given code, the better it's quality will become, eventually.
+But I would argue that this can also be attributed to how open source communities work.
+Because as anyone having worked in big development projects knows, having too many engineers will note automatically emerge quality software.
+However, I argue that it is also the organization of a diverse bunch of intrinsically motivated engineers in meritocratic structures that leads to the constant improvement of software quality.
+But the promise of quality can not be the only motivations for companies investing that 7.7B USD annually in open source projects[@boysel2024OpenSource2024].
+
+It gets really interesting to look at _Innovation_.
+Historically it would be considered an inherent task of a company to create innovation themselves.
+But the ever increasing advancement of the technical state of the art can make it challenging to keep up with that, let alone extending it through innovation.
+OSS helps here by leveling the playing field.
+When what is the state of the art is available for everyone to use it is not necessary to reinvent the wheel but individual companies can focus their development invest on what they think is innovative.
+This is also what makes these projects hugely interesting for smaller companies, because the described effects are even more true for them.
 
 ## Challenges and Tensions
 
@@ -119,3 +146,4 @@ But this does not match my personal anecdotal evidence from my work in ROS and t
 <!-- Abbreviations -->
 
 *[OSS]: Open Source Software
+*[ROS]: Robot Operating System
