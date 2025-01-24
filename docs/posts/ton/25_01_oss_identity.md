@@ -173,6 +173,16 @@ Under this assumption, it makes sense that merit in OSS is more strongly attribu
 However it is also visible that a necessary condition for allocation of merit to corporations requires a strong organizational identity.
 And that is of course also influenced by the individual identities of engineers being affiliated with that corporations in public contexts like OSS projects.
 
+Another interesting link can be drawn from the argument of French for the morality of corporations[@frenchCorporationMoralPerson1979].
+If someone says, companies that make use of open source software ought to give back contributions in return, that is a moral statement.
+And that would win or loose validity based on the attribution of morality to companies.
+Before reading French's article I would have personally assumed companies to be moral.
+And I did also not thought morality as very relevant in the context of companies contributing or not to open source.
+The argument is based on intentionality and responsibility.
+This makes intuitive sense to me, that I can only be morally accountable for actions that I did both intentionally and are responsible for.
+When we apply this to a company that intents to use open source software and is responsible for that usage, would they be morally obliged to contribute back.
+What happens without intentionality is interesting: If the organization did not intend to use that open source code, for example because one employee decided to use it without getting proper approval, it does not necessarily entail the need for a decision on company level to contribute back.
+
 ## Case Studies and Examples
 
 stackoverflow
