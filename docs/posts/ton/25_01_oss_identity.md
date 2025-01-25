@@ -28,10 +28,9 @@ I am interested in the role that individual and company identities play in open 
 To explore the topic, I will first provide background on Open Source Software and an overview of identity theory at both individual and collaborative levels.
 Then I look at the nature of individual contributions in OSS, their motivations, and the role of community and meritocracy.
 In contrast, I will explore how and why companies contribute to OSS and compare this to individual and community contributions.
-Comparing both of the previous section I then identify key challenges and tensions.
-Using the previously introduced organizational identity theory, I will propose resolutions to these tensions.
-I then want to give some practical examples and strategies to handel these.
-In the end I give a conclusion.
+Comparing these I then identify key challenges and tensions between individual contributors and companies.
+Using the previously introduced organizational identity theory, some interesting insights can be gained.
+I then want to give some practical examples that I observed working in ROS.
 
 ## Context: Open Source Software, Identity Theory
 
@@ -49,7 +48,7 @@ It is an amazing framework for building robots, but it's technical details will 
 
 Before exploring OSS projects further, though, I want to introduce the tool for this exploration: _identity_.
 Generally speaking, identity is the relation an entity has to itself[@noonanIdentity2022].
-Locke made clear that is fundamentally consciousness what allows for _personal identity_.
+Locke made clear that it is fundamentally consciousness what allows for _personal identity_.
 This consciousness can be extended backwards to past actions or thoughts[@lockeEssayConcerningHuman1694,@gordon-rothLockePersonalIdentity2020].
 While this is a fundamental building block for identity, it alone will not help explaining what I am interested in.
 
@@ -83,13 +82,13 @@ This includes ones own career advancement, because contribution to open source m
 But external recognition can also serve as a more general motivating factor.
 Feeling seen as a valuable contributor increases ones self-worth.
 
-I think this quote summarizes is well
+I think this quote summarizes it well
 
 > \[Motivations include\] both extrinsic, enhancing reputation and developing human capital and social networks; and intrinsic, satisfying psychological needs, pleasure, and a sense of social belonging.[@benklerCommonsBasedStrategiesProblems2004]
 
 While I talked over about recognition as one source of motivation, recognition does also serve a different purpose in open source projects: power.
 Open source projects are often described as meritocracies.
-Interestingly, was the term popularized by a dystopian book called _The rise of the meritocracy_ by Michael Young[@youngRiseMeritocracy1958].
+Interestingly, the term was popularized by a dystopian book called _The rise of the meritocracy_ by Michael Young[@youngRiseMeritocracy1958].
 In it, the envisioned future society based on meritocracy has many problems, maybe the biggest being a lack of social mobility.
 But a careful analysis can disprove the negative effects of meritocracy that Young envisioned in 1958[@allenMichaelYoungsRise2011].
 So today, meritocracy is generally considered a desirable political system.
@@ -103,8 +102,9 @@ There is an obvious contrast to how power is organized in companies, where decis
 This is not to say that in companies no technically informed decisions are made, but that the role and potential influence of individual engineers is different to that in open source projects.
 In my opinion and experience, this is also a reason people contribute to open source projects.
 
-Note that arguments can be made that hierarchical structures in the governance of many OSS projects may also bring them closer rigid structures of companies[@schrapeOpenSourceCommunities2018].
-But this does not match my personal anecdotal evidence from my work in ROS and this may be different from project to project and the topic is generally of course not a precise binary difference.
+Note that arguments can be made that hierarchical structures in the governance of many OSS projects may also bring them closer to rigid structures of companies[@schrapeOpenSourceCommunities2018].
+But this does not match my personal anecdotal evidence from working in ROS.
+While this may be different from project to project, the topic is generally of course not a precise binary difference.
 But despite differences in the ways decisions are made, companies also have a lot of reasons engage in open source and this is what I want to look at next.
 
 ## Company Contributions to OSS
@@ -118,29 +118,30 @@ A first motivation is _Quality_.
 Eric S. Raymond introduced Linus's law as "given enough eyeballs, all bugs are shallow" which is named after Linus Torvalds[@raymondCathedralBazaarMusings2001].
 And this certainly makes sense, that if more people look at a given code, the better it's quality will become, eventually.
 But I would argue that this can also be attributed to how open source communities work.
-Because as anyone having worked in big development projects knows, having too many engineers will note automatically emerge quality software.
+Because as anyone having worked in big development projects knows, having too many engineers will not automatically emerge quality software.
 However, I argue that it is also the organization of a diverse bunch of intrinsically motivated engineers in meritocratic structures that leads to the constant improvement of software quality.
-But the promise of quality can not be the only motivations for companies investing that 7.7B USD annually in open source projects[@boysel2024OpenSource2024].
+But the promise of quality can not be the only motivation for companies investing that 7.7B USD annually in open source projects[@boysel2024OpenSource2024].
 
 It gets really interesting to look at _Innovation_.
 Historically it would be considered an inherent task of a company to create innovation themselves.
 But the ever increasing advancement of the technical state of the art can make it challenging to keep up with that, let alone extending it through innovation.
 OSS helps here by leveling the playing field.
-When what is the state of the art is available for everyone to use it is not necessary to reinvent the wheel but individual companies can focus their development invest on what they think is innovative.
+When what is the state of the art is available for everyone to use, it is not necessary to reinvent the wheel but individual companies can focus their development invest on what they think is innovative.
 This is also what makes these projects hugely interesting for smaller companies, because the described effects are even more true for them.
 
-If companies build their innovatability and therefore sometimes there whole business model on open source software, it is natural that they have an interest the wellfare the associated OSS project.
+If companies build their innovatability and therefore sometimes there whole business model on open source software, it is natural that they have an interest in the welfare the associated OSS project.
 That is why many companies support such projects monetarily.
 But this dependence also motivates the desire for influence.
 Long-term strategic influence is often granted by the OSS project in return for the monetary support.
 But for short-term technical influence it is often also in the interest of companies to actively contribute to the software by paying developers to do this.
 This influence can also be more targeted but often requires building up contributors with the necessary influence long term[@ParticipatingOpenSource].
+But a very interesting point in the survey by the Linux Foundation was that many respondents were relatively more knowledgeable about the size of their financial contributions than about the contribution through labour[@boysel2024OpenSource2024].
 
 ## Challenges and Tensions
 
 At first sight, this seems like a mutually beneficial relationship: engineers want to contribute, companies let the do it and gain influence.
 But this also bears challenges.
-For example is it not easy for companies to know which influence they want or need in the long term.
+For example, it is not easy for companies to know which influence they want or need in the long term.
 And it can be very challenging for an engineer that sees the requirement for such influence to convince their employer to take the necessary investments.
 Here it is interesting to think about to which identity this merit will then be linked.
 That of the company or that of the individual engineer?
@@ -154,14 +155,14 @@ Especially maintainers that fill positions that are very tailored to their perso
 Effective governance would define processes to distribute their workload to more people or find people to step in in case they need to take a break or attend personal duties.
 It is also often simply unlikely to find someone else taking over that persons position.
 Because, if they are doing a good job no one will contest their position and if their workload is perceived as basically more than a fulltime job, this get's even less likely.
-The relation to company identities is weaker here: The described phenomenon usually applies to individuals where their identity is a lot more relevant to their success than the on of their company if that is even relevant at all.
+The relation to company identities is weaker here: The described phenomenon usually applies to individuals where their identity is a lot more relevant to their success than the one of their company if that is even relevant at all.
 However, it bears a tragic that many other companies are depending on that persons work without being able to ensure their proper working conditions.
 But I think we can look more closely at these challenges with some more identity theory.
 
 ## Organizational Identity Theory Applied to OSS
 
 An interesting aspect in the Whetten article is that organizational identities are compared to personal identities more fluid.
-That is at least what take from it.
+That is at least what I take from it.
 And it makes sense, because as a person I rely on that identity a lot more and it can cause a serious crisis if it is challenged or changes to extremely.
 However, identities of companies will be challenged a lot more and are often only properly defined in events of change or crisis[@whettenAlbertWhettenRevisited2006].
 This explains then, how merit in OSS is more strongly attributed to individual identities if they are more constant.
@@ -192,18 +193,18 @@ Because a lot of these companies are not only small but also constantly changing
 And here I also have to disagree with Schrape writing that "companies and other organizations are able to bring in their resources more continuously and consistently than individual contributors"[@schrapeOpenSourceCommunities2018].
 In ROS and particularly in Nav2 we have witnessed quite some companies discontinuing their contributions while the involvement of the relevant individuals seem a lot more stable and consistent[@Navigation2WGChanges2021,@Nav2TimeChange2021].
 
-On the relevance and importance of identities for the work in open source I cam across a stackoverflow discussion, where a persons asks whether it would be feasible to contribute everything their company does from one github account[@ContributorContributingCompany].
+On the relevance and importance of identities for the work in open source I came across a stackoverflow discussion, where a persons asks whether it would be feasible to contribute everything their company does from one github account[@ContributorContributingCompany].
 Where the consensus of the answers is that this is a bad idea for multiple reasons one of them being the integral relevance of personal communication in OSS communities.
-And there is also a nice blog post by Jono Bacon on whether anonymous OSS contributions are a good idea, coming to the conclusion that identities on OSS are important for reasons of meritocracy, accountability and openness[@AnonymousOpenSource].
+And there is also a nice blog post by Jono Bacon on whether anonymous OSS contributions are a good idea, coming to the conclusion that identities in OSS are important for reasons of meritocracy, accountability and openness[@AnonymousOpenSource2017].
 These are valid points for the relevance of individual identities in open source from very practical perspectives.
 
 But, there is also an interesting example for organizational identities on a level that we did not consider thus far.
 That example is interestingly enough the ROS community itself.
 Because we can apply what we learned about the necessity for discussion about an organisational identity and the potential for kickstarting that discussion through big changes and the thread of loss of identity.
 The example is, of course the acquisition of big parts of Open Robotics by Intrinsic in 2022[@AlphabetsIntrinsicAcquires].
-This let to many discussions in the ROS community[@QuestionsIntrinsicAcquisition] and ultimately to the foundation of it's new governance organization Open Source Robotics Alliance [OSRA](@AnnouncingOpenSource).
+This lead to many discussions in the ROS community[@QuestionsIntrinsicAcquisition] and ultimately to the foundation of it's new governance organization Open Source Robotics Alliance [OSRA](@AnnouncingOpenSource).
 So I read this as an example for ROS as an organization loosing it's identity through the Intrinsic acquisition and the subsequent redefinition of its own identity ending in a clearer and better understood identity than it had before.
-And only this new identity could have lead to strong stand the OSRA has today.
+And only this new identity could have lead to the strong stand the OSRA has today.
 
 ## Conclusion
 
