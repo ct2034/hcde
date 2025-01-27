@@ -96,6 +96,8 @@ plugins:
 
 extra:
   social:  
+    - icon: fontawesome/solid/rss
+      link: /feed_rss_created.xml
     - icon: fontawesome/brands/github
       link: https://github.com/ct2034
     - icon: fontawesome/brands/linkedin
