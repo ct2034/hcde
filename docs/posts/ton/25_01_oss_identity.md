@@ -202,7 +202,7 @@ However, there is also an interesting example for organizational identities on a
 That example is interestingly enough the ROS community itself.
 We can apply what we learned about the necessity for discussion about an organisational identity and the potential for kickstarting that discussion through big changes and the threat of loss of identity.
 The example is, of course, the acquisition of big parts of Open Robotics by Intrinsic in 2022[@AlphabetsIntrinsicAcquires].
-This led to many discussions in the ROS community[@QuestionsIntrinsicAcquisition] and ultimately to the foundation of its new governance organization Open Source Robotics Alliance [OSRA](@AnnouncingOpenSource).
+This led to many discussions in the ROS community[@QuestionsIntrinsicAcquisition] and ultimately to the foundation of its new governance organization Open Source Robotics Alliance OSRA[@AnnouncingOpenSource].
 So I read this as an example for ROS as an organization losing its identity through the Intrinsic acquisition and the subsequent redefinition of its own identity ending in a clearer and better understood identity than it had before.
 And only this new identity could have led to the strong stand the OSRA has today.
 
