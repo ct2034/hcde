@@ -6,12 +6,14 @@ tags:
 categories:
   - Thinkoneering
 ---
+
 # How do Personal vs Company Identities affect Open Source Contributions?
 
 Imagine that you are a maintainer of a widely used open source project relied upon by developers worldwide.
-Now, there are two pull requests.
+Being a maintainer means, that you get to decide which contributions by external contributors get accepted.
+Now, there are two contributions.
 One from an individual contributor and one from a person that you know works for a certain company.
-You know that the individual contributor has worked on the code they are contributing in their free time and you really like the quality of their pull request.
+You know that the individual contributor has worked on the code they are contributing in their free time and you really like the quality of their work.
 The other contribution is also of high quality.
 Would you treat these contributions differently?
 Should you?
