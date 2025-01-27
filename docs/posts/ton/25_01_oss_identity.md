@@ -193,7 +193,7 @@ In ROS, and particularly in Nav2, we have witnessed quite a few companies discon
 
 On the relevance and importance of identities for the work in open source, I came across a Stack Overflow discussion, where a person asks whether it would be feasible to contribute everything their company does from one GitHub account[@ContributorContributingCompany].
 The consensus of the answers is that this is a bad idea for multiple reasons, one of them being the integral relevance of personal communication in OSS communities.
-There is also a nice blog post by Jon Bacon on whether anonymous OSS contributions are a good idea, coming to the conclusion that identities in OSS are important for reasons of meritocracy, accountability, and openness[@AnonymousOpenSource2017].
+There is also a nice blog post by Jono Bacon on whether anonymous OSS contributions are a good idea, coming to the conclusion that identities in OSS are important for reasons of meritocracy, accountability, and openness[@AnonymousOpenSource2017].
 These are valid points for the relevance of individual identities in open source from very practical perspectives.
 
 However, there is also an interesting example for organizational identities on a level that we did not consider thus far.
