@@ -110,6 +110,7 @@ extra:
   consent:
     title: Cookie consent
     description: This website uses cookies to ensure you get the best experience.
+      See the <a href="/about/#cookies-policy">Cookies Policy</a> for details.
     actions:
       - accept
       - manage
