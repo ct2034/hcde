@@ -190,7 +190,7 @@ One aspect that I don't know how unique it is in comparison to other projects is
 This serves on the one hand as an interesting lens on the morality of companies, which is even easier to believe the closer a company is to a single individual.
 On the other hand, it also highlights the importance of individual contributors in OSS.
 Many of these companies are not only small but also constantly changing, which makes the people a more constant aspect of the community than their companies.
-Here, I also have to disagree with Schrape writing that "companies and other organizations are able to bring in their resources more continuously and consistently than individual contributors"[@schrapeOpenSourceCommunities2018].
+Here, I have an observation that would disagree with Schrape writing that "companies and other organizations are able to bring in their resources more continuously and consistently than individual contributors"[@schrapeOpenSourceCommunities2018].
 In ROS, and particularly in Nav2, we have witnessed quite a few companies discontinuing their contributions while the involvement of the relevant individuals seem a lot more stable and consistent[@Navigation2WGChanges2021,@Nav2TimeChange2021].
 
 On the relevance and importance of identities for the work in open source, I came across a Stack Overflow discussion, where a person asks whether it would be feasible to contribute everything their company does from one GitHub account[@ContributorContributingCompany].
