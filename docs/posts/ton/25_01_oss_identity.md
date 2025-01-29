@@ -7,7 +7,7 @@ categories:
   - Thinkoneering
 ---
 
-# How do Personal vs Company Identities affect Open Source Contributions?
+# How do Personal and Company Identities Shape Open Source Contributions?
 
 Imagine that you are a maintainer of a widely used open source project relied upon by developers worldwide.
 Being a maintainer means, that you get to decide which contributions by external contributors get accepted.
