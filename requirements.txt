@@ -2,7 +2,7 @@
 # neoteroi-mkdocs==1.1.0
 jinja2==3.0.3
 mkdocs-bibtex==2.16.2
-mkdocs-material==9.5.40
+mkdocs-material[imaging]==9.5.40
 mkdocs-minify-plugin==0.7.1
 mkdocs-redirects==1.2.2
 mkdocs-rss-plugin==1.17.1

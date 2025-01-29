@@ -71,6 +71,7 @@ plugins:
       use_git: false
       use_material_blog: true
       use_material_social_cards: true
+  - social: # cards when sharing
   - minify:
       minify_html: true
       minify_js: true
