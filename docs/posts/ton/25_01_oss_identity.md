@@ -186,7 +186,7 @@ Here, open source works as a great example that helps to clarify these ideas.
 ## Case Studies and Examples
 
 To make these points even more graspable, I would like to add some practical examples that I observed in ROS.
-One aspect that I don't know how unique it is in comparison to other projects is the prevelance of small companies or contributors that have their own freelance business.
+One aspect that I don't know how unique it is in comparison to other projects is the prevalence of small companies or contributors that have their own freelance business.
 This serves on the one hand as an interesting lens on the morality of companies, which is even easier to believe the closer a company is to a single individual.
 On the other hand, it also highlights the importance of individual contributors in OSS.
 Many of these companies are not only small but also constantly changing, which makes the people a more constant aspect of the community than their companies.
