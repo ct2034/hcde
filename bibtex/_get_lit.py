@@ -34,14 +34,14 @@ if __name__ == "__main__":
     do_check = args.check
     print(f"{do_check=}")
 
-    expected_pwd: str = "hcde/bibtex"
+    expected_pwd: str = "hcde"
     current_pwd = os.getcwd()
     assert (
         expected_pwd in current_pwd
     ), f"Script must be run from {expected_pwd}. Current directory: {current_pwd}"
 
-    source_bibtex: str = "../../bibtex/z-Blog.bib"
-    target_bibtex: str = "lit.bib"
+    source_bibtex: str = "../bibtex/z-Blog.bib"
+    target_bibtex: str = "bibtex/lit.bib"
     assert os.path.exists(source_bibtex), f"Source bibtex must exist. {source_bibtex}"
     new_content: List[str] = []
 
@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     cited_keys: Set[str] = set()
 
-    dir_blog_posts = os.path.join(current_pwd, "..", "docs/posts/ton")
+    dir_blog_posts = os.path.join(current_pwd, "docs/posts/ton")
     assert os.path.exists(
         dir_blog_posts
     ), f"Blog posts directory must exist. {dir_blog_posts}"

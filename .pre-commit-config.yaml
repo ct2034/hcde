@@ -27,3 +27,12 @@ repos:
     hooks:
       - id: markdownlint
         args: ["-f"]
+
+
+-   repo: local
+    hooks:
+    -   id: check-get-lit
+        name: Run _get_lit.py --check
+        entry: ./bibtex/_get_lit.py --check
+        language: system
+        pass_filenames: false
