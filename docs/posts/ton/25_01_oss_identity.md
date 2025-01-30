@@ -225,3 +225,7 @@ The key takeaways that could be useful from this article are:
 *[OSRA]: Open Source Robotics Alliance
 *[OSS]: Open Source Software
 *[ROS]: Robot Operating System
+
+<!-- Thanks as "orphan footnotes" -->
+
+[^]: Big thanks to Maximilian Roßmann and Sebastian Castro for refining both the content and language - couldn’t have done it without you!
