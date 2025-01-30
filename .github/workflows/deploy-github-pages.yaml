@@ -9,7 +9,7 @@ permissions:
   pages: write
   id-token: write
 
-jobs: 
+jobs:
   build_mkdocs:
     runs-on: ubuntu-latest
 

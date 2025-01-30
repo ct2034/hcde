@@ -3,7 +3,7 @@
 /* A serif font (= Domine) for all text to be displayed in the body */
 .md-content p, .md-content li, .md-content ul {
     font-family: Domine;
-}   
+}
 
 /* Generally tighter line spacing */
 p {

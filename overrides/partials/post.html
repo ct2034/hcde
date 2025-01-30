@@ -41,18 +41,18 @@ post.categories: {{ post.categories }}
           {% endfor %}
         </nav>
       {% endif %} -->
-  
+
       <!-- Post metadata -->
       <div class="md-post__meta md-meta">
         <ul class="md-meta__list">
-  
+
           <!-- Post date -->
           {% if "CV" == post.categories[0].title %}
           <li class="md-meta__item">
             <time datetime="{{ post.config.date.created }}">
               {{- "{:02d}/{:4d}".format(post.config.date.created.month, (post.config.date.created.year)) -}}
             </time>
-            - 
+            -
             {% if post.config.date.updated %}
               <time datetime="{{ post.config.date.updated }}">
                 {{- "{:02d}/{:4d}".format(post.config.date.updated.month, (post.config.date.updated.year)) -}}
@@ -70,7 +70,7 @@ post.categories: {{ post.categories }}
             {#- Collapse whitespace -#}
           </li>
           {% endif %}
-  
+
           <!-- Post categories -->
           {% if post.categories %}
             <li class="md-meta__item">
@@ -86,7 +86,7 @@ post.categories: {{ post.categories }}
               {% endfor -%}
             </li>
           {% endif %}
-  
+
           <!-- Post readtime -->
           {% if "Thinkoneering" == post.categories[0].title %}
             {% set time = post.config.readtime %}
@@ -99,7 +99,7 @@ post.categories: {{ post.categories }}
             </li>
           {% endif %}
         </ul>
-  
+
         <!-- Draft marker -->
         {% if post.config.draft %}
           <span class="md-draft">
@@ -108,11 +108,11 @@ post.categories: {{ post.categories }}
         {% endif %}
       </div>
     </header>
-  
+
     <!-- Post content -->
     <div class="md-post__content md-typeset">
       {{ post.content }}
-  
+
       <!-- Continue reading link -->
       {% if post.more %}
         <nav class="md-post__action">

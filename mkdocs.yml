@@ -1,4 +1,4 @@
-site_name: Christian Henkel 
+site_name: Christian Henkel
 site_description: I work in robotics research. This is my personal site, combining scientific publications, CV entries, and blog posts.
 site_author: Christian Henkel
 site_url: https://thinkoneering.com
@@ -14,7 +14,7 @@ theme:
   font:
     text: Funnel Sans
     code: Roboto Mono
-  palette: 
+  palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -22,7 +22,7 @@ theme:
         name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       primary: blue-grey
       accent: red
       toggle:
@@ -99,7 +99,7 @@ plugins:
 
 
 extra:
-  social:  
+  social:
     - icon: fontawesome/solid/rss
       link: /feed_rss_created.xml
     - icon: fontawesome/brands/github

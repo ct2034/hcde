@@ -89,10 +89,10 @@ if __name__ == "__main__":
         if not os.path.exists(target_bibtex):
             print(f"{target_bibtex} does not exist.")
             exit(1)
-        
+
         with open(target_bibtex, "r", encoding="utf-8") as f:
             existing_lib = bibtexparser.load(f)
-        
+
         existing_entries_str = bibtexparser.dumps(existing_lib)
         target_entries_str = bibtexparser.dumps(target_lib)
         diff = difflib.unified_diff(
