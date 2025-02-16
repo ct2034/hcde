@@ -13,4 +13,4 @@ tags:
 
 Christian Henkel, Sebastian Castro, Davide Faconti, David Oberacker, David Conner, Matthias Mayr, Ginny Chen-Joergensen, Michaela Klauck @ _ERF 2024_
 
-[📄 pdf](http://www.lange-ralph.de/publications/Klauck_et_al_2024_Towards_Robust_Autonomous_Robots_using_Statistical_Model_Checking.pdf){:target="_blank"} [🔗 doi: 10.1007/978-3-031-76424-0_25](https://doi.org/10.1007/978-3-031-76424-0_25){:target="_blank"}
+[📄 pdf](https://zenodo.org/records/14051492/files/ROSCon24%20Deliberation%20Workshop%20Survey%20Report.pdf?download=1){:target="_blank"} [🔗 doi: 10.5281/zenodo.13382222](https://doi.org/10.5281/zenodo.13382222){:target="_blank"}
