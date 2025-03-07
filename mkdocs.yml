@@ -110,13 +110,10 @@ extra:
       link: https://chaos.social/@ct2034
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/ct2034.bsky.social
-  analytics:
-    provider: google
-    property: G-BVLSLET2CB
   consent:
     title: Cookie consent
     description: This website uses cookies to ensure you get the best experience.
-      See the <a href="/about/#cookies-policy">Cookies Policy</a> for details.
+      See the <a href="/about/#kekse">Cookies Policy</a> for details.
     actions:
       - accept
       - manage
