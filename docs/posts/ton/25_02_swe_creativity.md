@@ -16,7 +16,7 @@ I would also describe myself as creative and developing software can be an outle
 In this article I want to explore, if software engineering is creative.
 But this is not only a question of categorization.
 I want to use this exploration to get a deeper understanding what creativity is.
-This way, I also want to explore the effect of GenAI on the work of software engineers.
+But, I also want to think about the effect of GenAI on the work of software engineers.
 
 <!-- more -->
 
@@ -35,7 +35,9 @@ Kaufman and Beghetto propose a model to differentiate these [@kaufmanBigLittleFo
 They would call one of these _Big-C_ creativity and the other one _little-c_.
 And they also critique their field for focussing either on _Big-C_, when interviewing well-known creators considered top of their field or on _little-c_, when doing studies with students or children on the everyday creativity.
 That's why they introduce two additional forms of creativity:
-_Mini-c_, the "novel and personally meaningful interpretation of experiences, actions, and events"[@beghettoBroaderConceptionCreativity2007].
+_Mini-c_, the
+> novel and personally meaningful interpretation of experiences, actions, and events[@beghettoBroaderConceptionCreativity2007].
+
 And _Pro-c_, which is the creativity of those that perform a task on a professional level.
 This concludes their _Four C Model_.
 For us, thinking about software engineering, this is very useful, because neither _Big-C_ nor _little-c_ seemed to fit what we are interested in.
@@ -46,10 +48,35 @@ But, there is also research that explicitly looks at this.
 ## Creativity in Software Engineering
 
 A qualitative study performed interviews with engineers aiming to clarify the role and extend of creativity in software engineering.
-The participants agree "that being creative is a requirement to successfully tackle complex problems".
-But they also state, that "‘Creativity is the means, not the goal.’" [@groeneveldExploringRoleCreativity2021].
+The participants agree
+> that being creative is a requirement to successfully tackle complex problems[@groeneveldExploringRoleCreativity2021]
+
+But they also state, quoting a participant "‘Creativity is the means, not the goal.’"[@groeneveldExploringRoleCreativity2021].
+
+Other authors also used interviews but go deeper in their analysis.
+In particular they think about how creativity may be defined specifically in software engineering.
+They make the interesting observation on why the word creative is barely used in this context:
+> This is perhaps not because software isn’t creative but because creativity in software engineering might look different than in other domains[@inmanDeveloperProductivityHumans2024]
+
+And they identify three key themes of creativity in SWE:
+
+1. Collaboration increases creativity
+2. Both individuals and teams do problem-solving by learning and exploration as basis for creativity
+3. Reuse and recombination of existing code[@inmanDeveloperProductivityHumans2024]
+
+These are interesting new aspects, that also help when thinking about how to increase creativity.
+Note that point 2 aligns with previously introduced _Mini-c_, indicating that my perceived relevance of _Pro-c_ may not be the whole truth.
+Very central to that paper is the perception of creativity as reuse.
+This may be one of the ways creativity in SWE may look different from commonly perceived creativity.
+
+## Common Sense Understanding of Creativity
+
+...
+
+But, leaning into it, this also makes a lot of sense when considering [open source software](/tags#open-source).
+If innovation is speed up through usage of open source software[@henkelHowPersonalCompany2025], and reuse is central to creativity in SWE, then usage of open source enables innovation through creative reuse.
 
 <!-- Abbreviations -->
 
 *[SWE]: Software Engineering
-*[GenAI]: Generative Artficial Intelligence
+*[GenAI]: Generative Artificial Intelligence
