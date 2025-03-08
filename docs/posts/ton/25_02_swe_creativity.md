@@ -71,10 +71,50 @@ This may be one of the ways creativity in SWE may look different from commonly p
 
 ## Common Sense Understanding of Creativity
 
-...
+Using the background on creativity, I want to look at the initial confusion:
+Why do people generally not consider engineers to be creative?
 
-But, leaning into it, this also makes a lot of sense when considering [open source software](/tags#open-source).
+What are occupations that are considered creative?
+I assume most of these actually relate to art and artists.
+My hypothesis is, that what people think of is primarily _Big-C_.
+And going back to Leonardo Da Vinci, while he was a brilliant engineer, the general public primarily knows him for his paintings.
+But what is the difference between painting and programming?
+If both are creative then, as we established, both involve originality and effectiveness.
+And I think the biggest difference here lies in the effectiveness:
+While engineering effectiveness is measured against solving a concreted problem, the effectiveness in creative art is harder to grasp for me.
+How is art effective?
+
+Firstly, there is an aesthetic aspect.
+Art that is successful is considered beautiful by many.
+But I doubt that a painting being merely nice to look at would end up being as well known as the Mona Lisa.
+Secondly, there is artistic expression.
+In my opinion, good art must be effective in the sense of conveying a message, evoking emotions or enabling reflection.
+Everything else is merely entertainment.
+
+So, the most relevant difference between creativity in art, that also seems to be the common understanding of creativity, and creativity in SWE is the goal.
+And with different goals, effectiveness of the art is measured differently.
+While the goal in art is self-expression and beauty, the goal in engineering is solving a problem.
+This is why in the general public, creativity is often associated with art and with a degree of self-expression.
+
+In the previously quoted paper, the difference was attributed to creativity in SWE involving recombination of existing solutions.
+I think that this is an important aspect but doubt that it explains the core of this confusion.
+But, leaning into it, the recombination of existing solutions is interesting in the context of [open source software](/tags#open-source).
 If innovation is speed up through usage of open source software[@henkelHowPersonalCompany2025], and reuse is central to creativity in SWE, then usage of open source enables innovation through creative reuse.
+So reuse and recombination is a central aspect to creativity in SWE.
+
+But I am skeptical that it can explain the difference to creativity in art, though.
+If we for example consider improvisation in jazz, then recombination of existing themes, phrases what and what's called _licks_  is crucial.
+While a jazz performance can seem random at first sight, it is always a clever recombination and variation of that what others have played before.
+And this concept does not seem too far away from an engineer using libraries and implementing algorithms defined by others to achieve their goal of a technical function.
+For example Adorno sees the strength of technology in the difference between technology and humanism, which is that technology draws from a predefined set of existing techniques, while humanism does not have this set of typical solutions[@theodorwadornoUberTechnikUnd1953].
+
+So to summarize, while I agree that recombination is an important aspect of creativity in SWE, it is not the main difference to creativity in other fields or in common sense understanding of the phrase.
+The lack of common sense identification for engineering creative comes from
+
+1. Most people thinking of creativity predominantly as _Big-C_, the creativity of genius top-of-the-field artists.
+2. And from different goals: Artistic creativity follows the goal of aesthetics and self-expression while engineering follows the goal of problem-solving.
+
+Nevertheless both are creative when considering the typical definition involving _originality_ and _effectiveness_.
 
 <!-- Abbreviations -->
 
