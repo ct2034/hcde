@@ -31,7 +31,7 @@ For me this definition makes creativity already more graspable, moving it away f
 In psychology this a well-researched concept.
 Researched often have the implicit or explicit goal of finding out how to improve peoples creativity in order to solve big problems of our world.
 But before we look into that, the definition above feels still somewhat simplistic and also too coarse to cover everything from Leonardo Da Vinci painting the Mona Lisa to me making the logo for this blog.
-Kaufman and Beghetto propose a model to differentiate these [@kaufmanBigLittleFour2009].
+Kaufman and Beghetto propose a model to differentiate these[@kaufmanBigLittleFour2009].
 They would call one of these _Big-C_ creativity and the other one _little-c_.
 And they also critique their field for focussing either on _Big-C_, when interviewing well-known creators considered top of their field or on _little-c_, when doing studies with students or children on the everyday creativity.
 That's why they introduce two additional forms of creativity:
@@ -39,7 +39,7 @@ _Mini-c_, the
 > novel and personally meaningful interpretation of experiences, actions, and events[@beghettoBroaderConceptionCreativity2007].
 
 And _Pro-c_, which is the creativity of those that perform a task on a professional level.
-This concludes their _Four C Model_.
+This concludes their _Four C Model_[@kaufmanBigLittleFour2009].
 For us, thinking about software engineering, this is very useful, because neither _Big-C_ nor _little-c_ seemed to fit what we are interested in.
 I think, by definition the type of creativity that works for engineers must be _Pro-c_.
 So, it is good to learn that the psychology research had a bucket for the creativity of us, engineers.
@@ -87,7 +87,7 @@ How is art effective?
 Firstly, there is an aesthetic aspect.
 Art that is successful is considered beautiful by many.
 But I doubt that a painting being merely nice to look at would end up being as well known as the Mona Lisa.
-Secondly, there is artistic expression.
+That's why secondly, there is artistic expression.
 In my opinion, good art must be effective in the sense of conveying a message, evoking emotions or enabling reflection.
 Everything else is merely entertainment.
 
@@ -96,7 +96,9 @@ And with different goals, effectiveness of the art is measured differently.
 While the goal in art is self-expression and beauty, the goal in engineering is solving a problem.
 This is why in the general public, creativity is often associated with art and with a degree of self-expression.
 
-In the previously quoted paper, the difference was attributed to creativity in SWE involving recombination of existing solutions.
+## What Creativity Looks Like in Software Engineering
+
+In the previously quoted paper, the special nature of creativity in SWE was identified as recombination of existing solutions.
 I think that this is an important aspect but doubt that it explains the core of this confusion.
 But, leaning into it, the recombination of existing solutions is interesting in the context of [open source software](/tags#open-source).
 If innovation is speed up through usage of open source software[@henkelHowPersonalCompany2025], and reuse is central to creativity in SWE, then usage of open source enables innovation through creative reuse.
@@ -115,6 +117,27 @@ The lack of common sense identification for engineering creative comes from
 2. And from different goals: Artistic creativity follows the goal of aesthetics and self-expression while engineering follows the goal of problem-solving.
 
 Nevertheless both are creative when considering the typical definition involving _originality_ and _effectiveness_.
+However, after the advent of GenAI, the role of creativity may change altogether.
+
+## The Influence of Generative Artificial Intelligence on Creativity in SWE
+
+A lot has been said about the impact of GenAI on art[@claudiabaxterAIArtEnd2024,@duncancrabtree-irelandHowAICan2025].
+And I very much share the feeling that AI doing creative tasks is the wrong direction, because I would much prefer to be creative and have AI take over the chores[@maciejewskaYouKnowWhat2024].
+But is this also true for the use in SWE?
+Are we in the risk having GenAI take all the joy out of programming?
+From my personal experience, at least with current tools, the opposite is true.
+For example Copilot in Vscode is quite good at the boring parts of programming, like extending a change I have established for the remaining variables.
+On the other hand, it is quite bad at seeing the bigger picture of a software architecture or reason pros and cons about a used implementation.
+Reminding ourselves that creativity in SWE involves combining existing solutions, GenAI is good at coming up with a simple implementation using a popular library for one problem, but is bad at deliberating what the best tool for given job is or how a given approach could be improved when this involves seeing the bigger picture.
+
+But there is also research exploring the potential impact of GenAI on creativity in SWE[@jacksonCreativityGenerativeAI2024].
+In order to do this, the paper primarily combines two models:
+
+1. The _4P framework of creativity_ that looks at four components to the creative process: Person, Product, Process and Press (the environment). It explains how these components influence creativity, where _Person_ refers to the individual being creative, _Product_ looks at the outcome or artifact, _Process_ considers the methods and techniques used and _Press_ is the wider environment including social, cultural, economical down to physical aspects[@rhodesAnalysisCreativity1961].
+2. The _McLuhan tetrad_, designed to think about potential impact of a new technology using 4 questions on how that technology: (i) enhances, (ii) makes obsolete, (iii) retrieves from obsolescence, and (iv) reverses into when pushed to extremes[@mcluhanLawsMedia1977].
+
+The paper then combines these two models in what we engineers would call a cartesian product.
+The resulting 16 considerations are all very interesting and allow for a deep and wide consideration of the impacts of GenAI on SWE and I recommend everyone to read the paper[@jacksonCreativityGenerativeAI2024].
 
 <!-- Abbreviations -->
 
