@@ -117,7 +117,9 @@ The lack of common sense identification for engineering creative comes from
 2. And from different goals: Artistic creativity follows the goal of aesthetics and self-expression while engineering follows the goal of problem-solving.
 
 Nevertheless both are creative when considering the typical definition involving _originality_ and _effectiveness_.
-However, after the advent of GenAI, the role of creativity may change altogether.
+And, the fact that the general public does not consider software engineers to be creative may say more about them not knowing an awful lot about what we do than this question.
+This may also be the reason that many people think that all of us will be replaced by AI soon.
+Nonetheless, GenAI undoubtetly will have a huge impact on our work.
 
 ## The Influence of Generative Artificial Intelligence on Creativity in SWE
 
@@ -137,7 +139,34 @@ In order to do this, the paper primarily combines two models:
 2. The _McLuhan tetrad_, designed to think about potential impact of a new technology using 4 questions on how that technology: (i) enhances, (ii) makes obsolete, (iii) retrieves from obsolescence, and (iv) reverses into when pushed to extremes[@mcluhanLawsMedia1977].
 
 The paper then combines these two models in what we engineers would call a cartesian product.
-The resulting 16 considerations are all very interesting and allow for a deep and wide consideration of the impacts of GenAI on SWE and I recommend everyone to read the paper[@jacksonCreativityGenerativeAI2024].
+The authors used these scenarios for brainstorming possible effects.
+The resulting sixteen consideration fields are all very interesting and allow for a deep and wide consideration of the impacts of GenAI on SWE and I recommend everyone to read the paper[@jacksonCreativityGenerativeAI2024].
+But in the context of this discussion most interesting are:
+
+- The 4P field _person_ looked at through the _retrieves_ question:
+  > _Creative Work_ Today, creativity often takes a backseat to productivity. With GenAI taking the burden of writing code, developers will have more time to engage in fun, creative work.[@jacksonCreativityGenerativeAI2024]
+
+    (italic formatting by the authors)
+
+- The 4P field _product_ looked at through the _reverses into_ question:
+  > _Echo Chamber_ The more new products resemble common products that GenAI "understands", the more GenAI's suggestions could become self-reinforcing, thereby limiting exposure to truly novel ideas.[@jacksonCreativityGenerativeAI2024]
+
+    (italic formatting by the authors)
+
+While the first quote goes in the direction that I indicated above, that GenAI can help programmers with those parts of the job that are mundane, the second quote hints at potential risks of self-reinforced patterns.
+Considering that these tools today are presumably trained a lot on code that is open source, these same tools help produce new open source code that is used to train tools, again.
+And this is just one of the risks that the increased use of GenAI in SWE has.
+However, at least for current tools, it seems to me like the creativity of individual programmers could even gain in relevance.
+
+## Takeaways
+
+In this article I tried to shed some light on creativity in software engineering.
+The key points are:
+
+- Creativity requires _originality_ and _effectiveness_.
+- In SWE, creativity involves a lot of reuse and recombination of components, but is creativity nonetheless.
+- The general public probably thinks about creativity more in terms of art.
+- Despite the rise of GenAI, the unique creativity of software engineers in problem-solving and innovation remains irreplaceable for now.
 
 <!-- Abbreviations -->
 
