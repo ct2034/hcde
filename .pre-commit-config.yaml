@@ -29,6 +29,12 @@ repos:
         args: ["-f"]
 
 
+-   repo: https://github.com/tcort/markdown-link-check
+    rev: v3.12.2
+    hooks:
+      - id: markdown-link-check
+
+
 -   repo: local
     hooks:
     -   id: check-get-lit
