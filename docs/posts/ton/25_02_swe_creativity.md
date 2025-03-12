@@ -29,8 +29,8 @@ But this would then not be considered creative because it is not effective towar
 For me this definition makes creativity already more graspable, moving it away from a mysterious property that only artists have towards something that could be useful when developing software.
 
 In psychology this is a well-researched concept.
-Researched often have the implicit or explicit goal of finding out how to improve people's creativity in order to solve big problems of our world.
-But before we investigate that, the definition above feels still somewhat simplistic and too coarse to cover everything from Leonardo Da Vinci painting the Mona Lisa to me making the logo for this blog.
+Researchers often have the implicit or explicit goal of finding out how to improve people's creativity in order to solve big problems of our world.
+But before we investigate that, the definition above still feels somewhat simplistic and too coarse to cover everything from Leonardo Da Vinci painting the Mona Lisa to me making the logo for this blog.
 Kaufman and Beghetto propose a model to differentiate these[@kaufmanBigLittleFour2009].
 They would call one of these _Big-C_ creativity and the other one _little-c_.
 And they also critique their field for focusing either on _Big-C_, when interviewing well-known creators considered top of their field or on _little-c_, when doing studies with students or children on everyday creativity.
@@ -100,15 +100,15 @@ This is why in the public; creativity is often associated with art and with a de
 
 In the previously quoted paper, the special nature of creativity in SWE was identified as recombination of existing solutions.
 I think that this is an important aspect but doubt that it explains the core of this confusion.
-But, leaning into it, the recombination of existing solutions is interesting in the context of [open source software](/tags#open-source).
-If innovation is speed up through usage of open source software[@henkelHowPersonalCompany2025], and reuse is central to creativity in SWE, then usage of open source enables innovation through creative reuse.
-So, reuse and recombination are a central aspect to creativity in SWE.
+However, leaning into this idea, the recombination of existing solutions becomes particularly interesting in the context of [open source software](/tags#open-source).
+If innovation is sped up through open source software[@henkelHowPersonalCompany2025], and reuse is central to creativity in SWE, then usage of open source enables innovation through creative reuse.
+So, reuse and recombination are central aspects of creativity in SWE.
 
 But I am skeptical that it can explain the difference to creativity in art, though.
 If we for example consider improvisation in jazz, then recombination of existing themes, phrases what and what's called _licks_ is crucial.
 While a jazz performance can seem random at first sight, it is always a clever recombination and variation of that what others have played before.
 And this concept does not seem too far away from an engineer using libraries and implementing algorithms defined by others to achieve their goal of a technical function.
-For example, Adorno sees the strength of technology in the difference between technology and humanism, which is that technology draws from a predefined set of existing techniques, while humanism does not have this set of typical solutions[@theodorwadornoUberTechnikUnd1953].
+For example, Adorno sees the strength of technology in its contrast to humanism: technology draws from a predefined set of existing techniques, whereas humanism lacks such a set of typical solutions[@theodorwadornoUberTechnikUnd1953].
 
 So, to summarize, while I agree that recombination is an important aspect of creativity in SWE, it is not the main difference to creativity in other fields or in common sense understanding of the phrase.
 The lack of common-sense identification for engineering creative comes from
