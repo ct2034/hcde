@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2025-02-28
+  created: 2025-03-12
 tags:
   - software-engineering
 categories:
@@ -172,7 +172,7 @@ But this is just one of the risks that the increased use of GenAI in SWE has.
 However, at least for current tools, it seems to me like the creativity of individual programmers could even gain in relevance.
 And I don't expect us to be replaced by an LLM generating code on our behalf any time soon.
 
-## Takeaways
+## Key Takeaways
 
 In this article I tried to shed some light on creativity in software engineering.
 The key points are:
