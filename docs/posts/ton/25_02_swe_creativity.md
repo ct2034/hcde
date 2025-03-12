@@ -30,10 +30,10 @@ For me this definition makes creativity already more graspable, moving it away f
 
 In psychology this is a well-researched concept.
 Researchers often have the implicit or explicit goal of finding out how to improve people's creativity in order to solve big problems of our world.
-But before we investigate that, the definition above still feels somewhat simplistic and too coarse to cover everything from Leonardo Da Vinci painting the Mona Lisa to me making the logo for this blog.
+But before we investigate that, the definition above still feels somewhat simplistic and too broad to capture everything from Leonardo Da Vinci painting the Mona Lisa to me designing the logo for this blog.
 Kaufman and Beghetto propose a model to differentiate these[@kaufmanBigLittleFour2009].
 They would call one of these _Big-C_ creativity and the other one _little-c_.
-And they also critique their field for focusing either on _Big-C_, when interviewing well-known creators considered top of their field or on _little-c_, when doing studies with students or children on everyday creativity.
+They also critique their field for focusing too narrowly: either on _Big-C_ creativity by interviewing top creators in their fields, or on _little-c_ creativity through studies on students and children in everyday contexts.
 That's why they introduce two additional forms of creativity:
 _Mini-c_, the
 > novel and personally meaningful interpretation of experiences, actions, and events[@beghettoBroaderConceptionCreativity2007].
@@ -47,7 +47,7 @@ But there is also research that explicitly looks at this.
 
 ## Creativity in Software Engineering
 
-A qualitative study performed interviews with engineers aiming to clarify the role and extent of creativity in software engineering.
+A qualitative study interviewed engineers to clarify the role and extent of creativity in software engineering.
 The participants agree
 > that being creative is a requirement to successfully tackle complex problems[@groeneveldExploringRoleCreativity2021]
 
@@ -79,7 +79,7 @@ I assume most of these actually relate to art and artists.
 My hypothesis is, that what people think of is primarily _Big-C_.
 And going back to Leonardo Da Vinci, while he was a brilliant engineer, the public primarily knows him for his paintings.
 But what is the difference between painting and programming?
-If both are creative then, as we established, both involve originality and effectiveness.
+If both are considered creative, then—as we established—they must involve originality and effectiveness.
 And I think the biggest difference here lies in the effectiveness:
 While engineering effectiveness is measured against solving a concrete problem, the effectiveness in creative art is harder to grasp for me.
 How is art effective?
@@ -107,7 +107,7 @@ So, reuse and recombination are central aspects of creativity in SWE.
 But I am skeptical that it can explain the difference to creativity in art, though.
 If we for example consider improvisation in jazz, then recombination of existing themes, phrases what and what's called _licks_ is crucial.
 While a jazz performance can seem random at first sight, it is always a clever recombination and variation of that what others have played before.
-And this concept does not seem too far away from an engineer using libraries and implementing algorithms defined by others to achieve their goal of a technical function.
+This concept is not too different from a software engineer using libraries and implementing pre-defined algorithms to accomplish a specific technical goal.
 For example, Adorno sees the strength of technology in its contrast to humanism: technology draws from a predefined set of existing techniques, whereas humanism lacks such a set of typical solutions[@theodorwadornoUberTechnikUnd1953].
 
 So, to summarize, while I agree that recombination is an important aspect of creativity in SWE, it is not the main difference to creativity in other fields or in common sense understanding of the phrase.
