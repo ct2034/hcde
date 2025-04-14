@@ -9,7 +9,7 @@ tags:
   - deliberation
 ---
 
-# Results of the ROSCon24 Workshop Survey 'Hands-on with ROS2 Deliberation Technologies'
+# Results of the ROSCon24 Workshop Survey 'Hands-on with ROS2 Deliberation Technologies
 
 Christian Henkel, Sebastian Castro, Davide Faconti, David Oberacker, David Conner, Matthias Mayr, Ginny Chen-Joergensen, Michaela Klauck @ _ERF 2024_
 
