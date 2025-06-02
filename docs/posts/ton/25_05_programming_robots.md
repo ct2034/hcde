@@ -61,11 +61,28 @@ And programming languages have clearly defined semantic[@VisualSpaghettiRobotics
 
 For example the now popular Behavior Trees are missing such a semantic, which is why we proposed one[@ghiorziExecutionSemanticsBehavior2025].
 This general field of formalisms that allow to define the autonomous behavior of a robot can be called _Robotic Deliberation_.
-And I started my talk at ROSCon 2023 with comparing it's relevance with that of the invention of high-level programming languages by Grace Hopper[@roboticsSupportingRoboticDeliberation2023].
+And I started my talk at ROSCon 2023 with comparing it's relevance with that of the invention of programming languages by Grace Hopper[@roboticsSupportingRoboticDeliberation2023].
+While this may be thought provoking, it is also rather handwavy.
+But, to make it more concrete, I think it is necessary to introduce some more background on the theoretical side.
 
-Complexity Luhmann
-> Unter Komplexität soll hier und im folgenden die Gesamtheit der Möglichkeiten des Erlebens und Handelns verstanden werden, deren Aktualisierung ein Sinnzusammenhang zuläßt. <!-- codespell:ignore -->
-[@luhmannRechtssoziologie1983]
+And concept that I think is very important here is _complexity_.
+This term is used very broadly and we have even seen it in this article before.
+Especially for computer scientists it has to be said that we are not talking about computational complexity.
+Instead, I want to start with and example from the _complex systems theory_:
+
+> [...] a system that is complex, in the sense that a great many independent agents are interacting with each other in a great many ways. Think of the quadrillions of chemically reacting proteins, lipids, and nucleic acids that make up a living cell, or the billions of interconnected neurons that make up the brain, or the millions of mutually interdependent individuals who make up a human society.[@waldropComplexityEmergingScience1993]
+
+Here is becomes clear that complexity can only be understood as a difference.
+It can be best understood if one carefully thinks about the implications of a statement like "To build a house, you don't need to know quantum physics."
+This hints at one of my favourit topics, that is emergence.
+But for now, all we have to know about complexity is that it is relative.
+An crucially, inside of a system it is smaller than outside:
+
+> The system does not have the capacity to connect a state of its own to everything that happens in the environment and to juxtapose one of its own operations to every environmental occurrence, in order either to enhance or to curtail what is happening. Instead, the system has to bundle and even ignore occurrences, and it must deploy indifference or create special arrangements for the management of complexity.[@luhmannIntroductionSystemsTheory2013]
+
+- what is a system
+- e.g. language
+- mental model ...
 
 Thinking Fast and Slow / Chess
 
