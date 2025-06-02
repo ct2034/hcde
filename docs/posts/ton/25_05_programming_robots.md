@@ -32,11 +32,24 @@ TODO: structure
 
 ## Background
 
-Other blogs
+One blog post in particular brought this topic back to my attention.
+Benjie Holson's article introduces the important and _mythical non-roboticist_[@holsonMythicalNonRoboticist2024].
+This is the person that simple methods to program robots are seemingly designed for, while the underlying problem is hard.
+But his point is that this simplification removes aspects from the programming that would have been needed to make the robot work.
+And in particular the article highlights two categories:
 
-1) The Mythical Non-Roboticist
-2) It's Hard to Write Code for Computers, but It's Even Harder to Write Code for Humans
-3) Riehle:￼VisualSpaghettiRobotics2023
+1) Environment Complexity:
+This is what I introduced on top with the messy home.
+You don't know in which exact environment the robot will operate, when you build it.
+2) Stupid Bullshit Complexity:
+I think this can be called integration.
+Robotic control systems require internal components that are hard to use because they require very specialized configurations and data formats.
+
+But the crucial point with both of these is that it is important to have a clear user in mind.
+And if I were to summarize the articles message, I think it is to respect the users intelligence and sanity by designing a way to program a robot that reflects the true complexity of the task to the user (intelligence) without introducing unnecessary complexities that they have to manage (sanity)[@holsonMythicalNonRoboticist2024]. <!-- markdownlint-disable-line no-reversed-links -->
+
+- It's Hard to Write Code for Computers, but It's Even Harder to Write Code for Humans
+- Riehle: VisualSpaghettiRobotics2023
 
 Hinted at it in ROSCon talk, tbw
 
@@ -57,3 +70,7 @@ C. Mental model / human representation or language
 D. Expectation vs reality loop
 
 ## What is missing?
+
+<!-- Abbreviations -->
+
+*[AI]: Artificial Intelligence
