@@ -48,8 +48,17 @@ Robotic control systems require internal components that are hard to use because
 But the crucial point with both of these is that it is important to have a clear user in mind.
 And if I were to summarize the articles message, I think it is to respect the users intelligence and sanity by designing a way to program a robot that reflects the true complexity of the task to the user (intelligence) without introducing unnecessary complexities that they have to manage (sanity)[@holsonMythicalNonRoboticist2024]. <!-- markdownlint-disable-line no-reversed-links -->
 
-- It's Hard to Write Code for Computers, but It's Even Harder to Write Code for Humans
-- Riehle: VisualSpaghettiRobotics2023
+Less specific to robotics but also looking into how humans interact with code is and article by Erik Bernhardsson[@bernhardssonItsHardWrite2024].
+It explicitly introduces the concept of a mental model that another human reading you code has.
+This is something that I will explore below in the context of robotics.
+The article then provide valuable concrete tips in how to design the code that another developer interacts with.
+For example the valid suggestion to avoid the need for a mandatory configuration.Another one is to avoid conceptual overload, something that many robotics projects including my own work on [AS2FM](https://github.com/convince-project/as2fm) could learn a lot from[@bernhardssonItsHardWrite2024].
+
+An interesting article that looks at this problem from a standpoint of theoretical computer science is written by Dirk Riehle[@VisualSpaghettiRobotics2023].
+The article points out the need for a differentiation between the definition of a language and it's implementation, when designing a way to program a robot.
+Because this way of programming can almost certainly be treated as a language.
+And programming languages have clearly defined semantic[@VisualSpaghettiRobotics2023].
+For example the now popular Behavior Trees are missing such a semantic, which is why we proposed one[@ghiorziExecutionSemanticsBehavior2025].
 
 Hinted at it in ROSCon talk, tbw
 
