@@ -58,9 +58,10 @@ An interesting article that looks at this problem from a standpoint of theoretic
 The article points out the need for a differentiation between the definition of a language and it's implementation, when designing a way to program a robot.
 Because this way of programming can almost certainly be treated as a language.
 And programming languages have clearly defined semantic[@VisualSpaghettiRobotics2023].
-For example the now popular Behavior Trees are missing such a semantic, which is why we proposed one[@ghiorziExecutionSemanticsBehavior2025].
 
-Hinted at it in ROSCon talk, tbw
+For example the now popular Behavior Trees are missing such a semantic, which is why we proposed one[@ghiorziExecutionSemanticsBehavior2025].
+This general field of formalisms that allow to define the autonomous behavior of a robot can be called _Robotic Deliberation_.
+And I started my talk at ROSCon 2023 with comparing it's relevance with that of the invention of high-level programming languages by Grace Hopper[@roboticsSupportingRoboticDeliberation2023].
 
 Complexity Luhmann
 > Unter Komplexität soll hier und im folgenden die Gesamtheit der Möglichkeiten des Erlebens und Handelns verstanden werden, deren Aktualisierung ein Sinnzusammenhang zuläßt. <!-- codespell:ignore -->
