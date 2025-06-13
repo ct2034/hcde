@@ -10,7 +10,7 @@ categories:
   - Thinkoneering
 ---
 
-# How Does One Even Program a Robot? (working title)
+# How Does One Even Program a Robot?
 
 A robot is characterized primarily by its versatility.
 It is a tool that can be used for different tasks in many contexts that each have their own special challenges.
