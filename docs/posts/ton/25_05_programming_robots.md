@@ -21,7 +21,7 @@ Especially, if the resulting robotic system is expected to act autonomously and 
 Industrial automation is a well-established application field for robotic manipulators.
 Here, the act of programming usually means defining a fixed sequence of motions that the robotic arm then executes time and time again.
 When we instead think of a robot acting in a less structured environment like a home, the robot can not blindly follow a predefined sequence of actions.
-Because, following this sequence will fail as soon as anything in that home changes.
+Because following this sequence will fail as soon as anything in that home changes.
 And as everyone living with children knows, changes must always be expected but can never be predicted.
 
 In this article I want to develop an understanding of what it means to program a robot to act autonomously.
@@ -30,7 +30,7 @@ Like with many questions, AI is something that comes to mind as an answer.
 But at least for now, I am assuming a human to be involved in building and programming this robot.
 Nevertheless, fixing the problems I want to grasp here, will also help AI-based approaches.
 
-I am trying hard to make this article approachable for both, people who don't have a technical understanding of robotics as well as engineers for whom some of the other concepts may feel a bit out there.
+I am trying hard to make this article approachable for both people who lack a technical background of robotics as well as engineers for whom some of the other concepts may feel a bit out there.
 I would be curious to learn if this worked.
 So please get in touch and tell me your thoughts on this topic.
 
@@ -62,7 +62,7 @@ It explicitly introduces the concept of a mental model that another human readin
 This is something that I will explore below in the context of robotics.
 The article then provides valuable and concrete tips in how to design the code that another developer interacts with.
 For example the valid suggestion to avoid the need for a mandatory configuration.
-Another one is to avoid conceptual overload, something that many robotics projects including our own work on [AS2FM](https://github.com/convince-project/as2fm) can learn a lot from[@bernhardssonItsHardWrite2024].
+Another one is to avoid conceptual overload, something that many robotics projects including our own work on [formal verification](https://github.com/convince-project/as2fm) can learn a lot from[@bernhardssonItsHardWrite2024].
 
 An interesting article that looks at this problem from a standpoint of theoretical computer science is written by Dirk Riehle[@VisualSpaghettiRobotics2023].
 The article points out the need for a differentiation between the definition of a language and its implementation, when designing a way to program a robot.
@@ -81,7 +81,7 @@ But to achieve that, I think it is necessary to introduce some more background o
 A concept that I think is very important here is _complexity_.
 This term is used very broadly and we have even seen it in this article before.
 Especially for computer scientists it has to be said that we are not talking about computational complexity.
-Instead, I want to start with and example from the _complex systems theory_:
+Instead, I want to start with an example from _complex systems theory_:
 
 > [...] a system that is complex, in the sense that a great many independent agents are interacting with each other in a great many ways. Think of the quadrillions of chemically reacting proteins, lipids, and nucleic acids that make up a living cell, or the billions of interconnected neurons that make up the brain, or the millions of mutually interdependent individuals who make up a human society.[@waldropComplexityEmergingScience1993]
 
@@ -89,7 +89,7 @@ Note how the authors always compare individual entities like humans to their who
 So, complexity must be understood as a difference between scales.
 This difference becomes apparent when one thinks about the implications of a statement like _"To build a house, you don't need to know quantum physics"_.
 This hints at one of my favorite topics, that is _emergence_.
-But for now, all we have to know about complexity is that it is relative.
+For now, it is enough to understand that complexity is relative.
 And crucially, inside of a system it is smaller than outside:
 
 > The system does not have the capacity to connect a state of its own to everything that happens in the environment and to juxtapose one of its own operations to every environmental occurrence, in order either to enhance or to curtail what is happening. Instead, the system has to bundle and even ignore occurrences, and it must deploy indifference or create special arrangements for the management of complexity.[@luhmannIntroductionSystemsTheory2013]
@@ -109,7 +109,7 @@ For the general way how systems create themselves with respect to their environm
 
 Generally, I find it helpful for engineers that are constantly thinking about systems of some sort to have a clearer understanding of what this means.
 Here, it is crucial that every _way_ to consider a system is just one arbitrary _way_ to look at the world.
-For example going back to robotics, it is in now way set in stone what we should consider the system and what the environment.
+For example going back to robotics, it is in no way set in stone what we should consider the system and what the environment.
 Simply, because there are many, in fact infinite possible choices.
 The most natural one is to look for example at a mobile robot and consider all the physical hardware that moves with it to be the robotic system.
 And, by difference this then also defines all the rest as its environment.
@@ -132,10 +132,13 @@ Additionally, programming will add the aspect of time.
 It will command the robot to be in a given configuration at a given time.
 A sequence of timed configurations is what we call a trajectory.
 
-This is pretty much how a industrial robotic arm is programmed.
-There are additional options, like labeling given configurations to make them recognizable, logic relations to other hardware, planning of trajectories between these configurations like [moveit](https://github.com/moveit/moveit2) does it in ROS.
-On top of these aspects, the programming also considers limitations of the hardware.
-For example restricting the angle a joint can move to in order not to damage the robot itself.
+This is pretty much how an industrial robotic arm is programmed.
+When you think about a 30-dimensional hypercube, then programming is to draw a line through it.
+Easy, right?
+
+There are additional aspects, like labeling given configurations to make them recognizable, logic relations to other hardware, planning of trajectories between these configurations like [moveit](https://github.com/moveit/moveit2) does it in ROS.
+Additionally, this programming also considers basic limitations of the hardware.
+For example restricting the angles of joints in order not to damage the robot itself.
 
 It is clear how this programming reduces complexity.
 The relative complexity in the system of the controller is lower compared to the actual robotic hardware and what it could do.
@@ -148,7 +151,7 @@ These scenarios require _autonomy_.
 
 ![Programming using a skill-based architecture. TODO update?](imgs/25_05_programming_robots_skills.drawio.png)
 
-I would define a system as _autonomous_ if it can make decisions towards a goal even if these decisions where not explicitly anticipated in the programming.
+I would define a system as _autonomous_ if it can make decisions towards a goal even if these decisions were not explicitly anticipated in the programming.
 Developing a robot to react to some conditions at runtime would definitely be feasible with what is described above.
 But crucially, it would be a very complex solution.
 These solutions must contain some mapping between a recognized situation and what the robot should do in these cases.
@@ -157,8 +160,8 @@ Think of a long list of conditions and actions.
 How can we make this list shorter?
 By reducing the complexity further.
 To make it simpler to program the robot, we need to reduce the necessary complexity in the system or language used.
-For example with a humanoid robot, our language should definitely not have to worry about the robot falling over, damaging others or itself.
-This is not what a programmer trying to tell the robot to get an apple from the kitchen should ever worry about.
+For example with a humanoid robot, our language should definitely not have to think about the robot falling over, damaging others or itself.
+A programmer asking the robot to fetch an apple shouldn't have to worry about it falling down the stairs.
 
 This is generally achieved by skill-based architectures.
 The controller must have blocks that are called skills which solve some functionalities without explicitly programming them.
@@ -197,7 +200,7 @@ But, the situation is different:
 
 Their results suggest that the success of a chess player is related to the size of the chunks they use to store chess boards in their memory.
 And the ability to retain these chess board configurations in memory is only present for configurations from actual games, not when the pieces are placed on the board randomly.
-This mental model is aided by the actual role each piece plays in a given real configuration.
+This mental model emerges through repeated exposure to real configurations - not random setups.
 Because these players built the models by actually playing chess.
 And their success is now not simply determined by how many hours they played but whether they managed to produce a highly effective mental model to quickly recognize and evaluate future board configurations.
 
@@ -208,22 +211,37 @@ To quote one of my favorite books of all time:
 But what does this have to do with programming robots?
 I think, the success of building complex autonomous robots is also determined by the utility of the programmers mental model.
 If we want to make the programming of robots simple, we can not have the programmer invest hours and hours learning to _read_ pieces of robotics applications.
-Instead, we must make sure that the language that defines the robotic deliberation facilitates a mental model.
+Instead, we must make sure that the language that defines the robotic deliberation logic supports the formation of a good mental model.
 Everyone learning a foreign language knows that this is no easy task, but that there are definitely easier and harder languages one could choose from.
 
 ## What is missing?
 
-This brings me finally to my summary of what I think is needed in the field of robotic deliberation.
-I think, we need a language for humans.
-For humans to program robots.
-I don't know how this language looks like or if it maybe exists already.
-But it must have the following properties:
+This brings me finally to my summary of what I think is needed in the field of robotic deliberation:
+We need a language for humans. - For humans to program robots.
 
-1. __Expressivity__: The logic must be easy to _write_ when an engineer turns their mental model of what the robot should do into a program.
-2. __Interpretability__: When approaching a robot and _reading_ its program that you or someone else wrote, it must be easy to understand.
-3. __Predictability__: It must be also easy to pair the written deliberation logic with a state of the robot and then easily and correctly predict how the robot would react.
+It’s tempting to think that LLMs will soon eliminate the need for programming.
+But LLMs, too, operate at a language level.
+And if we haven’t yet designed the right language for robotic behavior — one that balances structure, expressivity, and meaning — then how could we expect them to work reliably?
+
+The language we need must support three key qualities:
+
+1. __Expressivity__: Engineers must be able to express _what the robot should do_ in a way that directly aligns with their mental model.
+  This is about clarity and speed - the ability to quickly express ideas instead of _getting your head around_ some formalism first.
+2. __Interpretability__: A second engineer _or your future self_ must be able to read and comprehend the logic quickly.
+  This means that symbols must be unambiguous and structures must be easily graspable.
+3. __Predictability__: Given a program and the current state of the robot and its environment, it must be obvious and quick to predict correctly what the robot will do.
+  This increases trust in the system and ultimately enables agency of humans interacting with the robot.
+
+Without these properties, we can only build fragile, opaque, and unmaintainable systems - and then these systems will never be taken accepted.
+
+The language doesn’t have to be textual or graphical.
+But it must support __thinking__.
+That’s the bridge between autonomy and usability.
+Between engineering and experience.
+Between commands and control.
 
 <!-- Abbreviations -->
 
 *[AI]: Artificial Intelligence
 *[ROS]: Robot Operating System
+*[LLMs]: Large Language Models
