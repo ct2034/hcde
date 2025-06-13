@@ -71,7 +71,7 @@ And programming languages must have clearly defined semantics[@VisualSpaghettiRo
 
 For example the now popular Behavior Trees are missing such a semantic, which is why we proposed one[@ghiorziExecutionSemanticsBehavior2025].
 This general field of formalisms that allow to define the autonomous behavior of a robot can be called _Robotic Deliberation_.
-And I started my talk at ROSCon 2023 with comparing its relevance with that of the invention of programming languages by Grace Hopper[@roboticsSupportingRoboticDeliberation2023].
+And I started my talk at ROSCon 2023 with comparing its relevance with that of the invention of programming languages by Grace Hopper[@christianhenkelSupportingRoboticDeliberation2023].
 While this may be thought provoking, it is also rather handwavy.
 In this article I will try to make it more concrete.
 But to achieve that, I think it is necessary to introduce some more background on the theoretical side.
