@@ -161,7 +161,7 @@ This is generally achieved by skill-based architectures.
 The controller must have blocks that are called skills which solve some functionalities without explicitly programming them.
 For example one skill will handle the complete movement of the robot.
 Then the act of programming only entails sending for example the goal location the robot should move to.
-The component that uses or orchestrates these skills towards a desired goal, I would call _deliberation_ layer.
+The component that uses or orchestrates these skills towards a desired goal, is the _deliberation_ layer, we talked about above.
 These or similar architectures could be considered state-of-the-art in more complex robotic systems[@rovidaSkiROSSkillBasedRobot2017].
 
 If we compare this to the mythical non-roboticist article[@holsonMythicalNonRoboticist2024] and the two complexities, environment complexity and stupid bullshit complexity.
@@ -179,19 +179,38 @@ And I think we should start at the beginning of everything: the almighty creator
 
 ## Who programs it?
 
-C. Mental model / human representation or language
+![Programming using a skill-based architecture. TODO update?](imgs/25_05_programming_robots_mental_model.drawio.png)
 
-TODO: here or in background?
-Mental model ...
-Thinking Fast and Slow / Chess
+If we want to make sure that someone can program a robot as easily as possible, we have to elaborate which factors influence the ease of programming.
+Here, I want to look again into the idea of a mental model.
 
-## How does the deliberation language facilitate a mental model?
+Engineers building robots are generally considered- to be smart people, because they deal with complicated systems.
+People that are also generally considered to be smart are chess players.
+There exists a very interesting body of research evaluating what it is about the minds of professional chess players that determines there success at chess.
+One may assume that people who are good at chess can simply think more logically or understand more complex systems in there mind.
+But, the situation is different:
 
-D. Expectation vs reality loop
+> By measuring the time intervals between placements of successive pieces when the subjects attempted to reconstruct the positions, we were able to identify the boundaries of perceptual chunks. The data suggest that the superior performance of stronger players (which does not appear in random positions) derives from the ability of those players to encode the position into larger perceptual chunks, each consisting of a familiar sub-configuration of pieces. Pieces within a single chunk are bound by relations of mutual defense, proximity, attack over small distances, and common color and type.[@chasePerceptionChess1973]
 
-Observation
+Their results suggest that the success of a chess player is related to the size of the chunks they use to store chess boards in their memory.
+And the ability to retain these chess board configurations in memory is only present for configurations from actual games, not when the pieces are placed on the board randomly.
+This mental model is aided by the actual role each piece plays in a given real configuration.
+Because these players built these models by actually playing chess.
+And their success is now not simply determined by how many hours they played but whether they managed to produce a highly effective mental model to quickly recognize and evaluate future board configurations.
+
+To quote one of my favorite books of all time:
+
+> Learning high-level chess can be compared to learning to read. A first grader works hard at recognizing individual letters and assembling them into syllables and words, but a good adult reader perceives entire clauses. An expert reader has also acquired the ability to assemble familiar elements in a new pattern and can quickly “recognize” and correctly pronounce a word that she has never seen before. In chess, recurrent patterns of interacting pieces play the role of letters, and a chess position is a long word or a sentence.[@kahnemanThinkingFastSlow2011]
+
+But what does this have to do with programming robots?
+I think, the success of building complex autonomous robots is also determined by the quality of the programmers mental model.
+If we want to make the programming of robots simple, we can not have the programmer invest hours and hours learning to _read_ pieces of robotics applications.
+Instead, we must make sure that the language that defines the robotic deliberation facilitates a mental model.
+Everyone learning a foreign language know that this is no easy task, but that there are definitely easier and harder languages one could choose from.
 
 ## What is missing?
+
+This brings me finally to my summary of what I think is needed to ...
 
 - language for humans
 
