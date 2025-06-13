@@ -141,13 +141,41 @@ Some more challenging things are possible, like reacting to sensor input to avoi
 But these approaches will fail for any scenario that provides less structure like outdoor environments or my house if I am honest.
 These scenarios require _autonomy_.
 
-## Autonomy vs Complexity
+## Autonomy with Skills
 
-Some of these would work but require to complicated programs
+![Programming using a skill-based architecture. TODO update?](imgs/25_05_programming_robots_skills.drawio.png)
 
-- not damage environment
-- stability in walking
-- increase complexity reduction
+I would define a system as _autonomous_ if it can make decisions towards a goal even if these decisions where not explicitly anticipated in the programming.
+Developing a robot to react to some conditions at runtime would definitely be feasible with what is described above.
+But crucially, it would be very complex solutions.
+These solutions must contain some mapping between a recognized situation and what the robot should do in these cases.
+Think of a long list of conditions and actions.
+
+How can we make this list shorter?
+By reducing the complexity further.
+To make it simpler to program the robot, we need to reduce the necessary complexity in the system or language that programs the robot.
+For example with a humanoid robot, our language should definitely not have to worry about the robot falling over, damaging others or itself.
+This is not what a programmer trying to tell the robot to get an apple from the kitchen should every worry about.
+
+This is generally achieved by skill-based architectures.
+The controller must have blocks that are called skills which solve some functionalities without explicitly programming them.
+For example one skill will handle the complete movement of the robot.
+Then the act of programming only entails sending for example the goal location the robot should move to.
+The component that uses or orchestrates these skills towards a desired goal, I would call _deliberation_ layer.
+These or similar architectures could be considered state-of-the-art in more complex robotic systems[@rovidaSkiROSSkillBasedRobot2017].
+
+If we compare this to the mythical non-roboticist article[@holsonMythicalNonRoboticist2024] and the two complexities, environment complexity and stupid bullshit complexity.
+Skills work towards addressing then environment complexity, for example by handling the navigation to a given goal.
+The reduction of stupid bullshit complexity can be even seen as the primary motivation to introduce skill-based architecture in the first place.
+So, assuming a perfectly designed skill-based architecture, this type of complexity should be reduced to zero in the deliberation layer.
+
+But, caution is necessary on the type of this complexity reduction.
+A design goal for a skill-based architecture must definitely be elimination of unnecessary complexity.
+And herein lies the challenge.
+How on earth should we know what may be necessary in this deliberation layer?
+We expect it to be useful for any possible type of application and it should even handle conditions that a programmer can not anticipate when programming.
+But we have to start somewhere.
+And I think we should start at the beginning of everything: the almighty creator - _the engineer_.
 
 ## Who programs it?
 
@@ -157,9 +185,24 @@ TODO: here or in background?
 Mental model ...
 Thinking Fast and Slow / Chess
 
+## How does the deliberation language facilitate a mental model?
+
 D. Expectation vs reality loop
 
+Observation
+
 ## What is missing?
+
+- language for humans
+
+- write: expressive
+- read: interpretable
+- think: predictable
+
+-> mental model!
+
+- AI: i think is also missing the middle bit. the expressive language
+- llm technically work on a language level. but if we are missing a language that could really program robots, how could an llm do this?
 
 <!-- Abbreviations -->
 
