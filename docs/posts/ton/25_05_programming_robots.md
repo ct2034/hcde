@@ -5,6 +5,7 @@ tags:
   - behavior-trees
   - deliberation
   - software-engineering
+  - ros
 categories:
   - Thinkoneering
 ---
