@@ -24,7 +24,7 @@ When we instead think of a robot acting in a less structured environment like a 
 Because following this sequence will fail as soon as anything in that home changes.
 And as everyone living with children knows, changes must always be expected but can never be predicted.
 
-In this article I want to develop an understanding of what it means to program a robot to act autonomously.
+Here, I am trying to develop an understanding of what it means to program a robot to act autonomously.
 And I hope that with that understanding it will be easier to see what may be missing in order to build genuinely autonomous machines.
 Like with many questions, AI is something that comes to mind as an answer.
 But at least for now, I am assuming a human to be involved in building and programming this robot.
@@ -34,14 +34,9 @@ I am trying hard to make this article approachable for both people who lack a te
 I would be curious to learn if this worked.
 So please get in touch and tell me your thoughts on this topic.
 
-The article begins by introducing blog posts that motivated my journey in this topic, then introduces some concepts that we will need later.
-The main sections will build the understanding of robot programming in three layers: as dimensionality reduction, skill-based architectures and finally exploring how mental models work and why they are important.
-In the last section, I am going to propose directions for future research in the field of languages for robotics deliberation.
+## On mystical creatures and system complexity
 
-## Blog Articles that Motivated This
-
-A blog post in particular brought this topic back to my attention.
-Benjie Holson's article introduces the important and _mythical non-roboticist_[@holsonMythicalNonRoboticist2024].
+One blog post that brought this topic to many roboticist's attention is Benjie Holson's article introducing the important and _mythical non-roboticist_[@holsonMythicalNonRoboticist2024].
 This is the person that simple methods to program robots are seemingly designed for, while the underlying problem is hard.
 But his point is that this simplification removes aspects from the programming that would have been needed to make the robot work.
 And in particular the article highlights two categories:
@@ -56,27 +51,6 @@ And in particular the article highlights two categories:
 
 But the crucial point with both of these is that it is important to have a clear user in mind.
 And if I were to summarize the articles message, I think it is to respect the users intelligence and sanity by designing a way to program a robot that reflects the true complexity of the task to the user (intelligence) without introducing unnecessary complexities that they have to manage (sanity)[@holsonMythicalNonRoboticist2024]. <!-- markdownlint-disable-line no-reversed-links -->
-
-Another article that is less specific to robotics but also looking into how humans interact with code is by Erik Bernhardsson[@bernhardssonItsHardWrite2024].
-It explicitly introduces the concept of a mental model that another human reading your code has.
-This is something that I will explore below in the context of robotics.
-The article then provides valuable and concrete tips in how to design the code that another developer interacts with.
-For example the valid suggestion to avoid the need for a mandatory configuration.
-Another one is to avoid conceptual overload, something that many robotics projects including our own work on [formal verification](https://github.com/convince-project/as2fm) can learn a lot from[@bernhardssonItsHardWrite2024].
-
-An interesting article that looks at this problem from a standpoint of theoretical computer science is written by Dirk Riehle[@VisualSpaghettiRobotics2023].
-The article points out the need for a differentiation between the definition of a language and its implementation, when designing a way to program a robot.
-Programming a robot can almost certainly be treated as a language.
-And programming languages must have clearly defined semantics[@VisualSpaghettiRobotics2023].
-
-For example the now popular Behavior Trees are missing such a semantic, which is why we proposed one[@ghiorziExecutionSemanticsBehavior2025].
-This general field of formalisms that allow to define the autonomous behavior of a robot can be called _Robotic Deliberation_.
-And I started my talk at ROSCon 2023 with comparing its relevance with that of the invention of programming languages by Grace Hopper[@christianhenkelSupportingRoboticDeliberation2023].
-While this may be thought provoking, it is also rather handwavy.
-In this article I will try to make it more concrete.
-But to achieve that, I think it is necessary to introduce some more background on the theoretical side.
-
-## Thinking about Systems
 
 A concept that I think is very important here is _complexity_.
 This term is used very broadly and we have even seen it in this article before.
@@ -97,25 +71,6 @@ And crucially, inside of a system it is smaller than outside:
 For a definition of _system_, it should be sufficient in this context to think of a finite collection of items including some relations between them.
 This is somewhat aligned with a common-sense definition of technical systems.
 Crucially, all systems have an environment, which is simply everything that is not part of the system.
-
-For example a language is a system containing all words or symbols that can be used including some relation between them, usually referred to as syntax.
-Semantics is what we would consider the relation of the language system to some parts of its environment.
-But also in that environment are all the words of other languages.
-If we think about programming languages, there may be changes when new language versions are announced.
-This then changes the language system by considering things that previously were part of the environment to belong to it.
-Human languages can also add to their system, for example when a new word is taken up by the society of its speakers.
-New words are often variants of words already present in other languages.
-For the general way how systems create themselves with respect to their environment, the Chilean biologists Maturana and Valera coined the beautiful term _autopoiesis_[@maturanaAutopoiesisCognitionRealization1980].
-
-Generally, I find it helpful for engineers that are constantly thinking about systems of some sort to have a clearer understanding of what this means.
-Here, it is crucial that every _way_ to consider a system is just one arbitrary _way_ to look at the world.
-For example going back to robotics, it is in no way set in stone what we should consider the system and what the environment.
-Simply, because there are many, in fact infinite possible choices.
-The most natural one is to look for example at a mobile robot and consider all the physical hardware that moves with it to be the robotic system.
-And, by difference this then also defines all the rest as its environment.
-That includes the surface it moves on, obstacles it may encounter, the outside world, and including even you, the programmer sitting next to it with your laptop.
-But I always thought it could be a better way to think of the computer device controlling the robot as the main system, when programming it.
-Because then, sensors and actuators are part of the environment and this mental model makes it way easier to consider inaccuracies in perception and the necessity to recover from wrong movements.
 
 ## Building an Understanding of Programming a Robot
 
@@ -146,6 +101,38 @@ This is effective at enabling robot programmers to make the robot repeat predefi
 Some more challenging things are possible, like reacting to sensor input to avoid obstacles in the way of the robot or changing the actual goal of the motion based on the perceived location of an object.
 But these approaches will fail for any scenario that provides less structure like outdoor environments or my house if I am honest.
 These scenarios require _autonomy_.
+
+## Thinking about Systems and Languages
+
+For example a language is a system containing all words or symbols that can be used including some relation between them, usually referred to as syntax.
+Semantics is what we would consider the relation of the language system to some parts of its environment.
+But also in that environment are all the words of other languages.
+If we think about programming languages, there may be changes when new language versions are announced.
+This then changes the language system by considering things that previously were part of the environment to belong to it.
+Human languages can also add to their system, for example when a new word is taken up by the society of its speakers.
+New words are often variants of words already present in other languages.
+For the general way how systems create themselves with respect to their environment, the Chilean biologists Maturana and Valera coined the beautiful term _autopoiesis_[@maturanaAutopoiesisCognitionRealization1980].
+
+Generally, I find it helpful for engineers that are constantly thinking about systems of some sort to have a clearer understanding of what this means.
+Here, it is crucial that every _way_ to consider a system is just one arbitrary _way_ to look at the world.
+For example going back to robotics, it is in no way set in stone what we should consider the system and what the environment.
+Simply, because there are many, in fact infinite possible choices.
+The most natural one is to look for example at a mobile robot and consider all the physical hardware that moves with it to be the robotic system.
+And, by difference this then also defines all the rest as its environment.
+That includes the surface it moves on, obstacles it may encounter, the outside world, and including even you, the programmer sitting next to it with your laptop.
+But I always thought it could be a better way to think of the computer device controlling the robot as the main system, when programming it.
+Because then, sensors and actuators are part of the environment and this mental model makes it way easier to consider inaccuracies in perception and the necessity to recover from wrong movements.
+
+An interesting article that looks at robot programming from a standpoint of theoretical computer science is written by Dirk Riehle[@VisualSpaghettiRobotics2023].
+The article points out the need for a differentiation between the definition of a language and its implementation, when designing a way to program a robot.
+Programming a robot can almost certainly be treated as a language.
+And programming languages must have clearly defined semantics[@VisualSpaghettiRobotics2023].
+
+For example the now popular Behavior Trees are missing such a semantic, which is why we proposed one[@ghiorziExecutionSemanticsBehavior2025].
+This general field of formalisms that allow to define the autonomous behavior of a robot can be called _Robotic Deliberation_.
+And I started my talk at ROSCon 2023 with comparing its relevance with that of the invention of programming languages by Grace Hopper[@christianhenkelSupportingRoboticDeliberation2023].
+While this may be thought provoking, it is also rather handwavy.
+In this article I will try to make it more concrete.
 
 ## Autonomy with Skills
 
@@ -183,15 +170,21 @@ We expect it to be useful for any possible type of application and it should eve
 But we have to start somewhere.
 And I think we should start at the beginning of everything: the almighty creator - _the engineer_.
 
-## Mental Models of Programming
+## Programming but in Your Mind
 
 ![Programming using a skill-based architecture. TODO update?](imgs/25_05_programming_robots_mental_model.drawio.png)
 
 If we want to make sure that someone can program a robot as easily as possible, we have to elaborate which factors influence the ease of programming.
-Here, I want to look again into the idea of a mental model.
 
-Engineers building robots are generally considered to be smart people, because they deal with complicated systems.
-People that are also generally considered to be smart are chess players.
+An article that is less specific to robotics but also looking into how humans interact with code is by Erik Bernhardsson[@bernhardssonItsHardWrite2024].
+It explicitly introduces the concept of a mental model that another human reading your code has.
+This is something that I will explore below in the context of robotics.
+The article then provides valuable and concrete tips in how to design the code that another developer interacts with.
+For example the valid suggestion to avoid the need for a mandatory configuration.
+Another one is to avoid conceptual overload, something that many robotics projects including our own work on [formal verification](https://github.com/convince-project/as2fm) can learn a lot from[@bernhardssonItsHardWrite2024].
+
+But maybe we can look deeper into the idea of that mental model.
+Just like engineers, another group of people generally considered to be smart are chess players.
 There exists a very interesting body of research evaluating what it is about the minds of professional chess players that determines their success at chess.
 One may assume that people who are good at chess can simply think more logically or understand more complex systems in their mind.
 But, the situation is different:
