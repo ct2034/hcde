@@ -1,0 +1,22 @@
+
+name: Linter
+
+on:
+  push:
+      branches: [ "main" ]
+  pull_request:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+jobs:
+  build:
+    name: Pre-commit checks
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Berlin"
+      - uses: actions/checkout@v3
+      - name: Pre-commit
+        uses: pre-commit/action@v3.0.1
