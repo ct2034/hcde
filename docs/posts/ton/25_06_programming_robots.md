@@ -243,7 +243,14 @@ The language doesn’t have to be textual or graphical.
 But it must support __thinking__.
 That’s the bridge between automation and autonomy.
 Between a program and a behavior.
-Between systems4.
+Between systems.
+
+# Feedback <!-- markdownlint-disable-line single-h1 -->
+
+I am very interested in your feedback.
+Feel free to reach out to me directly or consider sharing it here:
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7346228913506795520?collapsed=1" height="300" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> <!-- markdownlint-disable-line no-inline-html -->
 
 <!-- Abbreviations -->
 
