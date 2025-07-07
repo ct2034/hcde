@@ -18,5 +18,6 @@ jobs:
         with:
           timezoneLinux: "Europe/Berlin"
       - uses: actions/checkout@v3
+      - run: pip install -r requirements.txt
       - name: Pre-commit
         uses: pre-commit/action@v3.0.1
