@@ -110,6 +110,8 @@ extra:
       link: https://chaos.social/@ct2034
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/ct2034.bsky.social
+    - icon: fontawesome/coffee
+      link: https://ko-fi.com/ct2034
   consent:
     title: Cookie consent
     description: This website uses cookies to ensure you get the best experience.
