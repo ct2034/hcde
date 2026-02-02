@@ -77,6 +77,8 @@ if __name__ == "__main__":
     for key in sorted_cited_keys:
         try:
             entry = library.entries_dict[key]
+            for field in ["note", "abstract"]:
+                entry.pop(field, None)
             if "howpublished" in entry:
                 entry["url"] = entry["howpublished"]
                 entry.pop("howpublished", None)
