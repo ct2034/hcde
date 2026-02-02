@@ -10,6 +10,7 @@ categories:
 # European Innovation Needs Healthy Open-Source Communities
 
 _This is my personal answer to the European Commissions [Call for Evidence on Towards European open digital ecosystems](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/16213-European-Open-Digital-Ecosystems_en)_
+<!-- more -->
 
 ## Perspective and background
 
