@@ -21,3 +21,10 @@ Why is simplicity a property that can contradict excellence?
 But there are more questions:
 What is it about simplicity that is so hard to grasp?
 And, how can something become so simple, it becomes wrong?
+
+## What is simplicity
+
+In the philosophical literature simplicity is often discussed in the context of theories.
+A theory being a theoretical construct that is compared to perceptions of the practical subject at hand.
+Here, simplicity is best understood in comparing two theories, with the one that contains less concepts being called _simpler_.
+For example Einstein .. #todo
