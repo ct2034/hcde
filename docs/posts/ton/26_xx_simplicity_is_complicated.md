@@ -28,3 +28,5 @@ In the philosophical literature simplicity is often discussed in the context of 
 A theory being a theoretical construct that is compared to perceptions of the practical subject at hand.
 Here, simplicity is best understood in comparing two theories, with the one that contains less concepts being called _simpler_.
 For example Einstein .. #todo
+
+Ochams Razor ..
