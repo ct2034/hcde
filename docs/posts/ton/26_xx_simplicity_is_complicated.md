@@ -54,3 +54,12 @@ Our negativity bias[@baumeisterBadStrongerGood2001] makes us jump to the conclus
 However, this explanation isn't very simple—it would also entail that all previous times they were nice to us, they were just pretending.
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
 In this way, preferring simpler explanations can even help stop us from worrying.
+
+## Simplicity of technical solutions
+
+If we further extend the concept of simplicity to technical solutions, we can see that it becomes more complicated.
+Again, reduced to its essence, a technical solution is simple if it has fewer components.
+So far, this makes sense.
+If we have two technical systems that achieve the same goal, the one with fewer components is simpler.
+And this is also desirable, because fewer components will most likely cost less, require less resources, and be easier to maintain.
+It is the opposite of what we call "overengineering"—a solution that is more complex than necessary.
