@@ -67,3 +67,8 @@ It is the opposite of what we call "overengineering"—a solution that is more c
 However, also the reverse can be observed very often, too:
 Many technical solutions seem to target simplicity in particular for their user interface.
 For example in cars, this can lead to serious issues. #todo ref
+These interfaces of some cars certainly look simple.
+For example many functions being controlled by one touch screen looks a lot cleaner and therefore simpler compares to if the same functions each had their own switch or button.
+However, the interaction with the touchscreen requires the driver to look at it, sometimes change to a different screen first, while a physical switch can often be controlled without even looking at it.
+For example the stalks to control the cars indicators are used without even consciously thinking about it by drivers with the most basic level of experience.
+
