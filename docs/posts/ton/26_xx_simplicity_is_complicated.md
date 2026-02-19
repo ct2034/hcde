@@ -9,7 +9,7 @@ categories:
 
 # Simplicity is Complicated
 
-If it isn't apparent yet, I'll admit that I use this blog primarily as motivation to research concepts that are unclear to me, hoping to satisfy some weird curiosity.
+If it isn't apparent yet, I'll admit that I use this blog primarily as motivation to research concepts that I am curious about.
 This time, the concept is _simplicity_.
 <!-- more -->
 
