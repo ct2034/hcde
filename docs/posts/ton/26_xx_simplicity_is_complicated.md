@@ -17,7 +17,7 @@ It fascinates me because it's really hard to grasp.
 On one hand, I admire simple things.
 When an otherwise complicated topic becomes apparent and clear, it fills me with genuine joy.
 On the other hand, things that are too simple can feel wrong, making you wonder whether you're being given the whole truth.
-Doubting the simplicity of your own understanding can destroy your entire worldview.
+And, doubting your own understanding can destroy your entire worldview.
 
 I remember a conversation with a colleague about what I appreciate in research papers.
 The ideal engineering-science paper, for me, is based on one simple idea.
