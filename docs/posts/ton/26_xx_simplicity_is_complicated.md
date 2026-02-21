@@ -9,20 +9,25 @@ categories:
 
 # Simplicity is Complicated
 
-If it isn't apparent yet, I'll admit that I use this blog primarily as motivation to research concepts that I am curious about.
+If it isn't apparent yet, I'll admit that I use this blog primarily as an excuse to research concepts that I am curious about.
 This time, the concept is _simplicity_.
 <!-- more -->
 
-It fascinates me because it's really hard to grasp.
+It fascinates me because it's really hard to grasp what simplicity really means and if it is something that should be seen as a positive trait.
 On one hand, I admire simple things.
 When an otherwise complicated topic becomes apparent and clear, it fills me with genuine joy.
 On the other hand, things that are too simple can feel wrong, making you wonder whether you're being given the whole truth.
-And, doubting your own understanding can destroy your entire worldview.
+And, doubting your own understanding can potnetially destroy your entire worldview.
+Therefore, I think we are unlikey to honestly abandon an idea as too simple, eventhough there are views that can be so simple they are wrong, as we will discuss below.
 
-I remember a conversation with a colleague about what I appreciate in research papers.
-The ideal engineering-science paper, for me, is based on one simple idea.
-This makes it easy to explain within the limited pages, and it will only be a good paper if it demonstrates effectiveness at solving the addressed problem.
-But my co-worker warned me to be careful, because reviews can be challenging for simple ideas.
+For example, the ideal engineering-science paper, for me, is based on one simple idea.
+Being and engineering paper, it must demonstrates effectiveness at solving the addressed problem compared to previous solutions.
+But I think it's ideal if the solution to this problem is as simple as possible, such that adding additional parts would not add anything in terms of quality.
+Additionally, since we talk about research papers, it will be easier to fit on the limited pages and a reader or reviewer is more likely to understand your approach.
+
+I remember a conversation with a colleague about my appreciation for paper based on simple ideas.
+But my co-worker warned me to be careful, because reviews can be challenging.
+It appeared as they would think for something to be good, it must also be complicated.
 This left me confused—it hadn't occurred to me that simplicity could be seen as low quality.
 
 This illustrates the main confusion:
