@@ -48,7 +48,7 @@ Einstein's theory revolves around the simple idea that the speed of light is con
 This essence is captured in Occam's razor, which states that
 > entities should not be multiplied beyond necessity.[@bakerSimplicity2004]
 
-The entities here are the concepts used to explain phenomena.
+The entities here are the concepts or aspects thereof used to explain phenomena.
 
 These definitions describe simplicity as a property of theories, but it remains to be discussed whether they apply to other aspects.
 Let's consider explanations:
