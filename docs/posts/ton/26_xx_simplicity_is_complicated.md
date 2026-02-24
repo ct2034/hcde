@@ -18,7 +18,7 @@ On one hand, I admire simple things.
 When an otherwise complicated topic becomes apparent and clear, it fills me with genuine joy.
 On the other hand, things that are too simple can feel wrong, making you wonder whether you're being given the whole truth.
 And, doubting your own understanding can potnetially destroy your entire worldview.
-Therefore, I think we are unlikey to honestly abandon an idea as too simple, eventhough there are views that can be so simple they are wrong, as we will discuss below.
+Therefore, I think we are unlikely to honestly abandon an idea as too simple, even though there are views that can be so simple they are wrong, as we will discuss below.
 
 For example, the ideal engineering-science paper, for me, is based on one simple idea.
 Being and engineering paper, it must demonstrates effectiveness at solving the addressed problem compared to previous solutions.
@@ -69,11 +69,10 @@ If we have two technical systems that achieve the same goal, the one with fewer 
 And this is also desirable, because fewer components will most likely cost less, require less resources, and be easier to maintain.
 It is the opposite of what we call "overengineering"—a solution that is more complex than necessary.
 
-However, also the reverse can be observed very often, too:
-Many technical solutions seem to target simplicity in particular for their user interface.
-For example in cars, this can lead to serious issues. #todo ref
-These interfaces of some cars certainly look simple.
-For example many functions being controlled by one touch screen looks a lot cleaner and therefore simpler compares to if the same functions each had their own switch or button.
+However, also the reverse can be observed very often:
+Many technical solutions seem to target simplicity.
+But on closer inspection, only their appearance is simple.
+For example in currecnt cars, many functions being controlled by one touch screen looks a lot cleaner and therefore simpler compares to if the same functions each had their own switch or button.
 However, the interaction with the touchscreen requires the driver to look at it, sometimes change to a different screen first, while a physical switch can often be controlled without even looking at it.
+This can lead to serious safety issues, and therefore the solution is not really simple, even though it looks simple[@gitlinEuropeanCrashTester2024].
 For example the stalks to control the cars indicators are used without even consciously thinking about it by drivers with the most basic level of experience.
-
