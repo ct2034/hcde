@@ -21,8 +21,8 @@ And, doubting your own understanding can potnetially destroy your entire worldvi
 Therefore, I think we are unlikely to honestly abandon an idea as too simple, even though there are views that can be so simple they are wrong, as we will discuss below.
 
 For example, the ideal engineering-science paper, for me, is based on one simple idea.
-Being and engineering paper, it must demonstrates effectiveness at solving the addressed problem compared to previous solutions.
-But I think it's ideal if the solution to this problem is as simple as possible, such that adding additional parts would not add anything in terms of quality.
+Being and engineering paper, it must demonstrate effectiveness at solving the addressed problem compared to previous solutions.
+But I think the best papers describe a solution to this problem that is as simple as possible, such that adding additional parts would not add anything fundamental.
 Additionally, since we talk about research papers, it will be easier to fit on the limited pages and a reader or reviewer is more likely to understand your approach.
 
 I remember a conversation with a colleague about my appreciation for paper based on simple ideas.
@@ -41,14 +41,17 @@ And how can something become so simple that it becomes wrong?
 In philosophical literature, simplicity is often discussed in the context of theories—theoretical constructs compared to perceptions of practical subjects.
 Here, simplicity is best understood by comparing two theories, with the one containing fewer concepts being called _simpler_ [@bakerSimplicity2004].
 
-A commonly cited example is Einstein's special relativity.
-Before its introduction, the dominant Lorentz-Poincaré theory could explain the same phenomena but contained more concepts, such as the ether.
-Einstein's theory revolves around the simple idea that the speed of light is constant, requiring fewer concepts to explain the same phenomena, making it simpler [@bakerSimplicity2004].
-
 This essence is captured in Occam's razor, which states that
 > entities should not be multiplied beyond necessity.[@bakerSimplicity2004]
 
 The entities here are the concepts or aspects thereof used to explain phenomena.
+
+A commonly cited example is Einstein's special relativity.
+Before its introduction, the dominant Lorentz-Poincaré theory could explain the same phenomena but contained more concepts, such as the ether.
+Einstein's theory revolves around the simple idea that the speed of light is constant, requiring fewer concepts to explain the same phenomena, making it simpler [@bakerSimplicity2004].
+
+It can also be argued why simplicity is desirable.
+There are different options ... #todoz
 
 These definitions describe simplicity as a property of theories, but it remains to be discussed whether they apply to other aspects.
 Let's consider explanations:
@@ -60,15 +63,18 @@ However, this explanation isn't very simple—it would also entail that all prev
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
 In this way, preferring simpler explanations can even help stop us from worrying.
 
+But instead of coming up with half-baked examples from Positive psychology, I should probably come back to topics that I am actually educated in.
+
 ## Simplicity of technical solutions
 
-If we further extend the concept of simplicity to technical solutions, at first this makes a lot of sense.
-Again, reduced to its essence, a technical solution is simple if it has fewer components.
+If we explore the concept of simplicity for technical solutions, the application is straightforward:
+Any technical solution is simple if it has fewer components.
 So far, this makes sense.
 If we have two technical systems that achieve the same goal, the one with fewer components is simpler.
-And this is also desirable, because fewer components will most likely cost less, require less resources, and be easier to maintain.
-It is the opposite of what we call "overengineering"—a solution that is more complex than necessary.
 
+Here, also the value of simplicity is apparent:
+Fewer components will most likely cost less, require less resources, and be easier to maintain.
+It is the opposite of what we call "overengineering"—a solution that is more complex than necessary.
 However, also the reverse can be observed very often:
 Many technical solutions seem to target simplicity.
 But on closer inspection, only their appearance is simple.
