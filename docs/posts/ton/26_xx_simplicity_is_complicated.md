@@ -67,18 +67,19 @@ But instead of coming up with half-baked examples from Positive psychology, I sh
 
 ## Simplicity of technical solutions
 
-If we explore the concept of simplicity for technical solutions, the application is straightforward:
-Any technical solution is simple if it has fewer components.
-So far, this makes sense.
-If we have two technical systems that achieve the same goal, the one with fewer components is simpler.
-
-Here, also the value of simplicity is apparent:
-Fewer components will most likely cost less, require less resources, and be easier to maintain.
+If we extend the concept of simplicity to technical solutions, at first this makes a lot of sense.
+Comparing two technical solutions, one is simpler exactly if it has fewer components.
+And this is also desirable, because fewer components will most likely cost less in terms of development, require less resources to manufacture and operate, and be easier to maintain.
 It is the opposite of what we call "overengineering"—a solution that is more complex than necessary.
-However, also the reverse can be observed very often:
-Many technical solutions seem to target simplicity.
+
+However, maybe in an attempt to avoid said overengineering, we can end up with the other extreme:
+Many technical solutions seem to explicitly target simplicity.
 But on closer inspection, only their appearance is simple.
-For example in currecnt cars, many functions being controlled by one touch screen looks a lot cleaner and therefore simpler compares to if the same functions each had their own switch or button.
+For example in recent cars, many functions being controlled by one touch screen looks a lot cleaner and therefore simpler compared to if the same functions each had their own switch or button.
 However, the interaction with the touchscreen requires the driver to look at it, sometimes change to a different screen first, while a physical switch can often be controlled without even looking at it.
-This can lead to serious safety issues, and therefore the solution is not really simple, even though it looks simple[@gitlinEuropeanCrashTester2024].
+This can lead to serious safety issues, and therefore the solution is not really simple, even though it looks simple[@gitlinEuropeanCrashTester2024, @liangDrivingSimulatorStudy2024].
 For example the stalks to control the cars indicators are used without even consciously thinking about it by drivers with the most basic level of experience.
+We could say, that the interaction is what is lacking simplicity in the touchscreen solution.
+So if we want to maintain simplicity as a desirable property of technical solutions, we must evaluate it not only based on the number of components, but also on the interaction with those components and certainly not based on the appearance of the solution.
+
+
