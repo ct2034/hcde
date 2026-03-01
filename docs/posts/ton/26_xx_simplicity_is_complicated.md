@@ -72,14 +72,13 @@ Comparing two technical solutions, one is simpler exactly if it has fewer compon
 And this is also desirable, because fewer components will most likely cost less in terms of development, require less resources to manufacture and operate, and be easier to maintain.
 It is the opposite of what we call "overengineering"—a solution that is more complex than necessary.
 
-However, maybe in an attempt to avoid said overengineering, we can end up with the other extreme:
+However, maybe in an attempt to avoid said overengineering, we can end up with the other direction:
 Many technical solutions seem to explicitly target simplicity.
 But on closer inspection, only their appearance is simple.
 For example in recent cars, many functions being controlled by one touch screen looks a lot cleaner and therefore simpler compared to if the same functions each had their own switch or button.
 However, the interaction with the touchscreen requires the driver to look at it, sometimes change to a different screen first, while a physical switch can often be controlled without even looking at it.
 This can lead to serious safety issues, and therefore the solution is not really simple, even though it looks simple[@gitlinEuropeanCrashTester2024, @liangDrivingSimulatorStudy2024].
 For example the stalks to control the cars indicators are used without even consciously thinking about it by drivers with the most basic level of experience.
+If a touchscreen is used to control the indicators, it would require a lot more attention, even experienced drivers are required to look at the screen, and therefore it is not really simple, even though it looks simple.
 We could say, that the interaction is what is lacking simplicity in the touchscreen solution.
-So if we want to maintain simplicity as a desirable property of technical solutions, we must evaluate it not only based on the number of components, but also on the interaction with those components and certainly not based on the appearance of the solution.
-
-
+So in order to maintain simplicity as a desirable property of technical solutions, we must evaluate it not only based on the number of components, but also on the interaction with those components and certainly not based on the appearance of the solution.
