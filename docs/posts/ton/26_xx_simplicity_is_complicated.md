@@ -82,3 +82,9 @@ For example the stalks to control the cars indicators are used without even cons
 If a touchscreen is used to control the indicators, it would require a lot more attention, even experienced drivers are required to look at the screen, and therefore it is not really simple, even though it looks simple.
 We could say, that the interaction is what is lacking simplicity in the touchscreen solution.
 So in order to maintain simplicity as a desirable property of technical solutions, we must evaluate it not only based on the number of components, but also on the interaction with those components and certainly not based on the appearance of the solution.
+
+## Compression ..
+
+On a very fundamental level, treating simplicity as the number of components, we could compare it also to compression.
+A compressed file is simpler than an uncompressed file, because it is shorter and contains fewer bits.
+However, if we think about a human reading that file, even the simplest compression algorithms would make it more difficult to understand the content, because the reader would need to decompress it first.
