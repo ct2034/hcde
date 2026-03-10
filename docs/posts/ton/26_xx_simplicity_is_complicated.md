@@ -9,66 +9,79 @@ categories:
 
 # Simplicity is Complicated
 
-The things in life are simple.
+The best things in life are simple.
 But, so are the worst ones.
 This is probably not a coincidence.
 Simplicity is a concept that is surprisingly hard to grasp.
 <!-- more -->
 
-It fascinates me because it's really hard to grasp what simplicity really means and how I feel about it.
+It fascinates me because it's really hard properly define simplicity and I am not sure how I feel about it.
 On one hand, I admire simple things.
 When an otherwise complicated topic becomes apparent and clear, it fills me with genuine joy.
-On the other hand, things that are too simple can feel wrong, and you end up wondering whether you're being given the whole truth.
-Then, doubting your own understanding of the world can potentially destroy your entire worldview.
-<!-- Therefore, I think we are unlikely to honestly abandon an idea as too simple, even though there are views that can be so simple they are wrong, as we will discuss below. -->
+On the other hand, things that are too simple can feel wrong, and sometimes I even feel like they are not worth my attention or that who introduced this simplification has a hidden agenda.
 
-For example, the ideal engineering-science paper, for me, is based on one simple idea.
+For example, I think that the ideal engineering-science paper is based on _one simple idea_.
 Being an engineering paper, it must demonstrate effectiveness at solving the addressed problem compared to previous solutions.
-But I think the best papers describe a solution to this problem that is as simple as possible, such that adding additional parts could not make them any better.
-Additionally, since we talk about research papers, it will be easier to fit on the limited pages and a reader or reviewer is more likely to understand your approach.
+But I think the best papers describe a solution to this problem that is as simple as possible, such that adding additional parts could not make it any better.
+Additionally, since we talk about research papers, it will be easier to fit on the limited pages and a reader will be more likely to understand the paper.
 
 I remember a conversation with a colleague about my appreciation for papers based on simple ideas.
-But my co-worker warned me with a remark along the lines of reviews often being can be challenging.
+But after confessing my love for simplicity, that co-worker warned me with a remark along the lines of reviews often being challenging.
+This caught me off guard, and I was confused by the remark.
 It appeared as they would think for something to be good, it must also be complicated.
-This left me confused—it hadn't occurred to me that simplicity could be seen as low quality.
+I guess it hadn't occurred to me before that simplicity could be seen as low quality.
 
-And it illustrates the main confusion:
+This illustrates the main confusion I would like to work through in this post:
 Is simplicity a desirable property?
 Underneath that, there are further questions:
 What makes simplicity so hard to grasp?
-And how can something be so simple that it becomes wrong?
+And how can something be so simple that it becomes wrong?  #todo maybe update when writing is done
 
 ## What is simplicity
 
-In the literature, simplicity is often discussed in the context of theories—theoretical constructs compared to perceptions of practical subjects.
-Here, simplicity is best understood by comparing two theories, with the one containing fewer concepts being called _simpler_ [@bakerSimplicity2004].
+In literature, simplicity is often discussed in the context of theories.
+It is best understood by comparing two theories, with the one containing fewer concepts being called _simpler_ [@bakerSimplicity2004].
 
 This essence is captured in Occam's razor, which states that
 > entities should not be multiplied beyond necessity.[@bakerSimplicity2004]
 
-The entities here are the concepts or aspects thereof used to explain phenomena.
+In theories, the entities are the concepts or aspects thereof used to explain phenomena.
+And more precisely, there are two types of simplicity that are often discussed:
+
+- **Syntactic simplicity**: the number and complexity of basic principles and their relationships used within the theory. This is often also called _elegance_.
+- **Ontological simplicity**: the number of kinds of fundamental entities that the theory refers to. This is often also called _parsimony_.[@bakerSimplicity2004]
 
 A commonly cited example is Einstein's special relativity.
-Before its introduction, the dominant Lorentz-Poincaré theory could explain the same phenomena but contained more concepts, such as the ether.
-Einstein's theory revolves around the simple idea that the speed of light is constant, requiring fewer concepts to explain the same phenomena, making it simpler [@bakerSimplicity2004].
+Before its introduction, the Lorentz-Poincaré theory could explain the same phenomena but required postulating the ether as a physical medium for light propagation and auxiliary constructs — local time and length contraction — to explain the results of the Michelson-Morley experiment.
+Einstein's theory, built on two postulates — the principle of relativity and the constancy of the speed of light — renders the ether logically superfluous, making it more ontologically parsimonious[@bakerSimplicity2004].
 
-> [T]he grand aim of all science…is to cover the greatest possible number of empirical facts by logical deductions from the smallest possible number of hypotheses or axioms #todo (Einstein, quoted in Nash 1963)
+And Einstein himself is often quoted as appreciating simplicity in theories:
 
-These definitions describe simplicity as a property of theories, but it remains to be discussed whether they apply to other aspects.
-Let's consider explanations:
-The transfer here is relatively straightforward.
+> [T]he grand aim of all science…is to cover the greatest possible number of empirical facts by logical deductions from the smallest possible number of hypotheses or axioms (Einstein, quoted in [@nashNatureNaturalSciences1963])
+
+This gives us a good basis to understand simplicity as a property of theories, but it is still not clear why it is desirable and how it applies to other aspects.
+
+## Is simplicity desirable?
+
+Firstly, let's think about the validity of our understanding outside of theories.
+If we consider explanations, the transfer is relatively straightforward:
 An explanation for an observed event can be described as an ad-hoc theory.
 If we witness someone making a negative remark about us, we may worry about the explanation.
-Our negativity bias[@baumeisterBadStrongerGood2001] makes us jump to the conclusion that the person hates us.
+Our negativity bias[@baumeisterBadStrongerGood2001] may lead us to form the theory that the person hates us.
 However, this explanation isn't very simple—it would also entail that all previous times they were nice to us, they were just pretending.
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
-In this way, preferring simpler explanations can even help stop us from worrying.
+In this way, preferring simpler explanations could be a way to avoid unnecessary negative assumptions about others, and therefore it is desirable.
 
 But also the justification of simplicity is often argued.
 There are competing positions on why simplicity is desirable.
 For example on a theological basis, Smart writes:
 
-> There is a tendency...for us to take simplicity...as a guide to metaphysical truth. Perhaps this tendency derives from earlier theological notions: we expect God to have created a beautiful universe. #todo ref Smart, J.J.C., 1984, “Ockham’s Razor,” in Principles of Philosophical Reasoning, ed. Fetzer, 118–28
+> There is a tendency \[...\] for us to take simplicity \[...\] as a guide to metaphysical truth. Perhaps this tendency derives from earlier theological notions: we expect God to have created a beautiful universe.[@smartOckhamsRazor1984]
+
+More evidence-based justifications could be based on probabilistic considerations:
+The argument is that a law is associated to a prior probability, and simpler laws have higher prior probabilities, because they are more likely to be true than complex ones.
+For example comparing families of equations, linear equations in the form $y = ax + b$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
+Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
 
 Popper #todo
 
@@ -79,7 +92,7 @@ However, there is a way to look at simplicity and its desirability in a more pra
 If we extend the concept of simplicity to technical solutions, at first this makes a lot of sense.
 Comparing two technical solutions, one is simpler exactly if it has fewer components.
 And this is also desirable, because fewer components will most likely cost less in terms of development, require less resources to manufacture and operate, and be easier to maintain.
-It is the opposite of what we call "overengineering"—a solution that is more complex than necessary.
+It is the opposite of what we call _overengineering_ — a solution that is more complex than necessary.
 
 However, maybe in an attempt to avoid said overengineering, we can end up with the other direction:
 Many technical solutions seem to explicitly target simplicity.
@@ -92,7 +105,7 @@ If a touchscreen is used to control the indicators, it would require a lot more 
 We could say, that the interaction is what is lacking simplicity in the touchscreen solution.
 So in order to maintain simplicity as a desirable property of technical solutions, we must evaluate it not only based on the number of components, but also on the interaction with those components and certainly not based on the appearance of the solution.
 
-## Compression ..
+## Compression
 
 On a very fundamental level, treating simplicity as the number of components, we could compare it also to compression.
 A compressed file is simpler than an uncompressed file, because it is shorter and contains fewer bits.

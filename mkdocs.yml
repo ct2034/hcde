@@ -128,6 +128,8 @@ markdown_extensions:
   - attr_list # [link text](https://target.link){target="_blank"}
   - footnotes # bibtex
   - admonition # /// define .... ///
+  - pymdownx.arithmatex: # $...$ for math
+      generic: true
 
 nav:
   - Home: ../
@@ -141,6 +143,11 @@ extra_css:
   - https://fonts.googleapis.com/css?family=Domine
   - stylesheets/extra.css
   # - stylesheets/neoteroi-v1.1.0.css
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 watch:
   - overrides
