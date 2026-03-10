@@ -9,8 +9,10 @@ categories:
 
 # Simplicity is Complicated
 
-If it isn't apparent yet, I'll admit that I use this blog primarily as an excuse to research concepts that I am curious about.
-This time, the concept is _simplicity_.
+The things in life are simple.
+But, so are the worst ones.
+This is probably not a coincidence.
+Simplicity is a concept that is surprisingly hard to grasp.
 <!-- more -->
 
 It fascinates me because it's really hard to grasp what simplicity really means and how I feel about it.
@@ -26,19 +28,19 @@ But I think the best papers describe a solution to this problem that is as simpl
 Additionally, since we talk about research papers, it will be easier to fit on the limited pages and a reader or reviewer is more likely to understand your approach.
 
 I remember a conversation with a colleague about my appreciation for papers based on simple ideas.
-But my co-worker warned me to be careful, because reviews can be challenging.
+But my co-worker warned me with a remark along the lines of reviews often being can be challenging.
 It appeared as they would think for something to be good, it must also be complicated.
 This left me confused—it hadn't occurred to me that simplicity could be seen as low quality.
 
 And it illustrates the main confusion:
-Why is simplicity a property that can contradict excellence?
-But there are more questions:
+Is simplicity a desirable property?
+Underneath that, there are further questions:
 What makes simplicity so hard to grasp?
 And how can something be so simple that it becomes wrong?
 
 ## What is simplicity
 
-In philosophical literature, simplicity is often discussed in the context of theories—theoretical constructs compared to perceptions of practical subjects.
+In the literature, simplicity is often discussed in the context of theories—theoretical constructs compared to perceptions of practical subjects.
 Here, simplicity is best understood by comparing two theories, with the one containing fewer concepts being called _simpler_ [@bakerSimplicity2004].
 
 This essence is captured in Occam's razor, which states that
@@ -50,8 +52,7 @@ A commonly cited example is Einstein's special relativity.
 Before its introduction, the dominant Lorentz-Poincaré theory could explain the same phenomena but contained more concepts, such as the ether.
 Einstein's theory revolves around the simple idea that the speed of light is constant, requiring fewer concepts to explain the same phenomena, making it simpler [@bakerSimplicity2004].
 
-It can also be argued why simplicity is desirable.
-There are different options ... #todoz
+> [T]he grand aim of all science…is to cover the greatest possible number of empirical facts by logical deductions from the smallest possible number of hypotheses or axioms #todo (Einstein, quoted in Nash 1963)
 
 These definitions describe simplicity as a property of theories, but it remains to be discussed whether they apply to other aspects.
 Let's consider explanations:
@@ -63,7 +64,15 @@ However, this explanation isn't very simple—it would also entail that all prev
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
 In this way, preferring simpler explanations can even help stop us from worrying.
 
-But instead of coming up with half-baked examples from Positive psychology, I should probably come back to topics that I am actually educated in.
+But also the justification of simplicity is often argued.
+There are competing positions on why simplicity is desirable.
+For example on a theological basis, Smart writes:
+
+> There is a tendency...for us to take simplicity...as a guide to metaphysical truth. Perhaps this tendency derives from earlier theological notions: we expect God to have created a beautiful universe. #todo ref Smart, J.J.C., 1984, “Ockham’s Razor,” in Principles of Philosophical Reasoning, ed. Fetzer, 118–28
+
+Popper #todo
+
+However, there is a way to look at simplicity and its desirability in a more practical way.
 
 ## Simplicity of technical solutions
 
