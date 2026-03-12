@@ -83,13 +83,21 @@ The argument is that a law is associated to a prior probability, and simpler law
 For example comparing families of equations, linear equations in the form $y = ax + b$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
 Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
 
-Popper #todo
+Poppper did say ... but we he later was corrected by the assumption that linear equations are also quadratic equations with $c = 0$.
 
-However, there is a way to look at simplicity and its desirability in a more practical way.
+However, his concept of falsifiability can be also applied here.
+This is one of his core ideas that was developed in the aftermath of the second world war.
+Similar to how a government must be able to be put out of power, a scientific theory must be able to be falsified.
+And I think this works precisely in favor of simplicity and the desirability thereof.
+If we look at the two equations again, the linear equation having two parameters and the quadratic equation having three parameters, they would need two and three data points respectively to be determined.
+So, if we have three data points, the linear equation would be falsified if it cannot fit all three data points, while the quadratic equation could still be valid.
+This is what in machine learning would be called overfitting — a model that is too complex and can fit the training data perfectly, but fails to generalize to new data.
+Thus, models with fewer parameters are more likely to be falsified, and therefore they are more likely to generalize to new data, which is a desirable property of scientific theories in the same way as it is a desirable property of machine learning models.
+And at this point, we can however also extend this argument to systems that are not scientific theories, but technical solutions.
 
 ## Simplicity of technical solutions
 
-If we extend the concept of simplicity to technical solutions, at first this makes a lot of sense.
+Firstly, we can apply the idea of simplicity as the number of components to technical solutions.
 Comparing two technical solutions, one is simpler exactly if it has fewer components.
 And this is also desirable, because fewer components will most likely cost less in terms of development, require less resources to manufacture and operate, and be easier to maintain.
 It is the opposite of what we call _overengineering_ — a solution that is more complex than necessary.
