@@ -115,8 +115,38 @@ If a touchscreen is used to control the indicators, it would require a lot more 
 We could say, that the interaction is what is lacking simplicity in the touchscreen solution.
 So in order to maintain simplicity as a desirable property of technical solutions, we must evaluate it not only based on the number of components, but also on the interaction with those components and certainly not based on the appearance of the solution.
 
-## Compression
-
-On a very fundamental level, treating simplicity as the number of components, we could compare it also to compression.
+Another technical functionality that is worth considering is compression.
 A compressed file is simpler than an uncompressed file, because it is shorter and contains fewer bits.
 However, if we think about a human reading that file, even the simplest compression algorithms would make it more difficult to understand the content, because the reader would need to decompress it first.
+But a compressed text file would be simpler than an uncompressed one by the definition we introduced above.
+
+## Simplicity of interaction
+
+I propose to introduce the concept of _Interactional Simplicity_.
+It is particularly important if we consider the interaction with a system, especially that of a human actor.
+Also in the UX research, the paradigm of simplicity can be challenged.
+A paper proposes to introduce the term of _praxisware_ for those programs that are used after a considerable amount of training, like spreadsheet, word processing, or any professional design tool.
+These tools don't need to be simple in the same way that for example a social media website is.
+But this is in return exactly the aspect that allows professionals using these tools to utilize their acquired skills as effectively as possible[@sarkarShouldComputersBe2023].
+Any attempt to make a system simple to interact with runs the risk of also costing power that the user have over it.
+Like in the example of the car indicator controlled with a touch screen, it limits the speed, and therefore also convinience of interaction with theses systems.
+
+So I propose to look at the interaction possibilities with the system, too.
+This difference has not arisen from the fact that we no longer look at theories.
+Also in theories, there may be those, that are simple as a theory, because they contain less components.
+But an observer of that theory, for example a student trying to learn it, may not condsider it simple at all, if they can not relate well to the parts that the theory consists of, in the same way as a zip-compressed text file is almost impossible to read.
+
+## On stereotypes
+
+So far we have compared systems to one another under the assumption that both are functionaly equivalent and so also the simpler one is technically correct.
+But I want to explore something else where the aforementioned interactions play a vital role and where correctness is harder to define.
+In social interactions between individuals, one will commonly witness stereotypes.
+
+> Stereotypes are false or misleading generalizations about groups held in a manner that renders them largely, though not entirely, immune to counterevidence.[@blumStereotypesStereotypingMoral2004]
+
+While I don't want to discuss the correctness of stereotypes in general, they must have some function.
+If someone interacts with another person, it is _simpler_ to assume certain traits about the other persion based on which groups they appear to belong to.
+So their purpose is precisely the simplification of interaction.
+This can also be looked at from a compression perspective: I have to remember more traits and properties of people I interact with if I attribute them to groups rather than every single individual.
+Where stereotypes get problemtic is of course if they resist against counterevidence[@blumStereotypesStereotypingMoral2004].
+If I perceive a member of a certain group behave different to what the properties of their group would have predicted and still hold onto that simplification, this is precisely where simplifications _become wrong_.
