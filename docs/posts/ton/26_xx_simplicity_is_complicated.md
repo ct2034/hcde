@@ -129,16 +129,16 @@ A paper proposes to introduce the term of _praxisware_ for those programs that a
 These tools don't need to be simple in the same way that for example a social media website is.
 But this is in return exactly the aspect that allows professionals using these tools to utilize their acquired skills as effectively as possible[@sarkarShouldComputersBe2023].
 Any attempt to make a system simple to interact with runs the risk of also costing power that the user have over it.
-Like in the example of the car indicator controlled with a touch screen, it limits the speed, and therefore also convinience of interaction with theses systems.
+Like in the example of the car indicator controlled with a touch screen, it limits the speed, and therefore also convenience of interaction with these systems.
 
 So I propose to look at the interaction possibilities with the system, too.
 This difference has not arisen from the fact that we no longer look at theories.
 Also in theories, there may be those, that are simple as a theory, because they contain less components.
-But an observer of that theory, for example a student trying to learn it, may not condsider it simple at all, if they can not relate well to the parts that the theory consists of, in the same way as a zip-compressed text file is almost impossible to read.
+But an observer of that theory, for example a student trying to learn it, may not consider it simple at all, if they can not relate well to the parts that the theory consists of, in the same way as a zip-compressed text file is almost impossible to read.
 
 ## On stereotypes
 
-So far we have compared systems to one another under the assumption that both are functionaly equivalent and so also the simpler one is technically correct.
+So far we have compared systems to one another under the assumption that both are functionally equivalent and so also the simpler one is technically correct.
 But I want to explore something else where the aforementioned interactions play a vital role and where correctness is harder to define.
 In social interactions between individuals, one will commonly witness stereotypes.
 
