@@ -145,20 +145,18 @@ In social interactions between individuals, one will commonly witness stereotype
 > Stereotypes are false or misleading generalizations about groups held in a manner that renders them largely, though not entirely, immune to counterevidence.[@blumStereotypesStereotypingMoral2004]
 
 While I don't want to discuss the correctness of stereotypes in general, they must have some function.
-If someone interacts with another person, it is _simpler_ to assume certain traits about the other persion based on which groups they appear to belong to.
+If someone interacts with another person, it is _simpler_ to assume certain traits about the other person based on which groups they appear to belong to.
 So their purpose is precisely the simplification of interaction.
-This can also be looked at from a compression perspective: I have to remember more traits and properties of people I interact with if I attribute them to groups rather than every single individual.
-Where stereotypes get problemtic is of course if they resist against counterevidence[@blumStereotypesStereotypingMoral2004].
+This can also be looked at from a compression perspective: I have to remember more traits and properties of people if I attribute them to groups rather than every single individual.
+Where stereotypes get problematic is of course if they resist against counterevidence[@blumStereotypesStereotypingMoral2004].
 If I perceive a member of a certain group behave different to what the properties of their group would have predicted and still hold onto that simplification, this is precisely where simplifications _become wrong_.
 
 ## Why is it hard to come up with something simple?
 
 With the previous example of stereotypes, we were for the first time discussing systems that are not equal.
-
-
-- not the same with or without stereotypes 
-- in order to avoid this wrongness - make correct simplifications
-- for that, one must consider every possible thing in the original system if it can be removed or replaced by sth else while staying true
-- this means, the act of making a simplification is precisely as complex the complexity of the original system
-- and then you must a) understand the original (complex) system b) decide what to remove c) remove things in such a way that interact is not impeded
-- this is for example why teaching is hard 
+So the simpler version is not the same as the more complex version, as we assumed previously.
+In order to avoid this wrongness we must only make simplifications that do not change the system in a way that does not match the original system.
+For that, one must consider every possible aspect in the original system if it can be removed or replaced by something else while staying true.
+This means, the act of making a simplification is precisely as complex the complexity of the original system.
+And for this you must a) understand the original (complex) system b) decide what to remove c) remove things in such a way that interaction is not impeded
+This is for example why teaching a subject is also hard. 
