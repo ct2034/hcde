@@ -153,10 +153,20 @@ If I perceive a member of a certain group behave different to what the propertie
 
 ## Why is it hard to come up with something simple?
 
-With the previous example of stereotypes, we were for the first time discussing systems that are not equal.
-So the simpler version is not the same as the more complex version, as we assumed previously.
-In order to avoid this wrongness we must only make simplifications that do not change the system in a way that does not match the original system.
-For that, one must consider every possible aspect in the original system if it can be removed or replaced by something else while staying true.
-This means, the act of making a simplification is precisely as complex the complexity of the original system.
-And for this you must a) understand the original (complex) system b) decide what to remove c) remove things in such a way that interaction is not impeded
-This is for example why teaching a subject is also hard. 
+With the previous example on stereotypes, we were for the first time discussing systems that are not equal.
+Because the view of the world with stereotypes is simpler but may no longer allow the same judgements about the world.
+In order to generally avoid such wrongness we must only make simplifications that do not change the system in a way that introduces errors.
+For that, one must consider every possible aspect in the original system if it can be removed or replaced by something else.
+So, the act of making a simplification is precisely as complex the complexity of the original system.
+This is the main hypothesis of this article.
+And it explains why simplicity is so hard to grasp.
+In this concept two opposing properties touch: Only by going through the hard process of simplification one can truly reach it.
+
+Taking the previous idea of interactional simplicity into account, we end up at even more requirements for something simple.
+In order to make some simple, you must 
+
+a) understand the original (complex) system
+b) decide what to remove
+c) remove things in such a way that interaction is not impeded
+
+I think this is also the reason that teaching a subject well is also hard. 
