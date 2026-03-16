@@ -34,8 +34,8 @@ I guess it hadn't occurred to me before that simplicity could be seen as low qua
 This illustrates the main confusion I would like to work through in this post:
 Is simplicity a desirable property?
 Underneath that, there are further questions:
-What makes simplicity so hard to grasp?
-And how can something be so simple that it becomes wrong?  #todo maybe update when writing is done
+Why is simplicity so hard to achieve?
+And how can something be so simple that it becomes wrong?
 
 ## What is simplicity
 
@@ -169,4 +169,6 @@ a) understand the original (complex) system
 b) decide what to remove
 c) remove things in such a way that interaction is not impeded
 
-I think this is also the reason that teaching a subject well is also hard. 
+I think this is also the reason that teaching a subject well is so hard. 
+In order to explain something well, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the the recipient of the explanation at exactly the right level of interactional simplicity, which is different for every recipient.
+So please let me know if this article found the right level of simplicity to achieve interactional simplicity for you, dear reader.
