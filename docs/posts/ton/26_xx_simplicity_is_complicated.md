@@ -75,11 +75,11 @@ In this way, preferring simpler explanations could be a way to avoid unnecessary
 But also the justification of simplicity is often argued.
 There are competing positions on why simplicity is desirable.
 For example, one can associate a law with a prior probability, and simpler laws have higher prior probabilities, because they are more likely to be true than complex ones.
-For example comparing families of equations, linear equations in the form $y = ax + b$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
+For example comparing families of equations, linear equations in the form $y = bx + c$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
 Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
 
 Popper actually challenged Jeffreys' probabilistic argument directly.
-The problem is that every linear equation is technically also a quadratic equation — just one where $c = 0$.
+The problem is that every linear equation is technically also a quadratic equation — just one where $a = 0$.
 Since linear equations are a special case of quadratic ones, the probability of a law being linear cannot be higher than the probability of it being quadratic, because the former entails the latter.
 So Jeffreys' assignment of higher prior probability to simpler equations contradicts the axioms of probability [@bakerSimplicity2004].
 
