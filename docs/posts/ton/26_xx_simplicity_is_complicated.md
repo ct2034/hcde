@@ -15,7 +15,7 @@ This is probably not a coincidence.
 Simplicity is a concept that is surprisingly hard to grasp.
 <!-- more -->
 
-It fascinates me because it's really hard properly define simplicity and I am not sure how I feel about it.
+It fascinates me because it's really hard to properly define simplicity and I am not sure how I feel about it.
 On one hand, I admire simple things.
 When an otherwise complicated topic becomes apparent and clear, it fills me with genuine joy.
 On the other hand, things that are too simple can feel wrong, and sometimes I even feel like they are not worth my attention or that who introduced this simplification has a hidden agenda.
@@ -83,9 +83,8 @@ The problem is that every linear equation is technically also a quadratic equati
 Since linear equations are a special case of quadratic ones, the probability of a law being linear cannot be higher than the probability of it being quadratic, because the former entails the latter.
 So Jeffreys' assignment of higher prior probability to simpler equations contradicts the axioms of probability [@bakerSimplicity2004].
 
-However, Popper's concept of _falsifiability_ can be also applied here and provides a different justification for simplicity.
-Falsifiability is one of his core ideas that was developed in the aftermath of the second world war.
-Similar to how a government must be able to be put out of power, a scientific theory must be able to be falsified.
+However, Popper contributed a concept that can help us to understand the desirability of simplicity better.
+The concept is _falsifiability_ #TODO ref ..
 And I think this works precisely in favor of simplicity and the desirability thereof.
 If we look at the two equations again, the linear equation having two parameters and the quadratic equation having three parameters, they would need two and three data points respectively to be determined.
 So, if we have three data points, the linear equation would be falsified if it cannot fit all three data points, while the quadratic equation could still be valid.
@@ -107,7 +106,7 @@ However, the interaction with the touchscreen requires the driver to look at it,
 Compared to a physical indicator switch behind the steering wheel, the touchscreen requires a lot more attention by the driver and is therefore not really simple, even though it looks simple.
 This can lead to serious safety issues, and therefore the solution is not really simple, even though it looks simple[@gitlinEuropeanCrashTester2024, @liangDrivingSimulatorStudy2024].
 
-We could say, that the interaction is what is lacking simplicity in the touchscreen solution.
+We could say that the interaction is what is lacking simplicity in the touchscreen solution.
 So in order to maintain simplicity as a desirable property of technical solutions, we must evaluate it not only based on the number of components, but also on the interaction with those components and certainly not based on the appearance of the solution.
 
 Another technical functionality that is worth considering is compression.
@@ -133,13 +132,11 @@ But an observer of that theory, for example a student trying to learn it, may no
 
 ## On stereotypes
 
-So far we have compared systems to one another under the assumption that both are functionally equivalent and so also the simpler one is technically correct.
-But I want to explore something else where the aforementioned interactions play a vital role and where correctness is harder to define.
-In social interactions between individuals, one will commonly witness stereotypes.
-Why do we often associate traits to individuals based on what groups they appear to belong to.
+While zip comoression is lossless something similar appears in social interaction.
+Why do we often associate traits to individuals based on what groups they appear to belong to?
 From a functional perspective, this must have a purpose.
 If someone interacts with another person, it is _simpler_ to assume certain traits about the other person based on the group they belong to, rather than to try to understand them as an individual.
-So their purpose is precisely the simplification of interaction.
+This is what we call stereotypes and their purpose is precisely the simplification of interaction.
 
 Where stereotypes get problematic is of course if one holds onto them after knowing that a person behaves differently.
 And an actual definition from social psychology reads as follows:
