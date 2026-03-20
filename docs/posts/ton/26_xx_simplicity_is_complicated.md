@@ -34,8 +34,8 @@ I guess it hadn't occurred to me before that simplicity could be seen as low qua
 This illustrates the main confusion I would like to work through in this post:
 Is simplicity a desirable property?
 Underneath that, there are further questions:
-Why is simplicity so hard to achieve?
-And how can something be so simple that it becomes wrong?
+How can something be so simple that it becomes wrong?
+And why is simplicity so hard to achieve?
 
 ## What is simplicity
 
@@ -74,12 +74,7 @@ In this way, preferring simpler explanations could be a way to avoid unnecessary
 
 But also the justification of simplicity is often argued.
 There are competing positions on why simplicity is desirable.
-For example on a theological basis, Smart writes:
-
-> There is a tendency \[...\] for us to take simplicity \[...\] as a guide to metaphysical truth. Perhaps this tendency derives from earlier theological notions: we expect God to have created a beautiful universe.[@smartOckhamsRazor1984]
-
-More evidence-based justifications could be based on probabilistic considerations:
-The argument is that a law is associated to a prior probability, and simpler laws have higher prior probabilities, because they are more likely to be true than complex ones.
+For example, one can associate a law with a prior probability, and simpler laws have higher prior probabilities, because they are more likely to be true than complex ones.
 For example comparing families of equations, linear equations in the form $y = ax + b$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
 Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
 
@@ -108,10 +103,10 @@ However, maybe in an attempt to avoid said overengineering, we can end up with t
 Many technical solutions seem to explicitly target simplicity.
 But on closer inspection, only their appearance is simple.
 For example in recent cars, many functions being controlled by one touch screen looks a lot cleaner and therefore simpler compared to if the same functions each had their own switch or button.
-However, the interaction with the touchscreen requires the driver to look at it, sometimes change to a different screen first, while a physical switch can often be controlled without even looking at it.
+However, the interaction with the touchscreen requires the driver to look at it, sometimes change to a different screen first, while a physical switch can be controlled a lot more easily and often without looking at it.
+Compared to a physical indicator switch behind the steering wheel, the touchscreen requires a lot more attention by the driver and is therefore not really simple, even though it looks simple.
 This can lead to serious safety issues, and therefore the solution is not really simple, even though it looks simple[@gitlinEuropeanCrashTester2024, @liangDrivingSimulatorStudy2024].
-For example the stalks to control the cars indicators are used without even consciously thinking about it by drivers with the most basic level of experience.
-If a touchscreen is used to control the indicators, it would require a lot more attention, even experienced drivers are required to look at the screen, and therefore it is not really simple, even though it looks simple.
+
 We could say, that the interaction is what is lacking simplicity in the touchscreen solution.
 So in order to maintain simplicity as a desirable property of technical solutions, we must evaluate it not only based on the number of components, but also on the interaction with those components and certainly not based on the appearance of the solution.
 
@@ -141,34 +136,36 @@ But an observer of that theory, for example a student trying to learn it, may no
 So far we have compared systems to one another under the assumption that both are functionally equivalent and so also the simpler one is technically correct.
 But I want to explore something else where the aforementioned interactions play a vital role and where correctness is harder to define.
 In social interactions between individuals, one will commonly witness stereotypes.
+Why do we often associate traits to individuals based on what groups they appear to belong to.
+From a functional perspective, this must have a purpose.
+If someone interacts with another person, it is _simpler_ to assume certain traits about the other person based on the group they belong to, rather than to try to understand them as an individual.
+So their purpose is precisely the simplification of interaction.
+
+Where stereotypes get problematic is of course if one holds onto them after knowing that a person behaves differently.
+And an actual definition from social psychology reads as follows:
 
 > Stereotypes are false or misleading generalizations about groups held in a manner that renders them largely, though not entirely, immune to counterevidence.[@blumStereotypesStereotypingMoral2004]
 
-While I don't want to discuss the correctness of stereotypes in general, they must have some function.
-If someone interacts with another person, it is _simpler_ to assume certain traits about the other person based on which groups they appear to belong to.
-So their purpose is precisely the simplification of interaction.
-This can also be looked at from a compression perspective: I have to remember more traits and properties of people if I attribute them to groups rather than every single individual.
-Where stereotypes get problematic is of course if they resist against counterevidence[@blumStereotypesStereotypingMoral2004].
-If I perceive a member of a certain group behave different to what the properties of their group would have predicted and still hold onto that simplification, this is precisely where simplifications _become wrong_.
+This is the point where simplifications become wrong.
+Of course, it is simpler to assume that all members of a group have the same traits, but if I actually perceive and individual behaving differently to what the properties of their group would have predicted, I should update my simplification and not hold onto it.
+In actual social science, matters are of course more complicated, because stereotypes can be shared within ones own group, and therefore they can be a part of ones identity, which makes it harder to let go of them.
+But in any case, stereotypes can be overcome by interaction with individuals, and collecting counterevidence in order to falsify these types of simplifications.
 
 ## Why is it hard to come up with something simple?
 
 With the previous example on stereotypes, we were for the first time discussing systems that are not equal.
 Because the view of the world with stereotypes is simpler but may no longer allow the same judgements about the world.
 In order to generally avoid such wrongness we must only make simplifications that do not change the system in a way that introduces errors.
-For that, one must consider every possible aspect in the original system if it can be removed or replaced by something else.
-So, the act of making a simplification is precisely as complex the complexity of the original system.
-This is the main hypothesis of this article.
+
+In order to make something simple, one must do two things:
+
+a) Understand the original non-simplified system in its entirety, including all components in their function and interaction with one another.
+b) For each of them, decide if it can be removed of replaced without changing how the system functions when interacting with it.
+
+So, the act of making a simplification is as complex as the original system, because the act of simplifying requires a number of decisions depends on the number of components in the original system.
 And it explains why simplicity is so hard to grasp.
-In this concept two opposing properties touch: Only by going through the hard process of simplification one can truly reach it.
+In this concept two opposing properties touch: Only by going through this hard process, one can truly achieve simplicity.
 
-Taking the previous idea of interactional simplicity into account, we end up at even more requirements for something simple.
-In order to make some simple, you must 
-
-a) understand the original (complex) system
-b) decide what to remove
-c) remove things in such a way that interaction is not impeded
-
-I think this is also the reason that teaching a subject well is so hard. 
-In order to explain something well, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the the recipient of the explanation at exactly the right level of interactional simplicity, which is different for every recipient.
-So please let me know if this article found the right level of simplicity to achieve interactional simplicity for you, dear reader.
+I think this is also the reason that teaching a subject well is also hard.
+In order to explain something, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the recipient of the explanation at exactly the right level in terms of interactional simplicity, which is different for every recipient.
+I would be curious to know if this article found the right level of simplicity to achieve interactional simplicity for you, dear reader.
