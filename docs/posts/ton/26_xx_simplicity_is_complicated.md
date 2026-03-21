@@ -29,6 +29,7 @@ I remember a conversation with a colleague about my appreciation for papers base
 But after confessing my love for simplicity, that co-worker warned me with a remark along the lines of reviews often being challenging.
 This caught me off guard, and I was confused by the remark.
 It appeared as they would think for something to be good, it must also be complicated.
+But unfortunately, I think the reverse often happens, when ideas are presented more wordy and complicated than they actually are, which can be a way to hide the fact that the idea is not very good.
 I guess it hadn't occurred to me before that simplicity could be seen as low quality.
 
 This illustrates the main confusion I would like to work through in this post:
@@ -138,7 +139,7 @@ From a functional perspective, this must have a purpose.
 If someone interacts with another person, it is _simpler_ to assume certain traits about the other person based on the group they belong to, rather than to try to understand them as an individual.
 
 This is what we could call stereotypes and they exist because our brains try to precisely simplify interaction.
-If compare this to compression in technical systems, it is however not a lossless compression, because it is not possible to perfectly predict the traits of an individual based on the group they belong to.
+If we compare this to compression in technical systems, it is however not a lossless compression, because it is not possible to perfectly predict the traits of an individual based on the group they belong to.
 Where stereotypes get problematic is of course if one holds onto them after knowing that a person behaves differently.
 And an actual definition from social psychology reads as follows:
 
@@ -147,23 +148,28 @@ And an actual definition from social psychology reads as follows:
 This is the point where simplifications become wrong.
 Of course, it is simpler to assume that all members of a group have the same traits, but if I actually perceive and individual behaving differently to what the properties of their group would have predicted, I should update my simplification and not hold onto it.
 In actual social science, matters are of course more complicated, because stereotypes can be shared within ones own group, and therefore they can be a part of ones identity, which makes it harder to let go of them.
-But in any case, stereotypes can be overcome by interaction with individuals, and collecting counterevidence in order to falsify these types of simplifications.
+But in any case, stereotypes can be overcome by interaction with individuals, because in the end, wrong simplifications can only be identified by looking at the system without the simplification.
 
 ## Why is simplicity hard?
 
-With the previous example on stereotypes, we were for the first time discussing systems that are not equal.
+With the previous example on stereotypes, we were for the first time discussing wrong simplifications.
 Because the view of the world with stereotypes is simpler but may no longer allow the same judgments about the world.
 In order to generally avoid such wrongness we must only make simplifications that do not change the system in a way that introduces errors.
+Often when someone else presents a simplification, they usually primarily communicate what is left after the simplification, but do not explicitly explain what they have removed and why.
+For example, if a politician makes a statement that a certain group of people is responsible for a problem, they communicate only that idea and not which other factors have been ignored actively or by accident in this simplification.
 
-In order to make something simple, one must do two things:
+But in order to make a valid simplification, one must do two things:
 
-a) Understand the original non-simplified system in its entirety, including all components in their function and interaction with one another.
-b) For each of them, decide if it can be removed of replaced without changing how the system functions when interacting with it.
+1. Understand the original non-simplified system in its entirety, including all components in their function and interaction with one another.
+2. For each of them, decide if it can be removed of replaced without changing how the system functions when interacting with it.
 
-So, the act of making a simplification is as complex as the original system, because the act of simplifying requires a number of decisions depends on the number of components in the original system.
-And it explains why simplicity is so hard to grasp.
+So, the act of simplification is as hard as the complexity of the original system, because it requires a number of decisions that depend on the number of components in the original system.
+But this number of decisions is not just a linear function of the number of components, but it is also concerned with the interactions between the components and potentially external systems.
+This explains why simplicity is so hard to grasp.
+When simplifying a system, the complexity does not disappear by itself, but it must be actively removed by the simplifier, and this process is at least as hard as the original system.
+And the space of possible simplifications is huge, technically as big as the power set of the original system, and it is not clear which ones are valid and which ones are not.
 In this concept two opposing properties touch: Only by going through this hard process, one can truly achieve simplicity.
 
 I think this is also the reason that teaching a subject well is also hard.
 In order to explain something, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the recipient of the explanation at exactly the right level in terms of interactional simplicity, which is different for every recipient.
-I would be curious to know if this article found the right level of simplicity to achieve interactional simplicity for you, dear reader.
+I would be curious to know if this article found the right simplifications such that it allowed an interaction with you, the reader, so please get in touch.
