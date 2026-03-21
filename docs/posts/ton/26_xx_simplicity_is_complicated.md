@@ -116,7 +116,7 @@ But a compressed text file would be simpler than an uncompressed one by the defi
 
 ## Simplicity of interaction
 
-I propose to introduce the concept of _Interactional Simplicity_.
+Extending the general concept of simplicity, I would suggest the term _Interactional Simplicity_.
 It is particularly important if we consider the interaction with a system, especially that of a human actor.
 Also in the UX research, the paradigm of simplicity can be challenged.
 A paper proposes to introduce the term of _praxisware_ for those programs that are used after a considerable amount of training, like spreadsheet, word processing, or any professional design tool.
@@ -132,12 +132,13 @@ But an observer of that theory, for example a student trying to learn it, may no
 
 ## On stereotypes
 
-While zip compression is lossless something similar appears in social interaction.
+While compression makes sense for technical systems, something similar happens with generalizations in social interaction.
 Why do we often associate traits to individuals based on what groups they appear to belong to?
 From a functional perspective, this must have a purpose.
 If someone interacts with another person, it is _simpler_ to assume certain traits about the other person based on the group they belong to, rather than to try to understand them as an individual.
-This is what we call stereotypes and their purpose is precisely the simplification of interaction.
 
+This is what we could call stereotypes and they exist because our brains try to precisely simplify interaction.
+If compare this to compression in technical systems, it is however not a lossless compression, because it is not possible to perfectly predict the traits of an individual based on the group they belong to.
 Where stereotypes get problematic is of course if one holds onto them after knowing that a person behaves differently.
 And an actual definition from social psychology reads as follows:
 
