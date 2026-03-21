@@ -1,0 +1,25 @@
+{
+    "version": "0.2",
+    "ignorePaths": [
+        "bibtex/",
+        ".pre-commit-config.yaml",
+        "cspell.json",
+    ],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "baumeister",
+        "counterevidence",
+        "gitlin",
+        "interactional",
+        "Interactional",
+        "liang",
+        "overengineering",
+        "overfitting",
+        "praxisware",
+        "sarkar",
+        "Thinkoneering"
+    ],
+    "ignoreWords": [],
+    "import": []
+}

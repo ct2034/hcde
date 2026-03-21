@@ -132,7 +132,7 @@ But an observer of that theory, for example a student trying to learn it, may no
 
 ## On stereotypes
 
-While zip comoression is lossless something similar appears in social interaction.
+While zip compression is lossless something similar appears in social interaction.
 Why do we often associate traits to individuals based on what groups they appear to belong to?
 From a functional perspective, this must have a purpose.
 If someone interacts with another person, it is _simpler_ to assume certain traits about the other person based on the group they belong to, rather than to try to understand them as an individual.
@@ -148,10 +148,10 @@ Of course, it is simpler to assume that all members of a group have the same tra
 In actual social science, matters are of course more complicated, because stereotypes can be shared within ones own group, and therefore they can be a part of ones identity, which makes it harder to let go of them.
 But in any case, stereotypes can be overcome by interaction with individuals, and collecting counterevidence in order to falsify these types of simplifications.
 
-## Why is it hard to come up with something simple?
+## Why is simplicity hard?
 
 With the previous example on stereotypes, we were for the first time discussing systems that are not equal.
-Because the view of the world with stereotypes is simpler but may no longer allow the same judgements about the world.
+Because the view of the world with stereotypes is simpler but may no longer allow the same judgments about the world.
 In order to generally avoid such wrongness we must only make simplifications that do not change the system in a way that introduces errors.
 
 In order to make something simple, one must do two things:
