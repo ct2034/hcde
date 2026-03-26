@@ -11,32 +11,33 @@ categories:
 
 The best things in life are simple.
 But, so are the worst ones.
-This is probably not a coincidence.
-Simplicity is a concept that is surprisingly hard to grasp.
+Simplicity is a concept that is surprisingly difficult to grasp.
 <!-- more -->
 
 It fascinates me because it's really hard to properly define simplicity and I am not sure how I feel about it.
 On one hand, I admire simple things.
-When an otherwise complicated topic becomes apparent and clear, it fills me with genuine joy.
-On the other hand, things that are too simple can feel wrong, and sometimes I even feel like they are not worth my attention or that who introduced this simplification has a hidden agenda.
+When an previously complicated topic becomes apparent and clear, it fills me with genuine joy.
+On the other hand, things that appear too simple can feel wrong, and sometimes I even feel like they are not worth my attention or that who introduced this simplification has some hidden agenda.
 
 For example, I think that the ideal engineering-science paper is based on _one simple idea_.
 Being an engineering paper, it must demonstrate effectiveness at solving the addressed problem compared to previous solutions.
-But I think the best papers describe a solution to this problem that is as simple as possible, such that adding additional parts could not make it any better.
+But I think the best papers describe a solution that is as simple as possible, such that adding additional parts could not make it any better.
 Additionally, since we talk about research papers, it will be easier to fit on the limited pages and a reader will be more likely to understand the paper.
 
 I remember a conversation with a colleague about my appreciation for papers based on simple ideas.
-But after confessing my love for simplicity, that co-worker warned me with a remark along the lines of reviews often being challenging.
-This caught me off guard, and I was confused by the remark.
+But after confessing my love for simplicity, they warned me with a remark along the lines of scientific reviews often being challenging.
+This caught me off guard, and I was confused.
 It appeared as they would think for something to be good, it must also be complicated.
 But unfortunately, I think the reverse often happens, when ideas are presented more wordy and complicated than they actually are, which can be a way to hide the fact that the idea is not very good.
 I guess it hadn't occurred to me before that simplicity could be seen as low quality.
+There is of course the problem problem that some people just like to use jargon and express themselves in a way that seems sophisticated in order to come across as intelligent.
+It must be noted that this may not be done with bad intentions but just because it is incredibly hard to make say something as simply as possible.
 
 This illustrates the main confusion I would like to work through in this post:
-Is simplicity a desirable property?
+Why is simplicity so hard to achieve?
 Underneath that, there are further questions:
-How can something be so simple that it becomes wrong?
-And why is simplicity so hard to achieve?
+Is simplicity a desirable property?
+And, how can something be so simple that it is wrong?
 
 ## What is simplicity
 
