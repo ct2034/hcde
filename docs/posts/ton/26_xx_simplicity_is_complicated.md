@@ -41,13 +41,12 @@ And, how can something be so simple that it is wrong?
 
 ## What is simplicity
 
-In literature, simplicity is often discussed in the context of theories.
-It is best understood by comparing two theories, with the one containing fewer concepts being called _simpler_ [@bakerSimplicity2004].
-
+In the literature, simplicity is often discussed in the context of theories.
+When comparing two theories, the one containing fewer concepts is called _simpler_ [@bakerSimplicity2004].
 This essence is captured in Occam's razor, which states that
 > entities should not be multiplied beyond necessity.[@bakerSimplicity2004]
 
-In theories, the entities are the concepts or aspects thereof used to explain phenomena.
+In theories, the entities are the concepts or aspects thereof used to explain observed phenomena.
 And more precisely, there are two types of simplicity that are often discussed:
 
 - **Syntactic simplicity**: the number and complexity of basic principles and their relationships used within the theory. This is often also called _elegance_.
