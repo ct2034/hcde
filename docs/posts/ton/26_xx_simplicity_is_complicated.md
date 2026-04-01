@@ -62,7 +62,7 @@ And Einstein himself is often quoted as appreciating simplicity in theories:
 
 This gives us a good basis to understand simplicity as a property of theories, but it is still not clear why it is desirable and how it applies to other aspects.
 
-## Is simplicity desirable?
+## Simple explanations
 
 Firstly, let's think about the validity of our understanding outside of theories.
 If we consider explanations, the transfer is relatively straightforward:
@@ -73,8 +73,13 @@ However, this explanation isn't very simple—it would also entail that all prev
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
 In this way, preferring simpler explanations could be a way to avoid unnecessary negative assumptions about others, and therefore it is desirable.
 
-But also the justification of simplicity is often argued.
-There are competing positions on why simplicity is desirable.
+And in fact research shows that humans assign a higher prior likelihood to explanations that are simpler. #todo ref 
+But it is not only the prior likelihood ... #TODO 
+
+## Is simplistic desirable?
+
+But is it good that we seem to prefer simpler explanations?
+On a more general level competing positions on the desirability of simplicity exist.
 For example, one can associate a law with a prior probability, and simpler laws have higher prior probabilities, because they are more likely to be true than complex ones.
 For example comparing families of equations, linear equations in the form $y = bx + c$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
 Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
@@ -83,6 +88,8 @@ Popper actually challenged Jeffreys' probabilistic argument directly.
 The problem is that every linear equation is technically also a quadratic equation — just one where $a = 0$.
 Since linear equations are a special case of quadratic ones, the probability of a law being linear cannot be higher than the probability of it being quadratic, because the former entails the latter.
 So Jeffreys' assignment of higher prior probability to simpler equations contradicts the axioms of probability [@bakerSimplicity2004].
+
+## Falsifiability as understood by Popper
 
 However, Popper contributed a concept that can help us to understand the desirability of simplicity better.
 The concept is _falsifiability_ #TODO ref ..
@@ -94,7 +101,8 @@ Thus, models with fewer parameters are more likely to be falsified, and therefor
 
 ## Simplicity of technical solutions
 
-We can apply the idea of simplicity as the number of components also to technical solutions.
+But can we apply what we learned about simplicity to any technical system?
+It seems obvious to simply consider the number of components of technical solutions.
 Comparing two technical solutions, one is simpler exactly if it has fewer components.
 And this is also desirable, because fewer components will most likely cost less in terms of development, require less resources to manufacture and operate, and be easier to maintain.
 It is the opposite of what we call _overengineering_ — a solution that is more complex than necessary.
