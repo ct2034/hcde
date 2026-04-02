@@ -73,7 +73,7 @@ However, this explanation isn't very simple—it would also entail that all prev
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
 In this way, preferring simpler explanations could be a way to avoid unnecessary negative assumptions about others, and therefore it is desirable.
 
-And in fact research shows that humans assign a higher prior likelihood to explanations that are simpler. #todo ref 
+And in fact research shows that humans assign a higher prior likelihood to explanations that are simpler. #todo [@vrantsidisSimplicityCueProbability2022]
 But it is not only the prior likelihood ... #TODO 
 
 ## Is simplistic desirable?
