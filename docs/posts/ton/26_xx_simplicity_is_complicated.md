@@ -30,7 +30,7 @@ This caught me off guard, and I was confused.
 It appeared as they would think for something to be good, it must also be complicated.
 But unfortunately, I think the reverse often happens, when ideas are presented more wordy and complicated than they actually are, which can be a way to hide the fact that the idea is not very good.
 I guess it hadn't occurred to me before that simplicity could be seen as low quality.
-There is of course the problem problem that some people just like to use jargon and express themselves in a way that seems sophisticated in order to come across as intelligent.
+There is of course the problem that some people just like to use jargon and express themselves in a way that seems sophisticated in order to come across as intelligent.
 It must be noted that this may not be done with bad intentions but just because it is incredibly hard to make say something as simply as possible.
 
 This illustrates the main confusion I would like to work through in this post:
@@ -77,7 +77,7 @@ And in fact research shows that humans assign a higher likelihood to explanation
 This effect is present in different aspects of reasoning, such as the prior probability of a hypothesis, likelihoods as well as posteriors.
 I find it remarkable but also worrying given that this goes against a purely rational concept of human reasoning.
 
-## Is simplistic desirable?
+## Is simplicity desirable?
 
 But is it good that we seem to prefer simpler explanations?
 On a more general level competing positions on the desirability of simplicity exist.
@@ -175,7 +175,7 @@ For example, if a politician makes a statement that a certain group of people is
 But in order to make a valid simplification, one must do two things:
 
 1. Understand the original non-simplified system in its entirety, including all components in their function and interaction with one another.
-2. For each of them, decide if it can be removed of replaced without changing how the system functions when interacting with it.
+2. For each of them, decide if it can be removed or replaced without changing how the system functions when interacting with it.
 
 So, the act of simplification is as hard as the complexity of the original system, because it requires a number of decisions that depend on the number of components in the original system.
 But this number of decisions is not just a linear function of the number of components, but it is also concerned with the interactions between the components and potentially external systems.
@@ -185,5 +185,5 @@ And the space of possible simplifications is huge, technically as big as the pow
 In this concept two opposing properties touch: Only by going through this hard process, one can truly achieve simplicity.
 
 I think this is also the reason that teaching a subject well is also hard.
-In order to explain something, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the recipient of the explanation at exactly the right level in terms of interactional simplicity, which is different for every recipient.
+In order to explain something, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the recipient of the explanation at exactly the right level in terms of interactional simplicity, which is different for every recipient[@camererCurseKnowledgeEconomic1989].
 I would be curious to know if this article found the right simplifications such that it allowed an interaction with you, the reader, so please get in touch.
