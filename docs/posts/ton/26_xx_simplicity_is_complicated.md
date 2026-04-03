@@ -73,8 +73,9 @@ However, this explanation isn't very simple—it would also entail that all prev
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
 In this way, preferring simpler explanations could be a way to avoid unnecessary negative assumptions about others, and therefore it is desirable.
 
-And in fact research shows that humans assign a higher prior likelihood to explanations that are simpler. #todo [@vrantsidisSimplicityCueProbability2022]
-But it is not only the prior likelihood ... #TODO 
+And in fact research shows that humans assign a higher likelihood to explanations that are simpler[@vrantsidisSimplicityCueProbability2022].
+This effect is present in different aspects of reasoning, such as the prior probability of a hypothesis, likelihoods as well as posteriors.
+I find it remarkable but also worrying given that this goes against a purely rational concept of human reasoning.
 
 ## Is simplistic desirable?
 
@@ -92,14 +93,19 @@ So Jeffreys' assignment of higher prior probability to simpler equations contrad
 ## Falsifiability as understood by Popper
 
 However, Popper contributed a concept that can help us to understand the desirability of simplicity better.
-The concept is _falsifiability_ #TODO ref ..
+The concept is _falsifiability_[@karlpopperLogikForschungZur1935].
+It is centered on the idea that scientific theories are universal statements, like the classic example of "All swans are white".
+This statements i never verifiable, because for any number of observed white swans, it is never certain that there may not come up a future observation of a black swan.
+However, it is falsifiable, by the observation of a single black swan.
+Popper bases his scientific theory on this concept of falsifiability, because it allows us to classify thoeries as scientific exactly if they are falsifiable.
+
 And I think this works precisely in favor of simplicity and the desirability thereof.
 If we look at the two equations again, the linear equation having two parameters and the quadratic equation having three parameters, they would need two and three data points respectively to be determined.
 So, if we have three data points, the linear equation would be falsified if it cannot fit all three data points, while the quadratic equation could still be valid.
 This is what in machine learning would be called overfitting — a model that is too complex and can fit the training data perfectly, but fails to generalize to new data.
 Thus, models with fewer parameters are more likely to be falsified, and therefore they are more likely to generalize to new data, which is a desirable property of scientific theories in the same way as it is a desirable property of machine learning models.
 
-## Simplicity of technical solutions
+## Technical solutions
 
 But can we apply what we learned about simplicity to any technical system?
 It seems obvious to simply consider the number of components of technical solutions.
