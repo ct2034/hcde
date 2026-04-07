@@ -159,18 +159,17 @@ And an actual definition from social psychology reads as follows:
 > Stereotypes are false or misleading generalizations about groups held in a manner that renders them largely, though not entirely, immune to counterevidence.[@blumStereotypesStereotypingMoral2004]
 
 This is the point where simplifications become wrong.
-And if we remember, that psychologically simplicity as a cue for probability [@vrantsidisSimplicityCueProbability2022] we may ignore this wrongness.
+And if we remember, that psychologically simplicity as a cue for probability [@vrantsidisSimplicityCueProbability2022] then people maybe drawn to use stereotypes because theit simplicity make them seem more likely while in fact they may be incorrect.
+How could we overcome this?
 Of course, it is simpler to assume that all members of a group have the same traits, but if I actually perceive and individual behaving differently to what the properties of their group would have predicted, I should update my simplification and not hold onto it.
 In actual social science, matters are of course more complicated, because stereotypes can be shared within ones own group, and therefore they can be a part of ones identity, which makes it harder to let go of them.
 But in any case, stereotypes can be overcome by interaction with individuals, because in the end, wrong simplifications can only be identified by looking at the system without the simplification.
 
 ## Why is simplicity hard?
 
-With the previous example on stereotypes, we were for the first time discussing wrong simplifications.
-This is a problem because the view of the world with stereotypes is simpler but may no longer allow the same judgments about the world.
-In order to generally avoid such wrongness we must only make simplifications that do not change the system in a way that introduces errors.
-Often when someone else presents a simplification, they usually primarily communicate what is left after the simplification, but do not explicitly explain what they have removed and why.
-For example, if a politician makes a statement that a certain group of people is responsible for a problem, they communicate only that idea and not which other factors have been ignored actively or by accident in this simplification.
+In order to generally avoid wrong simplifications, we must not change the system in a way that introduces errors.
+Often when someone else presents a simplification, they primarily communicate what is left after the simplification, but do not explicitly explain what they have removed and why.
+For example, if a politician makes a statement that a certain group of people is responsible for a problem in their country, they communicate only that idea and not which other factors have been ignored actively or by accident in this simplification.
 
 But in order to make a valid simplification, one must do two things:
 
