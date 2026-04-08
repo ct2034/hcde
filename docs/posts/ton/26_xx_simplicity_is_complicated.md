@@ -85,19 +85,19 @@ For example, one can associate a law with a prior probability, and simpler laws 
 For example comparing families of equations, linear equations in the form $y = bx + c$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
 Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
 
-Popper actually challenged Jeffreys' probabilistic argument directly.
-The problem is that every linear equation is technically also a quadratic equation — just one where $a = 0$.
-Since linear equations are a special case of quadratic ones, the probability of a law being linear cannot be higher than the probability of it being quadratic, because the former entails the latter.
+Popper challenged Jeffreys' probabilistic argument directly.
+His argument was that every linear equation is technically also a quadratic equation — just one where $a = 0$.
+And so, if linear equations are a special case of quadratic ones, the probability of a law being linear cannot be higher than the probability of it being quadratic, because the former entails the latter.
 So Jeffreys' assignment of higher prior probability to simpler equations contradicts the axioms of probability [@bakerSimplicity2004].
 
 ## Falsifiability as understood by Popper
 
-However, Popper contributed a concept that can help us to understand the desirability of simplicity better.
+But instead of a direct probabilistic argument, Popper contributed a concept that can help us to understand the desirability of simplicity better.
 The concept is _falsifiability_[@karlpopperLogikForschungZur1935].
 It is centered on the idea that scientific theories are universal statements, like the classic example of "All swans are white".
-This statements i never verifiable, because for any number of observed white swans, it is never certain that there may not come up a future observation of a black swan.
-However, it is falsifiable, by the observation of a single black swan.
-Popper bases his scientific theory on this concept of falsifiability, because it allows us to classify thoeries as scientific exactly if they are falsifiable.
+These statements are never verifiable, because for any number of observed white swans, it is never certain that there may not come up a future observation of a black swan.
+However, they are falsifiable, by the observation of _a single black swan_.
+Popper bases his scientific theory on this concept of falsifiability, because it allows us to classify theories as scientific exactly if they are falsifiable.
 
 And I think this works precisely in favor of simplicity and the desirability thereof.
 If we look at the two equations again, the linear equation having two parameters and the quadratic equation having three parameters, they would need two and three data points respectively to be determined.
@@ -158,8 +158,8 @@ And an actual definition from social psychology reads as follows:
 
 > Stereotypes are false or misleading generalizations about groups held in a manner that renders them largely, though not entirely, immune to counterevidence.[@blumStereotypesStereotypingMoral2004]
 
-This is the point where simplifications become wrong.
-And if we remember, that psychologically simplicity as a cue for probability [@vrantsidisSimplicityCueProbability2022] then people maybe drawn to use stereotypes because theit simplicity make them seem more likely while in fact they may be incorrect.
+So stereotypes are an example where simplifications become wrong.
+And if we remember that psychologically simplicity as a cue for probability [@vrantsidisSimplicityCueProbability2022] then people may be drawn to use stereotypes because the simplicity make them seem more likely while in fact they are incorrect.
 How could we overcome this?
 Of course, it is simpler to assume that all members of a group have the same traits, but if I actually perceive and individual behaving differently to what the properties of their group would have predicted, I should update my simplification and not hold onto it.
 In actual social science, matters are of course more complicated, because stereotypes can be shared within ones own group, and therefore they can be a part of ones identity, which makes it harder to let go of them.
@@ -176,7 +176,7 @@ But in order to make a valid simplification, one must do two things:
 1. Understand the original non-simplified system in its entirety, including all components in their function and interaction with one another.
 2. For each of them, decide if it can be removed or replaced without changing how the system functions when interacting with it.
 
-So, the act of simplification is as hard as the complexity of the original system, because it requires a number of decisions that depend on the number of components in the original system.
+So, how hard the act of simplification is depends on the complexity of the original system, because it requires a number of decisions that depend on the number of components in the original system.
 But this number of decisions is not just a linear function of the number of components, but it is also concerned with the interactions between the components and potentially external systems.
 This explains why simplicity is so hard to grasp.
 When simplifying a system, the complexity does not disappear by itself, but it must be actively removed by the simplifier, and this process is at least as hard as the original system.
@@ -185,4 +185,6 @@ In this concept two opposing properties touch: Only by going through this hard p
 
 I think this is also the reason that teaching a subject well is also hard.
 In order to explain something, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the recipient of the explanation at exactly the right level in terms of interactional simplicity, which is different for every recipient[@camererCurseKnowledgeEconomic1989].
-I would be curious to know if this article found the right simplifications such that it allowed an interaction with you, the reader, so please get in touch.
+
+In the end I would be very interested whether this idea of why simplicity is hard to achieve is something that found the right interactional simplicity for you, dear reader, so please reach out to me with your thoughts on this topic.
+
