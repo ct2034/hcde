@@ -187,4 +187,4 @@ I think this is also the reason that teaching a subject well is also hard.
 In order to explain something, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the recipient of the explanation at exactly the right level in terms of interactional simplicity, which is different for every recipient[@camererCurseKnowledgeEconomic1989].
 
 In the end I would be very interested whether this idea of why simplicity is hard to achieve is something that found the right interactional simplicity for you, dear reader, so please reach out to me with your thoughts on this topic.
-
+It is obvious that the ideas I formulated here, that simplicity needs to be considered in terms of interactional simplicity and that it is hard to achieve because of the complexity of the original system, are merely hypotheses at this point, but I may revisit them in the future more deeply.
