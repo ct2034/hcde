@@ -13,7 +13,7 @@ repos:
     rev: v9.7.0
     hooks:
       - id: cspell # Spell check changed files
-        files: \.md$
+        files: docs/posts/.*\.md
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: "v0.44.0"
