@@ -25,10 +25,11 @@ But I think the best papers describe a solution that is as simple as possible, s
 Additionally, since we talk about research papers, it will be easier to fit on the limited pages and a reader will be more likely to understand the paper.
 
 I remember a conversation with a colleague about my appreciation for papers based on simple ideas.
-But after confessing my love for simplicity, they warned me with a remark along the lines of scientific reviews often being challenging.
+But after confessing this love for simplicity, they warned me, saying that scientific reviews can be challenging.
 This caught me off guard, and I was confused.
 It appeared as they would think for something to be good, it must also be complicated.
-But unfortunately, I think the reverse often happens, when ideas are presented more wordy and complicated than they actually are, which can be a way to hide the fact that the idea is not very good.
+But unfortunately, I think the reverse often happens, when ideas are presented more wordy and complicated than they actually are.
+Which can be a way to hide the fact that the idea is not very good.
 I guess it hadn't occurred to me before that simplicity could be seen as low quality.
 There is of course the problem that some people just like to use jargon and express themselves in a way that seems sophisticated in order to come across as intelligent.
 It must be noted that this may not be done with bad intentions but just because it is incredibly hard to make say something as simply as possible.
