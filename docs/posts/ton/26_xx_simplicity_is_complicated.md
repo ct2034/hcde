@@ -44,7 +44,7 @@ And, how can something be so simple that it is wrong?
 
 In the literature, simplicity is often discussed in the context of theories.
 When comparing two theories, the one containing fewer concepts is called _simpler_ [@bakerSimplicity2004].
-This essence is captured in Occam's razor, which states that
+This essence is captured in Occam's razor, saying that
 > entities should not be multiplied beyond necessity.[@bakerSimplicity2004]
 
 In theories, the entities are the concepts or aspects thereof used to explain observed phenomena.
@@ -53,7 +53,9 @@ And more precisely, there are two types of simplicity that are often discussed:
 - **Syntactic simplicity**: the number and complexity of basic principles and their relationships used within the theory. This is often also called _elegance_.
 - **Ontological simplicity**: the number of kinds of fundamental entities that the theory refers to. This is often also called _parsimony_.[@bakerSimplicity2004]
 
-A commonly cited example is Einstein's special relativity.
+So the former is based on the inner workings of a theory, while the later also takes into account how what that the theory refers to is structured.
+
+A commonly cited example that can be examined under both elegance and parsimony is Einstein's special relativity.
 Before its introduction, the Lorentz-Poincaré theory could explain the same phenomena but required postulating the ether as a physical medium for light propagation and auxiliary constructs — local time and length contraction — to explain the results of the Michelson-Morley experiment.
 Einstein's theory, built on two postulates — the principle of relativity and the constancy of the speed of light — renders the ether logically superfluous, making it more ontologically parsimonious[@bakerSimplicity2004].
 
