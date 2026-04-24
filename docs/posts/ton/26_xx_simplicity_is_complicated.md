@@ -74,17 +74,18 @@ If we witness someone making a negative remark about us, we may worry about the 
 Our negativity bias[@baumeisterBadStrongerGood2001] may lead us to form the theory that the person hates us.
 However, this explanation isn't very simple, because it would also entail that all previous times they were nice to us, they were just pretending.
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
-In this way, preferring simpler explanations could be a way to avoid unnecessary negative assumptions about others, and therefore it is desirable.
+In this way, preferring simpler explanations could be a way to avoid assumptions about others that are unlikely, and therefore it is desirable.
 
 And in fact research shows that humans assign a higher likelihood to explanations that are simpler[@vrantsidisSimplicityCueProbability2022].
 This effect is present in different aspects of reasoning, such as the prior probability of a hypothesis, likelihoods as well as posteriors.
-I find it remarkable but also worrying given that this goes against a purely rational concept of human reasoning.
+I find it remarkable but also worrying because it could mean that we are biased towards simpler explanations, even if they are not correct.
 
 ## Is simplicity desirable?
 
-But is it good that we seem to prefer simpler explanations?
+But can it be good that we seem to prefer simple explanations?
 On a more general level competing positions on the desirability of simplicity exist.
-For example, one can associate a law with a prior probability, and simpler laws have higher prior probabilities, because they are more likely to be true than complex ones.
+Jeffreys argued that one can associate a law with a prior probability that is based on the complexity of the law.
+He argued that simpler laws have higher prior probabilities than more complex ones, because they have fewer parameters and if we assume a random distribution of possible parameter values, then simpler laws are more likely to be to be true than more complex ones, because they have fewer parameters that can be wrong.
 For example comparing families of equations, linear equations in the form $y = bx + c$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
 Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
 
@@ -103,15 +104,15 @@ However, they are falsifiable, by the observation of _a single black swan_.
 Popper bases his scientific theory on this concept of falsifiability, because it allows us to classify theories as scientific exactly if they are falsifiable.
 
 And I think this works precisely in favor of simplicity and the desirability thereof.
-If we look at the two equations again, the linear equation having two parameters and the quadratic equation having three parameters, they would need two and three data points respectively to be determined.
+If we look at the two equations again, the linear equation having two parameters and the quadratic equation having three parameters, they would need two and three data points respectively to be uniquely determined.
 So, if we have three data points, the linear equation would be falsified if it cannot fit all three data points, while the quadratic equation could still be valid.
-This is what in machine learning would be called overfitting, a model that is too complex and can fit the training data perfectly, but fails to generalize to new data.
-Thus, models with fewer parameters are more likely to be falsified, and therefore they are more likely to generalize to new data, which is a desirable property of scientific theories in the same way as it is a desirable property of machine learning models.
+Using a quadratic equation over a linear one is comparable to what in machine learning would be called overfitting, a model that is too complex and can fit the training data perfectly, but fails to generalize to new data.
+Thus, models with fewer parameters are more likely to be falsified, but if they survive falsification, they are more likely to generalize to new data, which is a desirable property of scientific theories in the same way as it is a desirable property of machine learning models.
 
 ## Technical solutions
 
 But can we apply what we learned about simplicity to any technical system?
-It seems obvious to simply consider the number of components of technical solutions.
+A first idea is to consider the number of components of technical solutions.
 Comparing two technical solutions, one is simpler exactly if it has fewer components.
 And this is also desirable, because fewer components will most likely cost less in terms of development, require less resources to manufacture and operate, and be easier to maintain.
 It is the opposite of what we call _overengineering_, a solution that is more complex than necessary.
