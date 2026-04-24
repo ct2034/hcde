@@ -55,9 +55,9 @@ And more precisely, there are two types of simplicity that are often discussed:
 
 So the former is based on the inner workings of a theory, while the latter also takes into account how the theory refers to the structure of reality.
 
-A commonly cited example that can be examined under both elegance and parsimony is Einstein's special relativity.
-Before its introduction, the Lorentz-Poincaré theory could explain the same phenomena but required postulating the ether as a physical medium for light propagation and auxiliary constructs — local time and length contraction — to explain the results of the Michelson-Morley experiment.
-Einstein's theory, built on two postulates — the principle of relativity and the constancy of the speed of light — renders the ether logically superfluous, making it more ontologically parsimonious[@bakerSimplicity2004].
+A commonly cited example is Einstein's special relativity.
+Before its introduction, the Lorentz-Poincaré theory could explain the same phenomena but required the ether as a physical medium for light propagation and auxiliary constructs, namely local time and length contraction to explain the results of the Michelson-Morley experiment.
+Einstein's theory, built on two postulates: the principle of relativity and the constancy of the speed of light, renders the ether logically superfluous, making it more ontologically parsimonious[@bakerSimplicity2004].
 
 And Einstein himself is often quoted as appreciating simplicity in theories:
 
@@ -72,7 +72,7 @@ If we consider explanations, the transfer is relatively straightforward:
 An explanation for an observed event can be described as an ad-hoc theory.
 If we witness someone making a negative remark about us, we may worry about the explanation.
 Our negativity bias[@baumeisterBadStrongerGood2001] may lead us to form the theory that the person hates us.
-However, this explanation isn't very simple—it would also entail that all previous times they were nice to us, they were just pretending.
+However, this explanation isn't very simple, because it would also entail that all previous times they were nice to us, they were just pretending.
 A simpler explanation would be that they had a bad day, or their negative comment only applies to one thing we did, not to us as a person.
 In this way, preferring simpler explanations could be a way to avoid unnecessary negative assumptions about others, and therefore it is desirable.
 
@@ -89,7 +89,7 @@ For example comparing families of equations, linear equations in the form $y = b
 Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
 
 Popper challenged Jeffreys' probabilistic argument directly.
-His argument was that every linear equation is technically also a quadratic equation — just one where $a = 0$.
+His argument was that every linear equation is technically also a quadratic equation, just one where $a = 0$.
 And so, if linear equations are a special case of quadratic ones, the probability of a law being linear cannot be higher than the probability of it being quadratic, because the former entails the latter.
 So Jeffreys' assignment of higher prior probability to simpler equations contradicts the axioms of probability [@bakerSimplicity2004].
 
@@ -105,7 +105,7 @@ Popper bases his scientific theory on this concept of falsifiability, because it
 And I think this works precisely in favor of simplicity and the desirability thereof.
 If we look at the two equations again, the linear equation having two parameters and the quadratic equation having three parameters, they would need two and three data points respectively to be determined.
 So, if we have three data points, the linear equation would be falsified if it cannot fit all three data points, while the quadratic equation could still be valid.
-This is what in machine learning would be called overfitting — a model that is too complex and can fit the training data perfectly, but fails to generalize to new data.
+This is what in machine learning would be called overfitting, a model that is too complex and can fit the training data perfectly, but fails to generalize to new data.
 Thus, models with fewer parameters are more likely to be falsified, and therefore they are more likely to generalize to new data, which is a desirable property of scientific theories in the same way as it is a desirable property of machine learning models.
 
 ## Technical solutions
@@ -114,7 +114,7 @@ But can we apply what we learned about simplicity to any technical system?
 It seems obvious to simply consider the number of components of technical solutions.
 Comparing two technical solutions, one is simpler exactly if it has fewer components.
 And this is also desirable, because fewer components will most likely cost less in terms of development, require less resources to manufacture and operate, and be easier to maintain.
-It is the opposite of what we call _overengineering_ — a solution that is more complex than necessary.
+It is the opposite of what we call _overengineering_, a solution that is more complex than necessary.
 
 However, maybe in an attempt to avoid said overengineering, we can end up with the other direction:
 Many technical solutions seem to explicitly target simplicity.
