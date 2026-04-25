@@ -87,7 +87,7 @@ On a more general level competing positions on the desirability of simplicity ex
 Jeffreys argued that one can associate a law with a prior probability that is based on the complexity of the law.
 He argued that simpler laws have higher prior probabilities than more complex ones, because they have fewer parameters and if we assume a random distribution of possible parameter values, then simpler laws are more likely to be to be true than more complex ones, because they have fewer parameters that can be wrong.
 For example comparing families of equations, linear equations in the form $y = bx + c$ have less parameters than quadratic equations in the form $y = ax^2 + bx + c$.
-Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysTheoryProbability1998].
+Thus, linear equations have higher prior probabilities than quadratic equations, and can be considered simpler for that reason[@jeffreysharoldTheoryProbability1948].
 
 Popper challenged Jeffreys' probabilistic argument directly.
 His argument was that every linear equation is technically also a quadratic equation, just one where $a = 0$.
