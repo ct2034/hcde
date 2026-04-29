@@ -27,7 +27,7 @@ Additionally, since we talk about research papers, it will be easier to fit on t
 I remember a conversation with a colleague about my appreciation for papers based on simple ideas.
 But after confessing this love for simplicity, they warned me, saying that scientific reviews can be challenging.
 This caught me off guard, and I was confused.
-It appeared as they would think for something to be good, it must also be complicated.
+It seemed they believed that for something to be good, it must also be complicated.
 But unfortunately, I think the reverse often happens, when ideas are presented more wordy and complicated than they actually are.
 Which can be a way to hide the fact that the idea is not very good.
 I guess it hadn't occurred to me before that simplicity could be seen as low quality.
@@ -63,7 +63,7 @@ And Einstein himself is often quoted as appreciating simplicity in theories:
 
 > [T]he grand aim of all science…is to cover the greatest possible number of empirical facts by logical deductions from the smallest possible number of hypotheses or axioms (Einstein, quoted in [@nashNatureNaturalSciences1963])
 
-This gives us a good basis to understand simplicity as a property of theories, but it is still not clear why it is desirable and how it applies to other aspects.
+This gives us a basis for understanding simplicity as a property of theories, but it’s still unclear why it’s desirable, or how it applies beyond theories.
 
 ## Simple explanations
 
@@ -132,7 +132,7 @@ Another technical functionality that is worth considering is compression.
 A compressed file is simpler than an uncompressed file, because it is shorter and contains fewer bits.
 However, if we think about a human reading that file, even the simplest compression algorithms would make it more difficult to understand the content, because the reader would need to decompress it first.
 But a compressed text file would be simpler than an uncompressed one by the definition we introduced above.
-So what are we missing when we think about simplicity purely in terms of the number of components?
+So what are we missing when we define simplicity purely by the number of components?
 We are missing the interaction with the system.
 
 ## Simplicity of interaction
