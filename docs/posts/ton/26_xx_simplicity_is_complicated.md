@@ -147,7 +147,7 @@ Any attempt to make a system simple to interact with runs the risk of also costi
 Like in the example of the car indicator controlled with a touch screen, it limits the speed, and therefore also convenience of interaction with these systems.
 
 So I propose to look at the interaction possibilities with the system, too.
-This difference has not arisen from the fact that we no longer look at theories.
+This difference is not unique to technical systems.
 Also in theories, there may be those, that are simple as a theory, because they contain few components.
 But an observer of that theory, for example a student trying to understand it, may not consider it simple at all, if they can not relate well to the parts that the theory consists of, in the same way as a zip-compressed text file is almost impossible to read.
 
@@ -165,9 +165,9 @@ And an actual definition from social psychology reads as follows:
 > Stereotypes are false or misleading generalizations about groups held in a manner that renders them largely, though not entirely, immune to counterevidence.[@blumStereotypesStereotypingMoral2004]
 
 So stereotypes are an example where simplifications become wrong, purely because of the mentioned immunity to counterevidence.
-And if we remember that psychologically simplicity functions as a cue for probability [@vrantsidisSimplicityCueProbability2022] then people may be drawn to use stereotypes because the simplicity make them seem more likely while in fact they are incorrect.
+And if we remember that psychologically simplicity functions as a cue for probability [@vrantsidisSimplicityCueProbability2022] then people may be drawn to use stereotypes because the simplicity makes them seem more likely while in fact they are incorrect.
 How could we overcome this?
-Of course, it is simpler to assume that all members of a group have the same traits, but if I actually perceive an individual behaving differently to what the properties of their group would have predicted, I should update my simplification and not hold onto it.
+Of course, it is simpler to assume that all members of a group have the same traits, but if I actually perceive an individual behaving differently from what the properties of their group would have predicted, I should update my simplification and not hold onto it.
 In actual social science, matters are of course more complicated, because stereotypes can be shared within ones own group, and therefore they can be a part of ones identity, which makes it harder to let go of them.
 But in any case, stereotypes can be overcome by interaction with individuals, because in the end, wrong simplifications can only be identified by looking at the system without the simplification.
 
@@ -185,13 +185,16 @@ But in order to make a valid simplification, one must do two things:
 So, how hard the act of simplification is depends on the complexity of the original system, because it requires a number of decisions that depend on the number of components in the original system.
 But this number of decisions is not just a linear function of the number of components, but it is also concerned with the interactions between the components and potentially external systems.
 This explains why simplicity is so hard to grasp.
-When simplifying a system, the complexity does not disappear by itself, but it must be actively removed by the simplifier, and this process is at least as hard as the original system.
+When simplifying a system, the complexity does not disappear by itself, but it must be actively removed by the simplifier, and this process is at least as hard as the complexity of the original system.
 And the space of possible simplifications is huge, technically as big as the power set of the original system, and it is not clear which ones are valid and which ones are not.
 In this concept two opposing properties touch: Only by going through this hard process, one can truly achieve simplicity.
 
 I think this is also the reason that teaching a subject well is also hard.
 In order to explain something, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the recipient of the explanation at exactly the right level in terms of interactional simplicity, which is different for every recipient[@camererCurseKnowledgeEconomic1989].
 
+Building this article certainly allowed me to learn a lot about simplicity, and to answer some questions I had about it.
+There are many open questions that deserve a more rigorous treatment, for example a more thorough discussion of the explanation of hardness of simplicity, or a closer look at the desirability of simplicity especially in social contexts.
+But given what we learned it should not be surprising that a simple understanding of simplicity is hard to achieve.
 In the end I would be very interested whether this idea of why simplicity is hard to achieve is something that found the right interactional simplicity for you, dear reader, so please reach out to me with your thoughts on this topic.
 
 [^]: Big thanks to Simon Fritzsch for their very helpful feedback on this post.
