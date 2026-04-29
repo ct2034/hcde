@@ -27,7 +27,7 @@ This significantly lowers entry barriers and shortens time to market, while avoi
 
 European digital sovereignty should not be understood as being in conflict with global open-source projects.
 On the contrary, many critical digital infrastructures are global by nature.
-And so are the OSS prohects that build them.
+And so are the OSS projects that build them.
 
 For example, ROS is governed by the Open Source Robotics Alliance (OSRA), which is legally based in the United States.
 Aiming to recreate such ecosystems in parallel within the EU, purely for reasons of sovereignty, would be a strategic mistake.
