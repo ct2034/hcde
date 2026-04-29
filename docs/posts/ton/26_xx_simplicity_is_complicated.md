@@ -132,10 +132,12 @@ Another technical functionality that is worth considering is compression.
 A compressed file is simpler than an uncompressed file, because it is shorter and contains fewer bits.
 However, if we think about a human reading that file, even the simplest compression algorithms would make it more difficult to understand the content, because the reader would need to decompress it first.
 But a compressed text file would be simpler than an uncompressed one by the definition we introduced above.
+So what are we missing when we think about simplicity purely in terms of the number of components?
+We are missing the interaction with the system.
 
 ## Simplicity of interaction
 
-Extending the general concept of simplicity, I would suggest the term _Interactional Simplicity_.
+To extend the general concept of simplicity, I would suggest the term _Interactional Simplicity_.
 It is particularly important if we consider the interaction with a system, especially that of a human actor.
 Also in the UX research, the paradigm of simplicity can be challenged.
 A paper proposes to introduce the term of _praxisware_ for those programs that are used after a considerable amount of training, like spreadsheet, word processing, or any professional design tool.
@@ -146,8 +148,8 @@ Like in the example of the car indicator controlled with a touch screen, it limi
 
 So I propose to look at the interaction possibilities with the system, too.
 This difference has not arisen from the fact that we no longer look at theories.
-Also in theories, there may be those, that are simple as a theory, because they contain less components.
-But an observer of that theory, for example a student trying to learn it, may not consider it simple at all, if they can not relate well to the parts that the theory consists of, in the same way as a zip-compressed text file is almost impossible to read.
+Also in theories, there may be those, that are simple as a theory, because they contain few components.
+But an observer of that theory, for example a student trying to understand it, may not consider it simple at all, if they can not relate well to the parts that the theory consists of, in the same way as a zip-compressed text file is almost impossible to read.
 
 ## On stereotypes
 
@@ -162,10 +164,10 @@ And an actual definition from social psychology reads as follows:
 
 > Stereotypes are false or misleading generalizations about groups held in a manner that renders them largely, though not entirely, immune to counterevidence.[@blumStereotypesStereotypingMoral2004]
 
-So stereotypes are an example where simplifications become wrong.
+So stereotypes are an example where simplifications become wrong, purely because of the mentioned immunity to counterevidence.
 And if we remember that psychologically simplicity functions as a cue for probability [@vrantsidisSimplicityCueProbability2022] then people may be drawn to use stereotypes because the simplicity make them seem more likely while in fact they are incorrect.
 How could we overcome this?
-Of course, it is simpler to assume that all members of a group have the same traits, but if I actually perceive and individual behaving differently to what the properties of their group would have predicted, I should update my simplification and not hold onto it.
+Of course, it is simpler to assume that all members of a group have the same traits, but if I actually perceive an individual behaving differently to what the properties of their group would have predicted, I should update my simplification and not hold onto it.
 In actual social science, matters are of course more complicated, because stereotypes can be shared within ones own group, and therefore they can be a part of ones identity, which makes it harder to let go of them.
 But in any case, stereotypes can be overcome by interaction with individuals, because in the end, wrong simplifications can only be identified by looking at the system without the simplification.
 
@@ -191,3 +193,5 @@ I think this is also the reason that teaching a subject well is also hard.
 In order to explain something, you must master the subject, decide what to include in the explanation and what not, but then make sure to meet the recipient of the explanation at exactly the right level in terms of interactional simplicity, which is different for every recipient[@camererCurseKnowledgeEconomic1989].
 
 In the end I would be very interested whether this idea of why simplicity is hard to achieve is something that found the right interactional simplicity for you, dear reader, so please reach out to me with your thoughts on this topic.
+
+[^]: Big thanks to Simon Fritzsch for their very helpful feedback on this post.
