@@ -10,19 +10,19 @@ updates:
     schedule:
       interval: "daily"
     labels:
-    - 'Type: Update (Dependency)'
-    - 'Target: Python (pip)'
+    - 'dependabot'
+    - 'dependabot: pip'
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
     labels:
-    - 'Type: Update (Dependency)'
-    - 'Target: GitHub Actions'
+    - 'dependabot'
+    - 'dependabot: github-actions'
   - package-ecosystem: "pre-commit"
     directory: "/"
     schedule:
       interval: "daily"
     labels:
-    - 'Type: Update (Dependency)'
-    - 'Target: pre-commit'
+    - 'dependabot'
+    - 'dependabot: pre-commit'
