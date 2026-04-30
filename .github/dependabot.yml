@@ -19,3 +19,10 @@ updates:
     labels:
     - 'Type: Update (Dependency)'
     - 'Target: GitHub Actions'
+  - package-ecosystem: "pre-commit"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+    - 'Type: Update (Dependency)'
+    - 'Target: pre-commit'
