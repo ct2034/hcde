@@ -196,5 +196,6 @@ Building this article certainly allowed me to learn a lot about simplicity, and 
 There are many open questions that deserve a more rigorous treatment, for example a more thorough discussion of the explanation of hardness of simplicity, or a closer look at the desirability of simplicity especially in social contexts.
 But given what we learned it should not be surprising that a simple understanding of simplicity is hard to achieve.
 In the end I would be very interested whether this idea of why simplicity is hard to achieve is something that found the right interactional simplicity for you, dear reader, so please reach out to me with your thoughts on this topic.
+You could comment on [reddit](https://www.reddit.com/r/philosophy/comments/1sz2ozy/simplicity_is_complicated/), [linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7455528715809218560/), [mastodon](https://chaos.social/@ct2034/116492626904605038) or [bluesky](https://bsky.app/profile/ct2034.bsky.social/post/3mkp5vdjnbn2y).
 
 [^]: Big thanks to Simon Fritzsch for their very helpful feedback on this post.
