@@ -4,6 +4,7 @@ on:
     branches:
       - main
   workflow_dispatch:
+  pull_request:
 permissions:
   contents: write
   pages: write
@@ -27,7 +28,14 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install pandoc
+      - run: mkdocs build
+      - name: Store as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: mkdocs-site
+          path: site
       - run: mkdocs gh-deploy
+        if: github.ref == 'refs/heads/main'
 
   deploy_mkdocs:
     needs: build_mkdocs
@@ -35,6 +43,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout
         uses: actions/checkout@v6
