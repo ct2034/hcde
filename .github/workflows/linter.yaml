@@ -17,7 +17,7 @@ jobs:
       - uses: szenius/set-timezone@v2.0
         with:
           timezoneLinux: "Europe/Berlin"
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - run: pip install -r requirements.txt
       - name: Pre-commit
         uses: pre-commit/action@v3.0.1
