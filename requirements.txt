@@ -7,6 +7,6 @@ mkdocs-minify-plugin==0.7.1
 mkdocs-redirects==1.2.2
 mkdocs-rss-plugin==1.17.1
 mkdocs==1.6.1
-pypandoc==1.14
+pypandoc==1.17
 pymdown-extensions>=10.16.1
 bibtexparser==1.4.3
