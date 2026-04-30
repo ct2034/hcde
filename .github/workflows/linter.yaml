@@ -18,8 +18,12 @@ jobs:
         with:
           timezoneLinux: "Europe/Berlin"
       - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6.4.0
+        with:
+          node-version: "22" # cspell needs this
       - run: pip install -r requirements.txt
+      - run: pip install pre-commit
       - name: Pre-commit
-        uses: pre-commit/action@v3.0.1
+        run: pre-commit run -a
         env:
           SKIP: check-get-lit

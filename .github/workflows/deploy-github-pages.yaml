@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/setup-python@v6
         with:
-          python-version: 3.9
+          python-version: '3.12'
       - name: Install pip dependencies
         run: pip install -r requirements.txt
       - name: Install pandoc
@@ -30,7 +30,7 @@ jobs:
           sudo apt-get install pandoc
       - run: mkdocs build
       - name: Store as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: mkdocs-site
           path: site
