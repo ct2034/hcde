@@ -19,7 +19,8 @@ jobs:
           timezoneLinux: "Europe/Berlin"
       - uses: actions/checkout@v6
       - run: pip install -r requirements.txt
+      - run: pip install pre-commit
       - name: Pre-commit
-        uses: pre-commit/action@v3.0.1
+        run: pre-commit run -a
         env:
           SKIP: check-get-lit
