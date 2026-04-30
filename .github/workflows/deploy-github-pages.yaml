@@ -30,7 +30,7 @@ jobs:
           sudo apt-get install pandoc
       - run: mkdocs build
       - name: Store as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: mkdocs-site
           path: site
