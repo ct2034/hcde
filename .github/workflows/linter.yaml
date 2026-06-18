@@ -17,7 +17,7 @@ jobs:
       - uses: szenius/set-timezone@v2.0
         with:
           timezoneLinux: "Europe/Berlin"
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v6.4.0
         with:
           node-version: "22" # cspell needs this
