@@ -37,11 +37,14 @@ p {
 }
 
 /* Remove Categories from navigation */
-/* Which assumes that the last item in the navigation is the Categories item */
-/* Only for the primary (left) navigation */
+/* This was needed for the Material blog plugin, which appended a "Categories"
+   item as the last entry of the primary navigation. The navigation is now
+   defined explicitly in zensical.toml, so the rule would hide a real item. */
+/*
 nav.md-nav--primary > ul > li.md-nav__item:last-child  {
     display: none;
 }
+*/
 
 /* Hide metadata of blogposts */
 /* header.md-post__header {

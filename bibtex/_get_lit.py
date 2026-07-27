@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     cited_keys: Set[str] = set()
 
-    dir_blog_posts = os.path.join(current_pwd, "docs/posts/ton")
+    dir_blog_posts = os.path.join(current_pwd, "docs/thinkoneering")
     assert os.path.exists(
         dir_blog_posts
     ), f"Blog posts directory must exist. {dir_blog_posts}"

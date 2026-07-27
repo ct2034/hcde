@@ -2,9 +2,9 @@
 
 This contains sources for
 
-- blog posts in [ton](docs/posts/ton)
-- publications in [publications](docs/posts/publications)
-- CV entries in [cv](docs/posts/cv)
+- blog posts in [thinkoneering](docs/thinkoneering)
+- publications in [publications](docs/publications)
+- CV entries in [cv](docs/cv)
 
 ## Building
 
