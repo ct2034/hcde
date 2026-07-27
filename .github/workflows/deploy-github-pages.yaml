@@ -24,17 +24,17 @@ jobs:
           python-version: '3.12'
       - name: Install pip dependencies
         run: pip install -r requirements.txt
-      - name: Install pandoc
-        run: |
-          sudo apt-get update
-          sudo apt-get install pandoc
-      - run: mkdocs build
+      # - name: Install pandoc
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install pandoc
+      - run: zensical build --clean
       - name: Store as artifact
         uses: actions/upload-artifact@v7.0.1
         with:
           name: mkdocs-site
           path: site
-      - run: mkdocs gh-deploy
+      - run: zensical gh-deploy
         if: github.ref == 'refs/heads/main'
 
   deploy_mkdocs:
