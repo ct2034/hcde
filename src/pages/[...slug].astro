@@ -1,0 +1,86 @@
+---
+import MetaPage from "@/components/MetaPage.astro"
+import ScrollToTop from "@/components/ScrollToTop.astro"
+import TableOfContents from "@/components/TableOfContents.astro"
+import Layout from "@/layouts/Layout.astro"
+import { CATEGORY_SLUGS, postPath, type Category } from "@/categories"
+import { formatDate } from "@/lib/utils"
+import { getCollection, render, type CollectionEntry } from "astro:content"
+
+export async function getStaticPaths() {
+  const posts = await getCollection(
+    "posts",
+    (post) => !post.data.draft && (post.data.categories?.length ?? 0) > 0,
+  )
+
+  return posts.map((post) => ({
+    params: { slug: postPath(post.data.categories![0] as Category, post.id) },
+    props: { post },
+  }))
+}
+
+type Props = { post: CollectionEntry<"posts"> }
+
+const { post } = Astro.props
+const { Content, headings } = await render(post)
+
+// The posts carry their `# Heading` in the body rather than in frontmatter.
+const title = headings.find((h) => h.depth === 1)?.text ?? post.id
+const category = post.data.categories![0] as Category
+const href = `/${postPath(category, post.id)}/`
+
+const tocHeadings = headings.filter(
+  ({ depth, text }) => depth >= 2 && depth <= 4 && text.trim(),
+)
+
+const crumbs = [{ label: title, href }]
+---
+
+<Layout crumbs={crumbs}>
+  <MetaPage slot="head" title={title} />
+  {tocHeadings.length > 0 && (
+      <TableOfContents
+        slot="toc"
+        title={title}
+        sections={[{ label: title, open: true, headings: tocHeadings }]}
+      />
+    )}
+  <ScrollToTop floating />
+  <article data-category={CATEGORY_SLUGS[category]}>
+    <post-meta>
+      <a href={`/${CATEGORY_SLUGS[category]}/`}>{category}</a>
+      <span>·</span>
+      <time datetime={post.data.date.created.toISOString()}>
+        {formatDate(post.data.date.created)}
+      </time>
+    </post-meta>
+    <prose-content>
+      <Content />
+    </prose-content>
+  </article>
+</Layout>
+
+<style>
+  /* The original site gives each category its own link color. */
+  article[data-category="thinkoneering"] {
+    --link: var(--link-thinkoneering);
+  }
+  article[data-category="publications"] {
+    --link: var(--link-publications);
+  }
+  article[data-category="cv"] {
+    --link: var(--link-cv);
+  }
+
+  post-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3xs);
+    font-size: var(--step--1);
+    color: var(--muted-foreground);
+
+    a {
+      color: inherit;
+    }
+  }
+</style>

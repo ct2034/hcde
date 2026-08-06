@@ -19,6 +19,13 @@ updates:
     labels:
     - 'dependabot'
     - 'dependabot: github-actions'
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+    - 'dependabot'
+    - 'dependabot: npm'
   - package-ecosystem: "pre-commit"
     directory: "/"
     schedule:

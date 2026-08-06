@@ -8,6 +8,7 @@ tags:
   - ros
 categories:
   - Thinkoneering
+thumbnail: imgs/25_05_programming_robots_dim_red.drawio.png
 ---
 
 # How Does One Even Program a Robot?
