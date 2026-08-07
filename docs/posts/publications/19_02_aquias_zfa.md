@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2019-02-05
+created: 2019-02-05
 categories:
   - Publications
 tags:

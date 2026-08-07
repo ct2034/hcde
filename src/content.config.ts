@@ -6,10 +6,9 @@ const posts = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './docs/posts' }),
   schema: ({ image }) =>
     z.object({
-      date: z.object({
-        created: z.coerce.date(),
-        updated: z.coerce.date().optional(),
-      }),
+      created: z.coerce.date(),
+      // CV entries only: employment end date, absent while still ongoing.
+      cvEnd: z.coerce.date().optional(),
       categories: z
         .array(z.enum(['Thinkoneering', 'CV', 'Publications']))
         .optional(),

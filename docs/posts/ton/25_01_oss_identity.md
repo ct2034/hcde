@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2025-01-30
+created: 2025-01-30
 tags:
   - open-source
 categories:

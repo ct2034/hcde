@@ -34,7 +34,14 @@ const monthYear = new Intl.DateTimeFormat("en-US", {
           <a href={post.href}>{post.title}</a>
         </h3>
         <time datetime={post.created.toISOString()}>
-          {monthYear.format(post.created)}
+          {post.category === "CV" ? (
+            <Fragment>
+              {monthYear.format(post.created)} &ndash;{" "}
+              {post.cvEnd ? monthYear.format(post.cvEnd) : "Present"}
+            </Fragment>
+          ) : (
+            monthYear.format(post.created)
+          )}
         </time>
         {post.excerpt && <prose-content set:html={post.excerpt} />}
       </li>

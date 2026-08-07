@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2025-06-27
+created: 2025-06-27
 tags:
   - behavior-trees
   - deliberation

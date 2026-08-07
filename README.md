@@ -79,11 +79,11 @@ against the live thinkoneering.com.
   phone-sized screens. Added `min-width: 0` + `overflow-wrap: anywhere`;
   verified `scrollWidth === clientWidth` at 390px on
   `/thinkoneering/25_01_oss_identity/` after rebuilding.
-- **Regression — CV entries lost their end dates.** mkdocs showed a range like
-  `02/2019 - 10/2022`; the Astro CV list only shows the start month
-  (`date.created`). `src/lib/posts.ts` never reads `date.updated` from the CV
-  frontmatter (it's present in the `.md` files, just unused). Worth restoring,
-  at least for CV entries, since "how long" is useful CV info.
+- ~~**Regression — CV entries lost their end dates.**~~ Fixed: `src/lib/posts.ts`
+  now carries `date.updated` through to `PostListItem`, and `PostList.astro`
+  renders a `Month YYYY – Month YYYY` range (or `– Present` when `updated` is
+  absent) for CV entries only. Verified in `dist/cv/index.html`; Thinkoneering
+  and Publications listings are unchanged (still single date).
 - **Design difference, not necessarily a bug.** The old mkdocs post-list
   entries show a fuller line under each title: full date, `· in <Category> ·`,
   and an estimated read time, plus an explicit "more…" link at the end of the

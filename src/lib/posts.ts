@@ -9,6 +9,7 @@ export type PostListItem = {
   href: string
   category: Category
   created: Date
+  cvEnd?: Date // CV entries only: the job's end date, absent while still ongoing.
   tags: string[]
   excerpt?: string
   thumbnail?: ImageMetadata
@@ -54,7 +55,8 @@ export async function getPostList(category?: Category): Promise<PostListItem[]> 
       title: postTitle(post),
       href: `/${postPath(post.data.categories![0] as Category, post.id)}/`,
       category: post.data.categories![0] as Category,
-      created: post.data.date.created,
+      created: post.data.created,
+      cvEnd: post.data.cvEnd,
       tags: post.data.tags,
       excerpt: postExcerpt(post),
       thumbnail: post.data.thumbnail,

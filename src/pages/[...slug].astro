@@ -50,8 +50,8 @@ const crumbs = [{ label: title, href }]
     <post-meta>
       <a href={`/${CATEGORY_SLUGS[category]}/`}>{category}</a>
       <span>·</span>
-      <time datetime={post.data.date.created.toISOString()}>
-        {formatDate(post.data.date.created)}
+      <time datetime={post.data.created.toISOString()}>
+        {formatDate(post.data.created)}
       </time>
     </post-meta>
     <prose-content>
