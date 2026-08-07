@@ -18,4 +18,11 @@ prose-content {
   .csl-left-margin {
     flex: none;
   }
+
+  /* Long entries (URLs, titles) must wrap instead of forcing the flex item
+     (and the whole page) to overflow horizontally on narrow viewports. */
+  .csl-right-inline {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
 }
