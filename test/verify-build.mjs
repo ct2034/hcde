@@ -63,11 +63,18 @@ for (const url of astroUrls) {
   if (/\[-?@[a-zA-Z]/.test(body)) {
     failures.push(`unresolved citation in /${url}/`);
   }
-  // The posts write `word[@key]`, which author-date would render as
-  // `word(Author 2024)`. The remark shim inserts the space; this catches it
-  // regressing.
+  if (/^\*\[[^\]]+\]:/m.test(body)) {
+    failures.push(`leftover abbreviation definition in /${url}/`);
+  }
+  if (/\[\^\]:/.test(body)) failures.push(`leftover orphan footnote in /${url}/`);
+  // citeproc emits this when a numeric style is asked for a narrative citation.
+  if (body.includes('NO_PRINTED_FORM')) {
+    failures.push(`unrenderable citation in /${url}/`);
+  }
+  // The posts write `word[@key]`, which IEEE would render as `word[1]`. The
+  // remark shim inserts the space; this catches it regressing.
   const text = body.replace(/<[^>]+>/g, '');
-  const glued = text.match(/\S\((?:[A-Z][^()]{0,60})(?:1[6-9]|20)\d{2}[a-z]?\)/g);
+  const glued = text.match(/[^\s([]\[\d+\]/g);
   if (glued) {
     failures.push(`citation glued to preceding word in /${url}/: ${glued[0]}`);
   }

@@ -16,6 +16,12 @@ prose-content {
     font-style: italic;
   }
 
+  abbr[title] {
+    text-decoration: underline dotted;
+    text-underline-offset: 0.2em;
+    cursor: help;
+  }
+
   :where(code) {
     font-family: var(--font-mono);
     font-size: 0.9em;

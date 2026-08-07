@@ -8,9 +8,14 @@ prose-content {
     color: var(--prose-foreground);
   }
 
+  /* IEEE is `second-field-align="flush"`: the [n] label sits in its own column. */
   .csl-entry {
+    display: flex;
+    gap: 0.5em;
     margin-block-end: var(--space-2xs);
-    padding-inline-start: 1.5em;
-    text-indent: -1.5em;
+  }
+
+  .csl-left-margin {
+    flex: none;
   }
 }

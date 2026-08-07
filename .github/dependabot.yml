@@ -22,7 +22,21 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+    # Wait before adopting a release: compromised versions are usually pulled
+    # within days.
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+    groups:
+      astro:
+        patterns:
+          - "astro"
+          - "@astrojs/*"
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
     labels:
     - 'dependabot'
     - 'dependabot: npm'

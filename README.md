@@ -27,7 +27,7 @@ yarn check    # type check
 | --- | --- |
 | `docs/posts/` | All content. One Markdown file per post, images in `imgs/`. |
 | `docs/index.md`, `docs/about.md` | Standalone pages. |
-| `bibtex/lit.bib` | Bibliography for `[@key]` citations. `_get_lit.py` refreshes it. |
+| `bibtex/lit.bib` | Bibliography for `[@key]` citations, rendered in IEEE style. `_get_lit.py` refreshes it. |
 | `src/pages/` | Routes. File name maps to URL; `[...slug].astro` renders posts. |
 | `src/components/`, `src/layouts/` | UI. `.astro` files: frontmatter on top, markup below. |
 | `src/styles/` | Plain CSS, all imported by `Layout.astro`. |
@@ -45,27 +45,22 @@ yarn check    # type check
 | `src/content.config.ts` | Frontmatter schema for posts and pages. |
 | `src/legacy-redirects.mjs` | Old WordPress URLs pointing at archive.org. |
 | `plugins/remark-mkdocs-compat.mjs` | Fixes up mkdocs-era Markdown syntax. |
-| `.github/workflows/` | Build & deploy, pre-commit linting, weekly link check. |
-| `.pre-commit-config.yaml` | Spell check, Markdown lint, bibliography check. |
-| `requirements.txt` | Python, only for the bibliography script. |
-
-Two things to know before changing the Markdown pipeline:
-
-- The plugins hang off `markdown.remarkPlugins` / `rehypePlugins`. Any
-  integration that sets Astro 7's new `markdown.processor` disables them
-  silently — notably `astro-expressive-code`.
-- Plugin changes are not cache-invalidated. Run
-  `rm -rf dist node_modules/.astro node_modules/.vite .astro` first.
 
 ## Open points
 
+### Right now
+
+- PostHog analytics and cookie consent
+- a unified way to handle references to external social media posts of articles for comments, discussions
+
+### Next steps
+
 - Galleries / lightbox for portfolio-style image content
+- Social share cards (OG images)
+
+### Nice to have additional features
+
 - Full-text search (Pagefind)
 - A `404.astro` page
-- Social share cards (OG images)
-- PostHog analytics and cookie consent
 - Brand icons + `SOCIALS` entries for LinkedIn, Mastodon, Bluesky, Ko-fi
 - A `## References` heading above the bibliography
-- The 19 publication posts have no `<!-- more -->`, so they list without an excerpt
-- Heading anchors now use github-slugger, so deep links from before may differ
-- Host the two YouTube poster frames locally (`20_03_odrm`, `24_10_gsrm`)
