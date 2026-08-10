@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 import rehypeCitation from 'rehype-citation';
 import rehypeExternalLinks from 'rehype-external-links';
 import { remarkMkdocsCompat } from './plugins/remark-mkdocs-compat.mjs';
+import { rehypeLinkifyBibUrls } from './plugins/rehype-linkify-bib-urls.mjs';
 import { legacyRedirects } from './src/legacy-redirects.mjs';
 
 export default defineConfig({
@@ -41,6 +42,7 @@ export default defineConfig({
             path: process.cwd(),
           },
         ],
+        rehypeLinkifyBibUrls,
         [
           rehypeExternalLinks,
           { target: '_blank', rel: ['noopener', 'noreferrer'] },
