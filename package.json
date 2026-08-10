@@ -1,0 +1,38 @@
+{
+  "name": "hcde-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "verify": "astro build && node test/verify-build.mjs",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^7.2.2",
+    "@astrojs/mdx": "^7.0.5",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource-variable/domine": "^5.3.0",
+    "@fontsource-variable/funnel-sans": "^5.3.0",
+    "@fontsource-variable/roboto-mono": "^5.3.0",
+    "astro": "^7.2.0",
+    "hast-util-from-html": "^2.0.3",
+    "hast-util-to-html": "^9.0.5",
+    "rehype-citation": "^2.3.2",
+    "rehype-external-links": "^3.0.0",
+    "unist-util-visit": "^5.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^26.1.2",
+    "typescript": "^6"
+  },
+  "dependenciesMeta": {
+    "esbuild": {
+      "built": true
+    }
+  }
+}

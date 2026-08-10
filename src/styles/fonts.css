@@ -1,0 +1,31 @@
+/*
+ * The site's original type stack, self-hosted instead of loaded from Google:
+ * Funnel Sans for UI and headings, Domine for prose, Roboto Mono for code.
+ */
+@import "@fontsource-variable/funnel-sans/wght.css";
+@import "@fontsource-variable/funnel-sans/wght-italic.css";
+@import "@fontsource-variable/domine/wght.css";
+@import "@fontsource-variable/roboto-mono/wght.css";
+@import "@fontsource-variable/roboto-mono/wght-italic.css";
+
+@font-face {
+  font-family: "Funnel Sans Fallback";
+  src: local("Arial");
+  font-weight: 100 800;
+  font-style: normal;
+  size-adjust: 97%;
+}
+
+@font-face {
+  font-family: "Domine Fallback";
+  src: local("Georgia"), local("Times New Roman");
+  font-weight: 400 700;
+  font-style: normal;
+  size-adjust: 106%;
+}
+
+:root {
+  --font-sans: "Funnel Sans Variable", "Funnel Sans Fallback", sans-serif;
+  --font-serif: "Domine Variable", "Domine Fallback", Georgia, serif;
+  --font-mono: "Roboto Mono Variable", ui-monospace, monospace;
+}

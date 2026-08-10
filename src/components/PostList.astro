@@ -1,0 +1,139 @@
+---
+import { Image } from "astro:assets"
+import { CATEGORY_SLUGS } from "@/categories"
+import type { PostListItem } from "@/lib/posts"
+
+type Props = { posts: PostListItem[] }
+
+const { posts } = Astro.props
+
+const monthYear = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  year: "numeric",
+  timeZone: "UTC",
+})
+---
+
+<ul>
+  {
+    posts.map((post) => (
+      <li data-category={CATEGORY_SLUGS[post.category]}>
+        {/* Floated so entries with and without a thumbnail share a left edge. */}
+        {post.thumbnail && (
+          <a href={post.href} tabindex="-1" aria-hidden="true">
+            {/* Width only: adding a height makes Astro crop the source to fit. */}
+            <Image
+              src={post.thumbnail}
+              alt=""
+              width={176}
+              densities={[1, 2]}
+            />
+          </a>
+        )}
+        <h3>
+          <a href={post.href}>{post.title}</a>
+        </h3>
+        <time datetime={post.created.toISOString()}>
+          {post.category === "CV" ? (
+            <Fragment>
+              {monthYear.format(post.created)} &ndash;{" "}
+              {post.cvEnd ? monthYear.format(post.cvEnd) : "Present"}
+            </Fragment>
+          ) : (
+            monthYear.format(post.created)
+          )}
+        </time>
+        {post.excerpt && <prose-content set:html={post.excerpt} />}
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-block-start: var(--space-m);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-m);
+  }
+
+  li {
+    /* Contains the floated thumbnail without a clearfix hack. */
+    display: flow-root;
+  }
+
+  /* The original site gives each category its own link color. */
+  li[data-category="thinkoneering"] {
+    --link: var(--link-thinkoneering);
+  }
+  li[data-category="publications"] {
+    --link: var(--link-publications);
+  }
+  li[data-category="cv"] {
+    --link: var(--link-cv);
+  }
+
+  li > a:first-child {
+    float: inline-end;
+    line-height: 0;
+    margin-inline-start: var(--space-s);
+    /* Optically aligns the thumbnail with the title's cap height. */
+    margin-block-start: 0.25em;
+  }
+
+  li > a:first-child :global(img) {
+    inline-size: 11rem;
+    /* No fixed frame: each figure keeps its own proportions, only tall ones
+       are capped, and `contain` letterboxes those instead of cropping. */
+    block-size: auto;
+    max-block-size: 8rem;
+    object-fit: contain;
+    padding: var(--space-3xs);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+
+  @media (width < 40rem) {
+    li > a:first-child :global(img) {
+      inline-size: 7rem;
+      max-block-size: 5.5rem;
+    }
+  }
+
+  h3 {
+    font-size: var(--step-1);
+    font-weight: var(--font-weight-medium);
+    line-height: calc(var(--leading-offset) + 1em);
+  }
+
+  h3 a {
+    color: var(--link);
+    text-decoration-color: transparent;
+    text-decoration-thickness: max(1px, 0.0625em);
+    text-underline-offset: 0.2em;
+  }
+
+  h3 a:hover {
+    text-decoration-color: currentColor;
+  }
+
+  time {
+    display: block;
+    margin-block-start: var(--space-3xs);
+    /* Below the bottom of the type scale, derived so it still scales. */
+    font-size: calc(var(--step--1) * 0.85);
+    color: var(--muted-foreground);
+    font-variant-numeric: tabular-nums;
+  }
+
+  prose-content {
+    margin-block-start: var(--space-2xs);
+    font-size: var(--step--1);
+  }
+
+  prose-content :global(> :last-child) {
+    margin-block-end: 0;
+  }
+</style>

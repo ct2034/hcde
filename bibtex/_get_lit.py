@@ -82,6 +82,10 @@ if __name__ == "__main__":
             if "howpublished" in entry:
                 entry["url"] = entry["howpublished"]
                 entry.pop("howpublished", None)
+            if "author" not in entry:
+                entry["author"] = " "
+                if "editor" in entry:
+                    entry["author"] = entry.pop("editor", None)
         except KeyError as e:
             print(f"KeyError: {e}")
             sys.exit(os.EX_DATAERR)
