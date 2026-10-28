@@ -17,9 +17,12 @@ jobs:
       - uses: actions/setup-node@v7.0.0
         with:
           node-version: '22'
-          cache: yarn
-      # Yarn 4 is pinned in package.json's `packageManager` field.
       - run: corepack enable
+      - run: corepack prepare yarn@4.18.1 --activate
+      - uses: actions/setup-node@v7.0.0
+        with:
+          node-version: '22'
+          cache: yarn
       - run: yarn install --immutable
       - name: Type check
         run: yarn check
