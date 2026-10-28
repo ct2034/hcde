@@ -1,3 +1,4 @@
+import type { ImageMetadata } from "astro"
 import { getCollection, type CollectionEntry } from "astro:content"
 import { fromHtml } from "hast-util-from-html"
 import { toHtml } from "hast-util-to-html"
