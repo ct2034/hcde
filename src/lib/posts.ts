@@ -15,9 +15,37 @@ export type PostListItem = {
   thumbnail?: ImageMetadata
 }
 
+function firstHeading(nodes: RootContent[]): Element | undefined {
+  for (const node of nodes) {
+    if (node.type !== "element") continue
+    if (node.tagName === "h1") return node
+    const heading = firstHeading(node.children)
+    if (heading) return heading
+  }
+  return undefined
+}
+
+function textContent(nodes: RootContent[]): string {
+  return nodes
+    .map((node) =>
+      node.type === "text"
+        ? node.value
+        : node.type === "element"
+          ? textContent(node.children)
+          : "",
+    )
+    .join("")
+}
+
 /** The posts carry their title as a `# Heading` in the body, not in frontmatter. */
 export function postTitle(post: CollectionEntry<"posts">): string {
-  return post.body?.match(/^#\s+(.+)$/m)?.[1] ?? post.id
+  const html = post.rendered?.html
+  if (!html) return post.id
+  const tree = fromHtml(html, { fragment: true }) as Nodes & {
+    children: RootContent[]
+  }
+  const heading = firstHeading(tree.children)
+  return heading ? textContent(heading.children) : post.id
 }
 
 const HEADINGS = new Set(["h1", "h2", "h3", "h4", "h5", "h6"])

@@ -30,14 +30,11 @@ prose-content {
     background-color: color-mix(in oklab, var(--muted) 60%, transparent);
 
     &[data-ec] :where(span[style^="--"]:not([class])) {
-      color: light-dark(var(--0, inherit), var(--1, inherit));
-      background-color: light-dark(
-        var(--0bg, transparent),
-        var(--1bg, transparent)
-      );
-      font-style: light-dark(var(--0fs, inherit), var(--1fs, inherit));
-      font-weight: light-dark(var(--0fw, inherit), var(--1fw, inherit));
-      text-decoration: light-dark(var(--0td, inherit), var(--1td, inherit));
+      color: var(--0, inherit);
+      background-color: var(--0bg, transparent);
+      font-style: var(--0fs, inherit);
+      font-weight: var(--0fw, inherit);
+      text-decoration: var(--0td, inherit);
     }
   }
 
@@ -53,5 +50,23 @@ prose-content {
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     box-shadow: inset 0 -1px 0 var(--border);
+  }
+}
+
+:root[data-theme="dark"] prose-content :where(code[data-ec]) :where(span[style^="--"]:not([class])) {
+  color: var(--1, inherit);
+  background-color: var(--1bg, transparent);
+  font-style: var(--1fs, inherit);
+  font-weight: var(--1fw, inherit);
+  text-decoration: var(--1td, inherit);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) prose-content :where(code[data-ec]) :where(span[style^="--"]:not([class])) {
+    color: var(--1, inherit);
+    background-color: var(--1bg, transparent);
+    font-style: var(--1fs, inherit);
+    font-weight: var(--1fw, inherit);
+    text-decoration: var(--1td, inherit);
   }
 }

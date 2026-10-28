@@ -7,78 +7,64 @@
  * text nodes.
  */
 
-import { visit } from 'unist-util-visit';
+import { SKIP, visit } from 'unist-util-visit';
 
 const URL_RE = /https?:\/\/[^\s,)\]>'"]+/g;
 const DOI_RE = /doi:\s*(10\.\d{4,9}\/[^\s,)\]>'"]+)(?<!\.)/g;
 const EITHER_RE = new RegExp(`${URL_RE.source}|${DOI_RE.source}`, 'g');
 const doi_to_url = (doi) => `https://doi.org/${doi}`;
 
+function linkifyText(text) {
+  const children = [];
+  let last = 0;
+  EITHER_RE.lastIndex = 0;
+
+  for (const match of text.matchAll(EITHER_RE)) {
+    const [fullMatch, doiNumber] = match;
+    if (match.index > last) {
+      children.push({ type: 'text', value: text.slice(last, match.index) });
+    }
+
+    children.push({
+      type: 'element',
+      tagName: 'a',
+      properties: { href: doiNumber ? doi_to_url(doiNumber) : fullMatch },
+      children: [{ type: 'text', value: fullMatch }],
+    });
+    last = match.index + fullMatch.length;
+  }
+
+  EITHER_RE.lastIndex = 0;
+  if (last === 0) return [{ type: 'text', value: text }];
+  if (last < text.length) {
+    children.push({ type: 'text', value: text.slice(last) });
+  }
+  return children;
+}
+
+function linkifyChildren(node) {
+  const children = [];
+
+  for (const child of node.children) {
+    if (child.type === 'text') {
+      children.push(...linkifyText(child.value));
+    } else {
+      if (child.type === 'element' && child.tagName !== 'a') {
+        linkifyChildren(child);
+      }
+      children.push(child);
+    }
+  }
+
+  node.children = children;
+}
+
 export function rehypeLinkifyBibUrls() {
   return (tree) => {
     visit(tree, 'element', (node) => {
-      // Only touch elements that carry the csl-right-inline class (the part of
-      // each bibliography entry that contains the formatted reference text).
-      if (
-        !node.properties?.className?.includes('csl-right-inline') &&
-        !node.properties?.className?.includes('csl-bib-body')
-      ) {
-        return;
-      }
-
-      // Recursively process all text nodes inside this element.
-      visit(node, 'text', (textNode, index, parent) => {
-        const text = textNode.value;
-        console.log('[bib-linkify] text node:', JSON.stringify(text.slice(0, 60)));
-        if (!EITHER_RE.test(text)) {
-          EITHER_RE.lastIndex = 0;
-          return;
-        }
-
-        // Reset lastIndex after the test() call.
-        EITHER_RE.lastIndex = 0;
-
-        const newChildren = [];
-        let last = 0;
-        let match;
-
-        while ((match = EITHER_RE.exec(text)) !== null) {
-          // Text before this match.
-          if (match.index > last) {
-            newChildren.push({ type: 'text', value: text.slice(last, match.index) });
-          }
-
-          const [fullMatch, doiNumber] = match;
-          console.log('[bib-linkify] fullMatch:', JSON.stringify(fullMatch));
-          let href;
-          if (doiNumber !== undefined) {
-            console.log('[bib-linkify] matched DOI:', JSON.stringify(doiNumber));
-            href = doi_to_url(doiNumber);
-          } else {
-            console.log('[bib-linkify] matched URL:', JSON.stringify(fullMatch));
-            href = fullMatch;
-          }
-          console.log('[bib-linkify] href:', JSON.stringify(href));
-          newChildren.push({
-            type: 'element',
-            tagName: 'a',
-            properties: { href },
-            children: [{ type: 'text', value: fullMatch }],
-          });
-          last = match.index + fullMatch.length;
-        }
-
-        // Remaining text after the last match.
-        if (last < text.length) {
-          newChildren.push({ type: 'text', value: text.slice(last) });
-        }
-
-        // Replace the single text node with the expanded array.
-        parent.children.splice(index, 1, ...newChildren);
-
-        // Return the index of the next sibling (skip the nodes we just inserted).
-        return index + newChildren.length;
-      });
+      if (!node.properties?.className?.includes('csl-right-inline')) return;
+      linkifyChildren(node);
+      return SKIP;
     });
   };
 }

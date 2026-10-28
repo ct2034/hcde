@@ -26,20 +26,26 @@ prose-content {
     }
 
     span {
-      color: light-dark(var(--shiki-light), var(--shiki-dark));
-      /* Shiki only emits these for tokens that need them. */
-      font-style: light-dark(
-        var(--shiki-light-font-style, inherit),
-        var(--shiki-dark-font-style, inherit)
-      );
-      font-weight: light-dark(
-        var(--shiki-light-font-weight, inherit),
-        var(--shiki-dark-font-weight, inherit)
-      );
-      text-decoration: light-dark(
-        var(--shiki-light-text-decoration, inherit),
-        var(--shiki-dark-text-decoration, inherit)
-      );
+      color: var(--shiki-light);
+      font-style: var(--shiki-light-font-style, inherit);
+      font-weight: var(--shiki-light-font-weight, inherit);
+      text-decoration: var(--shiki-light-text-decoration, inherit);
     }
+  }
+}
+
+:root[data-theme="dark"] prose-content pre.astro-code span {
+  color: var(--shiki-dark);
+  font-style: var(--shiki-dark-font-style, inherit);
+  font-weight: var(--shiki-dark-font-weight, inherit);
+  text-decoration: var(--shiki-dark-text-decoration, inherit);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) prose-content pre.astro-code span {
+    color: var(--shiki-dark);
+    font-style: var(--shiki-dark-font-style, inherit);
+    font-weight: var(--shiki-dark-font-weight, inherit);
+    text-decoration: var(--shiki-dark-text-decoration, inherit);
   }
 }

@@ -3,8 +3,10 @@ import { defineConfig } from 'astro/config';
 import { unified } from '@astrojs/markdown-remark';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import rehypeKatex from 'rehype-katex';
 import rehypeCitation from 'rehype-citation';
 import rehypeExternalLinks from 'rehype-external-links';
+import remarkMath from 'remark-math';
 import { remarkMkdocsCompat } from './plugins/remark-mkdocs-compat.mjs';
 import { rehypeLinkifyBibUrls } from './plugins/rehype-linkify-bib-urls.mjs';
 import { legacyRedirects } from './src/legacy-redirects.mjs';
@@ -29,8 +31,9 @@ export default defineConfig({
     // Astro 7 defaults to the Sätteri processor; unified() keeps the
     // remark/rehype pipeline these plugins are written against.
     processor: unified({
-      remarkPlugins: [remarkMkdocsCompat],
+      remarkPlugins: [remarkMath, remarkMkdocsCompat],
       rehypePlugins: [
+        rehypeKatex,
         [
           rehypeCitation,
           {
