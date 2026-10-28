@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2025-01-01
+created: 2025-01-01
 draft: true
 ---
 

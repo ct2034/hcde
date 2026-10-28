@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2026-04-29
+created: 2026-04-29
 tags:
   - philosophy
 categories:

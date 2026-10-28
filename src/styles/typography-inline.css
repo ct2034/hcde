@@ -1,0 +1,72 @@
+prose-content {
+  a {
+    color: var(--link);
+
+    &:hover {
+      color: var(--link-hover);
+    }
+  }
+
+  :is(strong, b) {
+    color: var(--foreground);
+    font-weight: var(--font-weight-medium);
+  }
+
+  :is(em, i) {
+    font-style: italic;
+  }
+
+  abbr[title] {
+    text-decoration: underline dotted;
+    text-underline-offset: 0.2em;
+    cursor: help;
+  }
+
+  :where(code) {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    padding: 0.1em 0.3em;
+    border-radius: var(--radius-sm);
+    background-color: color-mix(in oklab, var(--muted) 60%, transparent);
+
+    &[data-ec] :where(span[style^="--"]:not([class])) {
+      color: var(--0, inherit);
+      background-color: var(--0bg, transparent);
+      font-style: var(--0fs, inherit);
+      font-weight: var(--0fw, inherit);
+      text-decoration: var(--0td, inherit);
+    }
+  }
+
+  kbd {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    line-height: 1;
+    vertical-align: middle;
+    padding: 0.25em 0.4em;
+    margin-block-end: 0.2em;
+    color: var(--foreground);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: inset 0 -1px 0 var(--border);
+  }
+}
+
+:root[data-theme="dark"] prose-content :where(code[data-ec]) :where(span[style^="--"]:not([class])) {
+  color: var(--1, inherit);
+  background-color: var(--1bg, transparent);
+  font-style: var(--1fs, inherit);
+  font-weight: var(--1fw, inherit);
+  text-decoration: var(--1td, inherit);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) prose-content :where(code[data-ec]) :where(span[style^="--"]:not([class])) {
+    color: var(--1, inherit);
+    background-color: var(--1bg, transparent);
+    font-style: var(--1fs, inherit);
+    font-weight: var(--1fw, inherit);
+    text-decoration: var(--1td, inherit);
+  }
+}

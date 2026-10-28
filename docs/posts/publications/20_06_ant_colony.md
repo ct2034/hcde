@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2020-06-22
+created: 2020-06-22
 categories:
   - Publications
 tags:

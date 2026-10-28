@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2025-03-12
+created: 2025-03-12
 tags:
   - software-engineering
 categories:

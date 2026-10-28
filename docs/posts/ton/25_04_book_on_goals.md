@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2025-05-05
+created: 2025-05-05
 tags:
   - productivity
 categories:

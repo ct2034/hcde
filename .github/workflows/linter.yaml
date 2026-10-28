@@ -12,18 +12,19 @@ jobs:
   build:
     name: Pre-commit checks
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      TZ: Europe/Berlin
 
     steps:
-      - uses: szenius/set-timezone@v2.0
-        with:
-          timezoneLinux: "Europe/Berlin"
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7.0.0
         with:
           node-version: "22" # cspell needs this
-      - run: pip install -r requirements.txt
       - run: pip install pre-commit
       - name: Pre-commit
         run: pre-commit run -a
         env:
+          # Needs bibtexparser and network access; run it locally instead.
           SKIP: check-get-lit
