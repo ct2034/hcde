@@ -32,7 +32,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
     "@types/node": "^26.1.2",
-    "typescript": "^6"
+    "typescript": "^7"
   },
   "dependenciesMeta": {
     "esbuild": {
