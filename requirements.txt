@@ -1,2 +1,2 @@
 # Python is only needed for the bibtex/_get_lit.py pre-commit hook.
-bibtexparser==1.4.4
+bibtexparser==2.1.0
