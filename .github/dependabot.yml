@@ -37,6 +37,11 @@ updates:
         update-types:
           - "minor"
           - "patch"
+    ignore:
+      # TypeScript 7 is the new Go-based native compiler and does not yet
+      # expose the programmatic API that `astro check` depends on.
+      - dependency-name: "typescript"
+        versions: [">=7"]
     labels:
     - 'dependabot'
     - 'dependabot: npm'
