@@ -5,56 +5,47 @@ on:
       - main
   workflow_dispatch:
   pull_request:
-permissions:
-  contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  build_mkdocs:
+  build:
     runs-on: ubuntu-latest
-
+    # The build runs every dependency's code, so it gets no deploy credentials.
+    permissions:
+      contents: read
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7.0.0
         with:
-          fetch-depth: 0
-      - uses: actions/setup-python@v7
+          node-version: '22'
+      - run: corepack enable
+      - run: corepack prepare yarn@4.18.1 --activate
+      - uses: actions/setup-node@v7.0.0
         with:
-          python-version: '3.12'
-      - name: Install pip dependencies
-        run: pip install -r requirements.txt
-      - name: Install pandoc
-        run: |
-          sudo apt-get update
-          sudo apt-get install pandoc
-      - run: mkdocs build
-      - name: Store as artifact
-        uses: actions/upload-artifact@v7.0.1
+          node-version: '22'
+          cache: yarn
+      - run: yarn install --immutable
+      - name: Type check
+        run: yarn check
+      - name: Build
+        run: yarn build
+      - name: Verify build output
+        run: node test/verify-build.mjs
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-          name: mkdocs-site
-          path: site
-      - run: mkdocs gh-deploy
-        if: github.ref == 'refs/heads/main'
+          path: dist
 
-  deploy_mkdocs:
-    needs: build_mkdocs
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
     steps:
-      - name: Checkout
-        uses: actions/checkout@v7
-        with:
-          ref: gh-pages
-      - name: Setup Pages
-        uses: actions/configure-pages@v6
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - uses: actions/configure-pages@v6
+      - id: deployment
         uses: actions/deploy-pages@v5

@@ -1,0 +1,51 @@
+/* Fenced code blocks, styled for Astro's built-in Shiki output. */
+prose-content {
+  pre.astro-code {
+    /* Shiki writes its palette inline, so the site's own frame needs to win. */
+    background-color: var(--muted) !important;
+    color: light-dark(var(--shiki-light), var(--shiki-dark)) !important;
+
+    margin-block: var(--space-m);
+    padding: var(--space-s);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    line-height: 1.6;
+    tab-size: 2;
+    max-block-size: min(68vh, 1000px);
+    overflow: auto;
+    overscroll-behavior: contain;
+
+    code {
+      /* The inline-code chip styling would double up inside a block. */
+      padding: 0;
+      border-radius: 0;
+      background-color: transparent;
+      font-size: inherit;
+    }
+
+    span {
+      color: var(--shiki-light);
+      font-style: var(--shiki-light-font-style, inherit);
+      font-weight: var(--shiki-light-font-weight, inherit);
+      text-decoration: var(--shiki-light-text-decoration, inherit);
+    }
+  }
+}
+
+:root[data-theme="dark"] prose-content pre.astro-code span {
+  color: var(--shiki-dark);
+  font-style: var(--shiki-dark-font-style, inherit);
+  font-weight: var(--shiki-dark-font-weight, inherit);
+  text-decoration: var(--shiki-dark-text-decoration, inherit);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) prose-content pre.astro-code span {
+    color: var(--shiki-dark);
+    font-style: var(--shiki-dark-font-style, inherit);
+    font-weight: var(--shiki-dark-font-weight, inherit);
+    text-decoration: var(--shiki-dark-text-decoration, inherit);
+  }
+}

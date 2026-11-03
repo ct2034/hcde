@@ -1,0 +1,55 @@
+/*
+ * The site's original Material palette: `default`/`slate` schemes with a
+ * blue-grey primary and a red accent, so the grays carry a 225deg tint.
+ */
+:root {
+  --gray-1:  light-dark(#ffffff, #1e2129);
+  --gray-2:  light-dark(#fafbfc, #23262f);
+  --gray-3:  light-dark(#f2f3f7, #292d36);
+  --gray-4:  light-dark(#eaecf1, #2f333d);
+  --gray-5:  light-dark(#e2e5eb, #363a45);
+  --gray-6:  light-dark(#d9dce4, #3f4350);
+  --gray-7:  light-dark(#ccd0da, #4b505e);
+  --gray-8:  light-dark(#b6bbc8, #636876);
+  --gray-9:  light-dark(#8a8f9d, #727785);
+  --gray-10: light-dark(#7f8492, #7f8492);
+  --gray-11: light-dark(#5f6472, #b2b7c3);
+  --gray-12: light-dark(#1f2229, #e2e4e9);
+
+  --background:       var(--gray-1);
+  --foreground:       var(--gray-12);
+  --muted:            var(--gray-3);
+  --muted-foreground: var(--gray-11);
+  --border:           var(--gray-6);
+  --ring:             var(--gray-8);
+
+  /* `--md-typeset-a-color` for blue-grey, hovered with the red accent. */
+  --link:       light-dark(#4051b5, #5e8bde);
+  --link-hover: #ff1947;
+
+  /* One link color per category, as in the original `extra.css`. */
+  --link-thinkoneering: light-dark(#1c7d4d, #2fb170);
+  --link-publications:  light-dark(#3f6ec6, #6791e0);
+  --link-cv:            light-dark(#6e59d9, #9383e2);
+
+  color-scheme: light dark;
+}
+
+*,
+::before,
+::after,
+::backdrop,
+::file-selector-button {
+  border-color: var(--border);
+
+  &:focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 0.25rem;
+    border-radius: var(--radius-sm);
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}

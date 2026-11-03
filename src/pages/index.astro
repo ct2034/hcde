@@ -1,0 +1,23 @@
+---
+import MetaPage from "@/components/MetaPage.astro"
+import PostList from "@/components/PostList.astro"
+import Layout from "@/layouts/Layout.astro"
+import { SITE } from "@/consts"
+import { getPostList } from "@/lib/posts"
+import { getEntry, render } from "astro:content"
+
+const page = await getEntry("pages", "index")
+if (!page) throw new Error("docs/index.md is missing")
+
+const { Content } = await render(page)
+const posts = await getPostList()
+---
+
+<Layout>
+  <MetaPage slot="head" />
+  <prose-content>
+    <h1>{page.data.title ?? SITE.title}</h1>
+    <Content />
+  </prose-content>
+  <PostList posts={posts} />
+</Layout>

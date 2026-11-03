@@ -1,7 +1,6 @@
 ---
-date:
-  created: 2022-11-01  # start date (only year and month are required)
-  # updated: NOW  # end date (only year and month are required)
+created: 2022-11-01  # start date (only year and month are required)
+# cvEnd: NOW  # end date (only year and month are required); absent = "Present"
 tags:
   - ros
   - navigation

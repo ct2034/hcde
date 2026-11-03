@@ -1,10 +1,10 @@
 ---
-date:
-  created: 2025-01-30
+created: 2025-01-30
 tags:
   - open-source
 categories:
   - Thinkoneering
+thumbnail: imgs/25_01_oss_identity.drawio.png
 ---
 
 # How do Personal and Company Identities Shape Open Source Contributions?
@@ -18,9 +18,9 @@ The other contribution is also of high quality.
 Would you treat these contributions differently?
 Should you?
 
-![Illustration of exchange of support, contributions and merit between a contributor, their company and an open source project.](imgs/25_01_oss_identity.drawio.png)
-
 <!-- more -->
+
+![Illustration of exchange of support, contributions and merit between a contributor, their company and an open source project.](imgs/25_01_oss_identity.drawio.png)
 
 Technically both of these are just persons contributing code.
 But can you truly ignore the fact that one contributor belongs to a company, or do you even attribute their contribution primarily to that company?

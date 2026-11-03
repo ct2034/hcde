@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2024-11-08
+created: 2024-11-08
 categories:
   - Publications
 tags:

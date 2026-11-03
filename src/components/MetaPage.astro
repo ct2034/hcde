@@ -1,0 +1,35 @@
+---
+import { SITE } from "@/consts"
+
+type Props = {
+  title?: string
+  description?: string
+}
+
+const { title, description = SITE.description } = Astro.props
+
+const base = Astro.site ?? new URL(Astro.url.origin)
+const ogTitle = title ?? SITE.title
+const fullTitle = title ? `${title} | ${SITE.title}` : SITE.title
+const canonical = new URL(Astro.url.pathname, base)
+const ogImage = new URL("/logo/ch.png", base)
+---
+
+<title>{fullTitle}</title>
+<meta name="description" content={description}>
+<link rel="canonical" href={canonical}>
+
+<meta property="og:title" content={ogTitle}>
+<meta property="og:description" content={description}>
+<meta property="og:url" content={canonical}>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content={SITE.title}>
+<meta property="og:locale" content={SITE.locale.replace("-", "_")}>
+<meta property="og:image" content={ogImage}>
+<meta property="og:image:alt" content={ogTitle}>
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content={ogTitle}>
+<meta name="twitter:description" content={description}>
+<meta name="twitter:image" content={ogImage}>
+<meta name="twitter:image:alt" content={ogTitle}>

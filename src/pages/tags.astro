@@ -1,0 +1,63 @@
+---
+import MetaPage from "@/components/MetaPage.astro"
+import PostList from "@/components/PostList.astro"
+import Layout from "@/layouts/Layout.astro"
+import { getPostList } from "@/lib/posts"
+
+const posts = await getPostList()
+
+const byTag = new Map<string, typeof posts>()
+for (const post of posts) {
+  for (const tag of post.tags) {
+    byTag.set(tag, [...(byTag.get(tag) ?? []), post])
+  }
+}
+
+const tags = [...byTag.entries()].sort(([a], [b]) => a.localeCompare(b))
+const slugify = (tag: string) =>
+  tag.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
+---
+
+<Layout crumbs={[{ label: "Tags", href: "/tags/" }]}>
+  <MetaPage slot="head" title="Tag index" />
+  <prose-content>
+    <h1>Tag index</h1>
+    <ul>
+      {
+        tags.map(([tag, tagged]) => (
+          <li>
+            <a href={`#${slugify(tag)}`}>{tag}</a> ({tagged.length})
+          </li>
+        ))
+      }
+    </ul>
+  </prose-content>
+  {
+    tags.map(([tag, tagged]) => (
+      <section>
+        <h2 id={slugify(tag)}>{tag}</h2>
+        <PostList posts={tagged} />
+      </section>
+    ))
+  }
+</Layout>
+
+<style>
+  prose-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2xs);
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  section {
+    margin-block-start: var(--space-l);
+  }
+
+  h2 {
+    font-size: var(--step-1);
+    font-weight: var(--font-weight-medium);
+    scroll-margin-block-start: var(--space-m);
+  }
+</style>

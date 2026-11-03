@@ -1,0 +1,31 @@
+---
+import MetaPage from "@/components/MetaPage.astro"
+import TableOfContents from "@/components/TableOfContents.astro"
+import Layout from "@/layouts/Layout.astro"
+import { getEntry, render } from "astro:content"
+
+const page = await getEntry("pages", "about")
+if (!page) throw new Error("docs/about.md is missing")
+
+const { Content, headings } = await render(page)
+const title = headings.find((h) => h.depth === 1)?.text ?? "About"
+const tocHeadings = headings.filter(
+  ({ depth, text }) => depth >= 2 && depth <= 4 && text.trim(),
+)
+---
+
+<Layout crumbs={[{ label: title, href: "/about/" }]}>
+  <MetaPage slot="head" title={title} />
+  {tocHeadings.length > 0 && (
+      <TableOfContents
+        slot="toc"
+        title={title}
+        sections={[{ label: title, open: true, headings: tocHeadings }]}
+      />
+    )}
+  <article>
+    <prose-content>
+      <Content />
+    </prose-content>
+  </article>
+</Layout>

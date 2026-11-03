@@ -1,6 +1,5 @@
 ---
-date:
-  created: 2025-06-27
+created: 2025-06-27
 tags:
   - behavior-trees
   - deliberation
@@ -8,6 +7,7 @@ tags:
   - ros
 categories:
   - Thinkoneering
+thumbnail: imgs/25_05_programming_robots_dim_red.drawio.png
 ---
 
 # How Does One Even Program a Robot?

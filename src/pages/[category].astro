@@ -1,0 +1,33 @@
+---
+import MetaPage from "@/components/MetaPage.astro"
+import PostList from "@/components/PostList.astro"
+import Layout from "@/layouts/Layout.astro"
+import {
+  CATEGORY_DESCRIPTIONS,
+  CATEGORY_SLUGS,
+  type Category,
+} from "@/categories"
+import { getPostList } from "@/lib/posts"
+
+export function getStaticPaths() {
+  return (Object.keys(CATEGORY_SLUGS) as Category[]).map((category) => ({
+    params: { category: CATEGORY_SLUGS[category] },
+    props: { category },
+  }))
+}
+
+type Props = { category: Category }
+
+const { category } = Astro.props
+const description = CATEGORY_DESCRIPTIONS[category]
+const posts = await getPostList(category)
+---
+
+<Layout crumbs={[{ label: category, href: `/${CATEGORY_SLUGS[category]}/` }]}>
+  <MetaPage slot="head" title={category} description={description} />
+  <prose-content>
+    <h1>{category}</h1>
+    <p>{description}</p>
+  </prose-content>
+  <PostList posts={posts} />
+</Layout>
