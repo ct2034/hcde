@@ -53,6 +53,15 @@ yarn check    # type check
 - PostHog analytics
 - Cookie consent
 - a unified way to handle references to external social media posts of articles for comments, discussions
+- landing page (`src/pages/index.astro`): `page-content` doesn't expand into
+  the TOC gutter on pages without a TOC, leaving unused width on the right
+  (affects every TOC-less page, not just the landing page)
+- landing page: hero quick-links column leaves empty vertical space next to
+  the intro text
+- landing page: featured-post card grid can end up with an uneven last row
+  (odd post count and/or long excerpts)
+- landing page: "Latest" list shows the raw category name (e.g.
+  "Thinkoneering") instead of the nav's short label ("Blog")
 
 ### Next steps
 
