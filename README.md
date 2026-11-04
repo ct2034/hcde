@@ -50,7 +50,6 @@ yarn check    # type check
 
 ### Right now
 
-- PostHog analytics
 - Cookie consent
 - a unified way to handle references to external social media posts of articles for comments, discussions
 
