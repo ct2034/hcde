@@ -52,6 +52,7 @@ yarn check    # type check
 
 - PostHog analytics
 - Cookie consent
+- Articles need better handling of images as highlight, and each article should have one.
 - a unified way to handle references to external social media posts of articles for comments, discussions
 - landing page (`src/pages/index.astro`): `page-content` doesn't expand into
   the TOC gutter on pages without a TOC, leaving unused width on the right
