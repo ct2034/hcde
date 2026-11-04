@@ -1,6 +1,6 @@
 ---
+import { Image } from "astro:assets"
 import MetaPage from "@/components/MetaPage.astro"
-import PostList from "@/components/PostList.astro"
 import Layout from "@/layouts/Layout.astro"
 import { CATEGORY_SLUGS } from "@/categories"
 import { SITE } from "@/consts"
@@ -15,20 +15,46 @@ const latest = (await getPostList())
 
 <Layout>
   <MetaPage slot="head" />
-  <prose-content>
-    <h1>{SITE.title}</h1>
-    <p>{SITE.description}</p>
-    <p>
-      <em
-        >I write to feed my own curiosity &mdash; an article is a success if
-        I learned something from writing it.</em
-      >
-    </p>
-  </prose-content>
+  <header class="hero">
+    <prose-content>
+      <h1>{SITE.title}</h1>
+      <p>{SITE.description}</p>
+      <p>
+        <em
+          >I write to feed my own curiosity &mdash; an article is a success
+          if I learned something from writing it.</em
+        >
+      </p>
+    </prose-content>
+    <nav class="hero-links" aria-label="Sections">
+      <a href="/thinkoneering/">Blog</a>
+      <a href="/publications/">Research</a>
+      <a href="/cv/">CV</a>
+    </nav>
+  </header>
 
   <section>
     <h2>Start here</h2>
-    <PostList posts={featured} />
+    <div class="featured-grid">
+      {
+        featured.map((post) => (
+          <article data-category={CATEGORY_SLUGS[post.category]}>
+            {post.thumbnail && (
+              <a href={post.href} tabindex="-1" aria-hidden="true">
+                <Image src={post.thumbnail} alt="" width={480} densities={[1, 2]} />
+              </a>
+            )}
+            <h3>
+              <a href={post.href}>{post.title}</a>
+            </h3>
+            <time datetime={post.created.toISOString()}>
+              {formatDate(post.created)}
+            </time>
+            {post.excerpt && <prose-content set:html={post.excerpt} />}
+          </article>
+        ))
+      }
+    </div>
   </section>
 
   <section>
@@ -62,13 +88,125 @@ const latest = (await getPostList())
     color: var(--foreground);
   }
 
+  /* Intro and quick links side by side on wider screens, stacked below. */
+  .hero {
+    display: grid;
+    gap: var(--space-m);
+    align-items: start;
+
+    @media (width >= 40rem) {
+      grid-template-columns: 1fr auto;
+      gap: var(--space-l);
+    }
+  }
+
+  .hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: var(--space-2xs);
+  }
+
+  .hero-links a {
+    display: inline-block;
+    padding-block: var(--space-3xs);
+    padding-inline: var(--space-s);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    font-family: var(--font-sans);
+    font-size: var(--step--1);
+    color: var(--foreground);
+    text-decoration-color: transparent;
+    white-space: nowrap;
+  }
+
+  .hero-links a:hover {
+    border-color: var(--foreground);
+    text-decoration-color: currentColor;
+  }
+
+  /* Two cards per row on wider screens, one per row on mobile. */
+  .featured-grid {
+    display: grid;
+    gap: var(--space-m);
+    margin-block-start: var(--space-m);
+
+    @media (width >= 40rem) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .featured-grid article {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xs);
+    padding: var(--space-s);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+
+  .featured-grid article[data-category="thinkoneering"] h3 a {
+    --link: var(--link-thinkoneering);
+  }
+  .featured-grid article[data-category="publications"] h3 a {
+    --link: var(--link-publications);
+  }
+  .featured-grid article[data-category="cv"] h3 a {
+    --link: var(--link-cv);
+  }
+
+  .featured-grid :global(img) {
+    inline-size: 100%;
+    block-size: auto;
+    max-block-size: 10rem;
+    object-fit: contain;
+    padding: var(--space-3xs);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+  }
+
+  .featured-grid h3 {
+    font-size: var(--step-1);
+    font-weight: var(--font-weight-medium);
+    line-height: calc(var(--leading-offset) + 1em);
+  }
+
+  .featured-grid h3 a {
+    color: var(--link);
+    text-decoration-color: transparent;
+  }
+
+  .featured-grid h3 a:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .featured-grid time {
+    color: var(--muted-foreground);
+    font-size: var(--step--1);
+  }
+
+  /* Title and category/date side by side per row, stacked on mobile. */
   .latest-list {
     list-style: none;
     padding-inline-start: 0;
     margin-block-start: var(--space-m);
     display: flex;
     flex-direction: column;
-    gap: var(--space-xs);
+  }
+
+  .latest-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-m);
+    padding-block: var(--space-2xs);
+    border-block-end: 1px solid var(--border);
+
+    @media (width < 40rem) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-3xs);
+    }
   }
 
   .latest-list li[data-category="thinkoneering"] a {
@@ -91,6 +229,6 @@ const latest = (await getPostList())
   .latest-list .meta {
     color: var(--muted-foreground);
     font-size: var(--step--1);
-    margin-inline-start: var(--space-2xs);
+    white-space: nowrap;
   }
 </style>
