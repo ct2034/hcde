@@ -19,7 +19,7 @@
     "@fontsource-variable/domine": "^5.3.0",
     "@fontsource-variable/funnel-sans": "^5.3.0",
     "@fontsource-variable/roboto-mono": "^5.3.0",
-    "astro": "^7.4.2",
+    "astro": "^7.4.4",
     "hast-util-from-html": "^2.0.3",
     "hast-util-to-html": "^9.0.6",
     "katex": "0.19.1",
