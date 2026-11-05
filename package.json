@@ -12,8 +12,8 @@
     "check": "astro check"
   },
   "dependencies": {
-    "@astrojs/markdown-remark": "^7.3.4",
-    "@astrojs/mdx": "^8.1.1",
+    "@astrojs/markdown-remark": "^7.3.5",
+    "@astrojs/mdx": "^8.1.2",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.4",
     "@fontsource-variable/domine": "^5.3.0",
@@ -21,7 +21,7 @@
     "@fontsource-variable/roboto-mono": "^5.3.0",
     "astro": "^7.4.2",
     "hast-util-from-html": "^2.0.3",
-    "hast-util-to-html": "^9.0.5",
+    "hast-util-to-html": "^9.0.6",
     "katex": "0.19.1",
     "rehype-citation": "^2.3.2",
     "rehype-external-links": "^3.0.0",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.12",
-    "@types/node": "^26.6.5",
+    "@types/node": "^26.6.6",
     "typescript": "^6"
   },
   "dependenciesMeta": {
