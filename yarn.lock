@@ -204,12 +204,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:^7.3.4":
-  version: 7.3.4
-  resolution: "@astrojs/markdown-remark@npm:7.3.4"
+"@astrojs/markdown-remark@npm:^7.3.5":
+  version: 7.3.5
+  resolution: "@astrojs/markdown-remark@npm:7.3.5"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.13.0"
-    "@astrojs/prism": "npm:4.1.1"
+    "@astrojs/prism": "npm:4.1.2"
     "@mdx-js/mdx": "npm:^3.1.1"
     acorn: "npm:^8.19.0"
     estree-util-visit: "npm:^2.0.0"
@@ -230,7 +230,7 @@ __metadata:
     unist-util-visit: "npm:^5.1.0"
     unist-util-visit-parents: "npm:^6.0.2"
     vfile: "npm:^6.0.3"
-  checksum: 10c0/731381b29a815533fd83102d0e11222003d18dac33840a60b539272f0c5b88779d68b3d80d8ce4bc72ad5fa23372c0073c227a708300a6cdc878d3d1c7ed193b
+  checksum: 10c0/d85b06a70a90ea9db9680ba7165682abdf995a343bcb0951dafb456c20c41542e154bb0523b3faa30ec4d1bfe57d32d97afa34a23e4dbb25fe177e377987f84c
   languageName: node
   linkType: hard
 
@@ -246,12 +246,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/mdx@npm:^8.1.1":
-  version: 8.1.1
-  resolution: "@astrojs/mdx@npm:8.1.1"
+"@astrojs/markdown-satteri@npm:0.4.6":
+  version: 0.4.6
+  resolution: "@astrojs/markdown-satteri@npm:0.4.6"
   dependencies:
     "@astrojs/internal-helpers": "npm:0.13.0"
-    "@astrojs/markdown-satteri": "npm:0.4.5"
+    "@astrojs/prism": "npm:4.1.2"
+    github-slugger: "npm:^2.0.0"
+    satteri: "npm:^0.10.5"
+  checksum: 10c0/71b852d8d09bde6b27bc558a8ef011f745a20ff0857ec30431cb1377c2df0b92f0e2fb8227bce38f371c1553a532af532b8d88e878d32c12d2ba29831980fd34
+  languageName: node
+  linkType: hard
+
+"@astrojs/mdx@npm:^8.1.2":
+  version: 8.1.2
+  resolution: "@astrojs/mdx@npm:8.1.2"
+  dependencies:
+    "@astrojs/internal-helpers": "npm:0.13.0"
+    "@astrojs/markdown-satteri": "npm:0.4.6"
     es-module-lexer: "npm:^3.0.3"
   peerDependencies:
     "@astrojs/markdown-remark": ^7.3.0
@@ -260,7 +272,7 @@ __metadata:
   peerDependenciesMeta:
     "@astrojs/markdown-remark":
       optional: true
-  checksum: 10c0/88258e770791d4757cdf4af21cc6c523875d0e5c0e91ddaf60c59b9d1704940c20dc66b64f6ed824de2eaa5ec733b48ceede964ed09b692c6d733f0461cf6d07
+  checksum: 10c0/36ebc8cd354eef49f0d3467c69e90a75493056ed631a0704217a84271892aae6b370aff106928c3be284a05a0db536b3504be9c07dd9fde9036ae08bab20f642
   languageName: node
   linkType: hard
 
@@ -270,6 +282,15 @@ __metadata:
   dependencies:
     prismjs: "npm:^1.30.0"
   checksum: 10c0/21bdf54704b5e0cba740e58211a1ba63b9f2443a9a327912d1406c38e11874689210b45d764d82bf10fedf0d5b1892631b93b9377da6b0172b2520d35f994e72
+  languageName: node
+  linkType: hard
+
+"@astrojs/prism@npm:4.1.2":
+  version: 4.1.2
+  resolution: "@astrojs/prism@npm:4.1.2"
+  dependencies:
+    prismjs: "npm:^1.30.0"
+  checksum: 10c0/33e971156932ce536dfb967c7c8488eb770914e1ccbb84ad01f2866424959918ae8e15f2585a8e6cc58f0eeda6f0f8bcf324eeb9ef73b9119919547cdf1cb24b
   languageName: node
   linkType: hard
 
@@ -1277,12 +1298,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^26.6.5":
-  version: 26.6.5
-  resolution: "@types/node@npm:26.6.5"
+"@types/node@npm:^26.6.6":
+  version: 26.6.6
+  resolution: "@types/node@npm:26.6.6"
   dependencies:
     undici-types: "npm:~8.9.0"
-  checksum: 10c0/4f791f69466ace7842c09e7bef96cb1ddbb65cf3db916ef7e84f0e2b2a17220b6b816dc7539d01520cadfb17ed7169b8214910900493e0a83be8bc7d124ec20a
+  checksum: 10c0/5cb63f644f6e85a257a9cd2403cbcbe196760e2a35fd3ec9fb8b5cff663e14cc832b198cc17b53f870a2e30900ed45a1fb3f53e6589aba26b8e8c484aa672053
   languageName: node
   linkType: hard
 
@@ -2481,6 +2502,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hast-util-to-html@npm:^9.0.6":
+  version: 9.0.6
+  resolution: "hast-util-to-html@npm:9.0.6"
+  dependencies:
+    "@types/hast": "npm:^3.0.0"
+    "@types/unist": "npm:^3.0.0"
+    ccount: "npm:^2.0.0"
+    comma-separated-tokens: "npm:^2.0.0"
+    hast-util-whitespace: "npm:^3.0.0"
+    html-void-elements: "npm:^3.0.0"
+    mdast-util-to-hast: "npm:^13.0.0"
+    property-information: "npm:^7.0.0"
+    space-separated-tokens: "npm:^2.0.0"
+    stringify-entities: "npm:^4.0.0"
+    zwitch: "npm:^2.0.4"
+  checksum: 10c0/db4b75240a594457f7bffeb630f8413fce5aa4ba2b8dd8a1e8926cb5a9f731b5c64e99ca43d47c335a2fb0ad10532790499ae980b24a4b5f4bc34208fcd39a4d
+  languageName: node
+  linkType: hard
+
 "hast-util-to-jsx-runtime@npm:^2.0.0":
   version: 2.3.6
   resolution: "hast-util-to-jsx-runtime@npm:2.3.6"
@@ -2567,17 +2607,17 @@ __metadata:
   resolution: "hcde-astro@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.9.12"
-    "@astrojs/markdown-remark": "npm:^7.3.4"
-    "@astrojs/mdx": "npm:^8.1.1"
+    "@astrojs/markdown-remark": "npm:^7.3.5"
+    "@astrojs/mdx": "npm:^8.1.2"
     "@astrojs/rss": "npm:^4.0.19"
     "@astrojs/sitemap": "npm:^3.7.4"
     "@fontsource-variable/domine": "npm:^5.3.0"
     "@fontsource-variable/funnel-sans": "npm:^5.3.0"
     "@fontsource-variable/roboto-mono": "npm:^5.3.0"
-    "@types/node": "npm:^26.6.5"
+    "@types/node": "npm:^26.6.6"
     astro: "npm:^7.4.2"
     hast-util-from-html: "npm:^2.0.3"
-    hast-util-to-html: "npm:^9.0.5"
+    hast-util-to-html: "npm:^9.0.6"
     katex: "npm:0.19.1"
     rehype-citation: "npm:^2.3.2"
     rehype-external-links: "npm:^3.0.0"
