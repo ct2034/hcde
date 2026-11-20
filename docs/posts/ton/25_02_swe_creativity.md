@@ -4,6 +4,7 @@ tags:
   - software-engineering
 categories:
   - Thinkoneering
+featured: true
 ---
 
 # On Creativity in Software Engineering and the Role of Generative AI

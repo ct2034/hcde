@@ -14,6 +14,8 @@ const posts = defineCollection({
         .optional(),
       tags: z.array(z.string()).default([]),
       draft: z.boolean().default(false),
+      // Curated picks surfaced on the landing page's "Start here" section.
+      featured: z.boolean().default(false),
       // Optional listing image, path relative to the Markdown file.
       thumbnail: image().optional(),
     }),

@@ -14,6 +14,7 @@ export type PostListItem = {
   tags: string[]
   excerpt?: string
   thumbnail?: ImageMetadata
+  featured: boolean
 }
 
 function firstHeading(nodes: RootContent[]): Element | undefined {
@@ -89,7 +90,14 @@ export async function getPostList(category?: Category): Promise<PostListItem[]> 
       tags: post.data.tags,
       excerpt: postExcerpt(post),
       thumbnail: post.data.thumbnail,
+      featured: post.data.featured,
     }))
     .filter((post) => !category || post.category === category)
     .sort((a, b) => b.created.valueOf() - a.created.valueOf())
+}
+
+/** Curated picks for the landing page's "Start here" section. */
+export async function getFeaturedPosts(): Promise<PostListItem[]> {
+  const posts = await getPostList()
+  return posts.filter((post) => post.featured)
 }

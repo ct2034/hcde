@@ -4,6 +4,7 @@ tags:
   - philosophy
 categories:
   - Thinkoneering
+featured: true
 ---
 
 # Simplicity is Complicated
